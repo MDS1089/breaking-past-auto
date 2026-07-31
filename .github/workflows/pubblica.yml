@@ -51,7 +51,7 @@ jobs:
           IG_USER_ID: ${{ secrets.IG_USER_ID }}
           IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
           PAGES_BASE_URL: ${{ vars.PAGES_BASE_URL }}
-        run: python bp.py preflight
+        run: python bp.py preflight ${{ inputs.data && format('--date {0}', inputs.data) || '' }}
 
       - name: Pubblica alle 20:30:00 Europe/Rome
         env:

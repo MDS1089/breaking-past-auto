@@ -161,6 +161,28 @@ def head_ok(url: str) -> tuple[bool, str]:
         return False, str(e)
 
 
+def resolve_user_id(token: str, configured: str) -> str:
+    """L'ID giusto e' quello che il token stesso dichiara.
+
+    La console Meta mostra l'ID del profilo professionale (flusso Facebook Login),
+    che NON coincide con l'ID applicativo restituito da /me sul flusso
+    Instagram Login. Chiamare l'ID sbagliato fa fallire la pubblicazione.
+    Qui chiediamo al token chi e', e usiamo quello.
+    """
+    try:
+        me = api_get("me", {"fields": "id,username", "access_token": token})
+        real = str(me.get("id") or "")
+    except Exception as e:  # noqa: BLE001
+        log(f"AVVISO: /me non raggiungibile ({e}). Uso IG_USER_ID come da configurazione.")
+        return configured
+    if not real:
+        return configured
+    if configured and configured != real:
+        log(f"IG_USER_ID configurato ({configured}) diverso da quello del token ({real}): "
+            f"uso quello del token, @{me.get('username')}")
+    return real
+
+
 # --------------------------------------------------------------------------
 # Lettura dei sorgenti di un episodio
 # --------------------------------------------------------------------------
@@ -483,7 +505,9 @@ def cmd_preflight(args) -> int:
         me = api_get("me", {"fields": "id,username,account_type", "access_token": token})
         print(f"  OK  account: @{me.get('username')} (id {me.get('id')}, {me.get('account_type')})")
         if str(me.get("id")) != str(user_id):
-            avvisi.append(f"IG_USER_ID ({user_id}) diverso dall'id restituito dal token ({me.get('id')})")
+            print(f"  --  IG_USER_ID configurato ({user_id}) diverso da quello del token: "
+                  f"lo script usera' quello del token ({me.get('id')})")
+            user_id = str(me.get("id"))
     except Exception as e:  # noqa: BLE001
         print(f"  KO  token non valido: {e}")
         problemi.append("token non valido o scaduto")
@@ -504,13 +528,13 @@ def cmd_preflight(args) -> int:
 
     # coda
     q = load_queue()
-    oggi = datetime.now(TZ).date()
+    oggi = date.fromisoformat(args.date) if getattr(args, "date", None) else datetime.now(TZ).date()
     ep = find_episode(q, oggi)
     if not ep:
-        print(f"  KO  nessuna edizione in coda per oggi ({oggi})")
-        problemi.append("nessuna edizione per oggi")
+        print(f"  KO  nessuna edizione in coda per {oggi}")
+        problemi.append(f"nessuna edizione per {oggi}")
     else:
-        print(f"  OK  edizione di oggi: {ep['n']} — {ep['titolo']}")
+        print(f"  OK  edizione del {oggi}: {ep['n']} — {ep['titolo']}")
         if ep.get("posted"):
             print(f"  --  gia' pubblicata alle {ep.get('posted_at')} (media {ep.get('media_id')})")
         # URL pubblici raggiungibili
@@ -595,6 +619,8 @@ def cmd_publish(args) -> int:
     user_id = env("IG_USER_ID", required=not dry, default="0")
     token = env("IG_ACCESS_TOKEN", required=not dry, default="")
     base_url = env("PAGES_BASE_URL", required=True).rstrip("/")
+    if token:
+        user_id = resolve_user_id(token, user_id)
 
     q = load_queue()
     giorno = date.fromisoformat(args.date) if args.date else datetime.now(TZ).date()
@@ -741,6 +767,7 @@ def cmd_refresh_token(args) -> int:
 def cmd_quota(args) -> int:
     user_id = env("IG_USER_ID")
     token = env("IG_ACCESS_TOKEN")
+    user_id = resolve_user_id(token, user_id)
     r = api_get(f"{user_id}/content_publishing_limit",
                 {"fields": "config,quota_usage", "access_token": token})
     d0 = (r.get("data") or [{}])[0]
@@ -767,6 +794,7 @@ def main() -> int:
     sp.set_defaults(func=cmd_status)
 
     sp = sub.add_parser("preflight", help="controlli pre-volo")
+    sp.add_argument("--date", help="verifica l'edizione di questa data ISO invece di oggi")
     sp.set_defaults(func=cmd_preflight)
 
     sp = sub.add_parser("publish", help="pubblica l'edizione del giorno alle 20:30 Europe/Rome")
