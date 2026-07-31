@@ -1,0 +1,44 @@
+name: Rinnova il token Instagram
+
+# Il long-lived token dura 60 giorni e si rinnova solo se ha almeno 24 ore di
+# vita. Rinnovarlo ogni lunedi' significa non pensarci mai piu': anche se
+# saltano quattro settimane di fila, il token e' ancora valido.
+#
+# Serve un PAT con permesso "Secrets: read and write" sul repo, salvato nel
+# secret GH_TOKEN_SECRETS: il GITHUB_TOKEN standard non puo' riscrivere secret.
+
+on:
+  schedule:
+    - cron: '0 4 * * 1'   # lunedi' alle 04:00 UTC
+  workflow_dispatch:
+
+concurrency:
+  group: rinnovo-token-breaking-past
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+
+jobs:
+  rinnova:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Rinnova e riscrivi il secret
+        env:
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+          GH_TOKEN: ${{ secrets.GH_TOKEN_SECRETS }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+        run: python bp.py refresh-token
+
+      - name: Verifica che il nuovo token funzioni
+        env:
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+        run: python bp.py quota || true

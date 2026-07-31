@@ -1,0 +1,24 @@
+— SLIDE 1 —
+Slide 1: titolo su fondo scuro in stile terminale: 'Un ricercatore del CERN presenta su Usenet il progetto WorldWideWeb', edizione delle 20:30 del 6 agosto 1991.
+
+— SLIDE 2 —
+Slide 2: la notizia del giorno: due messaggi di Tim Berners-Lee sul newsgroup alt.hypertext descrivono il progetto ipertestuale WWW, con codice via FTP da info.cern.ch.
+
+— SLIDE 3 —
+Slide 3: cronologia della giornata con gli orari dei due post (16:56 e 18:00 ora di Ginevra) e la disponibilità del software prototipo.
+
+— SLIDE 4 —
+Slide 4: elenco dei punti confermati, non confermati e da chiarire sull'annuncio del progetto WWW.
+
+— SLIDE 5 —
+Slide 5: citazioni testuali tradotte dai post di Berners-Lee, tra cui l'appello 'Collaboratori benvenuti!'.
+
+— SLIDE 6 —
+Slide 6: il silenzio della rete: nessuna reazione ufficiale documentata all'annuncio entro fine giornata.
+
+— SLIDE 7 —
+Slide 7: scenari aperti nel 1991: si imporrà Gopher, il WWW resterà confinato alla fisica o troverà collaboratori?
+
+— SLIDE 8 —
+Slide 8: il dopo: il 30 aprile 1993 il CERN libera il web nel pubblico dominio; oggi circa 6 miliardi di persone usano Internet (ITU 2025).
+

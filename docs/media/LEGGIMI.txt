@@ -1,0 +1,1 @@
+Qui finiscono i JPEG generati da bp.py prepare. Non modificare a mano.

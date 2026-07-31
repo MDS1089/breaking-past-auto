@@ -1,0 +1,3 @@
+Data di pubblicazione: 2026-08-01 · ORE 20:30 (Europe/Rome)
+Ordine slide: 001_slide_1.png → 001_slide_8.png
+Caption: caption.txt · Alt text per slide: alt_text.txt · Story del mattino: story.txt

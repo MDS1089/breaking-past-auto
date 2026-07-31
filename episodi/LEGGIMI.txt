@@ -1,0 +1,1 @@
+Le cartelle Episodio_* vanno qui. Doppio clic su prepara-in-locale.command per copiarle da 07_Output e generare i JPEG.

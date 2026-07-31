@@ -1,0 +1,55 @@
+name: Prepara episodi (PNG -> JPEG + queue.json)
+
+# Si attiva da sola quando arrivano nuovi PNG o nuovi testi in episodi/.
+# Converte, valida contro le specifiche Instagram, riempie queue.json e
+# rigenera l'indice su Pages.
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'episodi/**'
+      - 'bp.py'
+  workflow_dispatch:
+
+concurrency:
+  group: preparazione-breaking-past
+  cancel-in-progress: true
+
+permissions:
+  contents: write
+
+jobs:
+  prepara:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Installa le dipendenze
+        run: pip install -r requirements.txt
+
+      - name: Prepare
+        env:
+          PAGES_BASE_URL: ${{ vars.PAGES_BASE_URL }}
+        run: python bp.py prepare
+
+      - name: Stato della coda
+        run: python bp.py status || true
+
+      - name: Registra i media preparati
+        run: |
+          if [[ -z "$(git status --porcelain queue.json docs)" ]]; then
+            echo "niente di nuovo da registrare."
+            exit 0
+          fi
+          git config user.name  "breaking-past-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add queue.json docs
+          git commit -m "chore: prepara media e coda"
+          git pull --rebase --autostash
+          git push

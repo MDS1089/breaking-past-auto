@@ -1,0 +1,86 @@
+name: Pubblica edizione delle 20:30
+
+# Il cron di GitHub Actions slitta di parecchi minuti sotto carico.
+# Per questo il job parte in largo anticipo e bp.py dorme fino alle 20:30:00
+# esatte calcolate da Python su Europe/Rome (ora legale inclusa).
+# 17:50 UTC = 19:50 in ora legale · 18:50 in ora solare.
+# Si lanciano entrambe le finestre: quella "sbagliata" nella stagione corrente
+# trova l'orario gia' passato oltre tolleranza, oppure l'edizione gia' marcata
+# come pubblicata, ed esce senza fare nulla.
+
+on:
+  schedule:
+    - cron: '50 17 * * *'   # ora legale (CEST): 19:50 locali
+    - cron: '50 18 * * *'   # ora solare (CET):  19:50 locali
+  workflow_dispatch:
+    inputs:
+      data:
+        description: 'Data ISO da pubblicare (vuoto = oggi)'
+        required: false
+        type: string
+      dry_run:
+        description: 'Prova senza pubblicare'
+        required: false
+        type: boolean
+        default: false
+
+# Rete di sicurezza: due job non pubblicano mai lo stesso giorno in parallelo.
+concurrency:
+  group: pubblicazione-breaking-past
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  pubblica:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Installa le dipendenze
+        run: pip install -r requirements.txt
+
+      - name: Preflight
+        env:
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+          PAGES_BASE_URL: ${{ vars.PAGES_BASE_URL }}
+        run: python bp.py preflight
+
+      - name: Pubblica alle 20:30:00 Europe/Rome
+        env:
+          IG_USER_ID: ${{ secrets.IG_USER_ID }}
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+          PAGES_BASE_URL: ${{ vars.PAGES_BASE_URL }}
+          HASHTAGS_IN_FIRST_COMMENT: ${{ vars.HASHTAGS_IN_FIRST_COMMENT }}
+          DRY_RUN: ${{ inputs.dry_run }}
+        run: python bp.py publish ${{ inputs.data && format('--date {0}', inputs.data) || '' }}
+
+      - name: Registra l'avvenuta pubblicazione
+        if: success()
+        run: |
+          if [[ -z "$(git status --porcelain queue.json docs/index.html)" ]]; then
+            echo "queue.json invariato: niente da registrare."
+            exit 0
+          fi
+          git config user.name  "breaking-past-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add queue.json docs/index.html
+          git commit -m "chore: edizione pubblicata $(date -u +%Y-%m-%d)"
+          # Il ramo puo' essere avanzato mentre dormivamo: riallineati e riprova.
+          for i in 1 2 3; do
+            git pull --rebase --autostash && git push && exit 0
+            sleep 5
+          done
+          echo "::error::impossibile registrare queue.json dopo 3 tentativi"
+          exit 1
+
+      - name: Stato finale della coda
+        if: always()
+        run: python bp.py status || true
