@@ -404,7 +404,8 @@ border-top:1px solid var(--linea);padding-top:16px}}
 <p class="sub">Media pubblici serviti a Instagram. Questa pagina esiste perche' e' Meta a
 scaricare le immagini dai propri server: non e' un sito destinato al pubblico.</p></header>
 <main>{"".join(rows) or "<p>Coda vuota: esegui <code>python bp.py prepare</code>.</p>"}</main>
-<footer>Aggiornato: {queue.get("aggiornato") or "—"} · {len(queue.get("episodi", []))} edizioni in coda</footer>
+<footer>Aggiornato: {queue.get("aggiornato") or "—"} · {len(queue.get("episodi", []))} edizioni in coda ·
+<a href="privacy.html">Informativa sulla privacy</a></footer>
 </body></html>
 """
     DOCS_DIR.mkdir(parents=True, exist_ok=True)
