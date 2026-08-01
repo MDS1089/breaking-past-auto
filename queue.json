@@ -1,7 +1,59 @@
 {
   "progetto": "BREAKING PAST",
-  "aggiornato": "2026-07-31T12:09:29+02:00",
+  "aggiornato": "2026-08-01T02:32:01+02:00",
   "episodi": [
+    {
+      "n": "000",
+      "slug": "000-edizione-zero",
+      "titolo": "Edizione zero",
+      "cartella": "Episodio_000_2026-07-31_Edizione_zero",
+      "data_pubblicazione": "2026-07-31",
+      "ora_pubblicazione": "20:30",
+      "timezone": "Europe/Rome",
+      "caption": "Da domani sera, ogni sera alle 20:30.\n\nBreaking Past racconta un giorno del passato come se fosse adesso: la cronaca di quella sera, scritta usando soltanto le informazioni disponibili quella sera. Niente senno di poi. Le notizie arrivano parziali, confuse, a volte sbagliate — come arrivavano davvero.\n\nIl senno di poi lo teniamo per l'ultima slide.\n\nSi comincia domani, 1 agosto. In un angolo del New Jersey qualcuno sta per accendere una cosa che quasi nessuno può vedere, e in cui quasi nessuno crede.\n\nOgni sera una storia che all'epoca non sapeva ancora di essere Storia.\n\n#BreakingPast #accaddeoggi #storia",
+      "slides": [
+        {
+          "n": 1,
+          "file": "media/000-edizione-zero/slide_1.jpg",
+          "url": "https://mds1089.github.io/breaking-past-auto/media/000-edizione-zero/slide_1.jpg",
+          "alt_text": "Slide 1 di 4, copertina dell'edizione zero di Breaking Past, in alto la testata su fondo nero con la data venerdì 31 luglio 2026 e la dicitura Edizione numero 000. Etichetta Presentazione e banda rossa con scritto Da domani sera. Titolo grande: un giornale che non sa come va a finire. Sottotitolo: ogni sera alle 20:30 raccontiamo un giorno del passato come se fosse adesso. In basso a destra l'invito a scorrere.",
+          "w": 1080,
+          "h": 1350,
+          "bytes": 157655
+        },
+        {
+          "n": 2,
+          "file": "media/000-edizione-zero/slide_2.jpg",
+          "url": "https://mds1089.github.io/breaking-past-auto/media/000-edizione-zero/slide_2.jpg",
+          "alt_text": "Slide 2 di 4, etichetta La regola. Titolo: solo quello che si sapeva quella sera. Testo: niente senno di poi, le notizie arrivano come arrivavano davvero, parziali, confuse, a volte sbagliate. In un riquadro giallo evidenziato: il senno di poi arriva solo nell'ultima slide.",
+          "w": 1080,
+          "h": 1350,
+          "bytes": 165485
+        },
+        {
+          "n": 3,
+          "file": "media/000-edizione-zero/slide_3.jpg",
+          "url": "https://mds1089.github.io/breaking-past-auto/media/000-edizione-zero/slide_3.jpg",
+          "alt_text": "Slide 3 di 4, etichetta Prima edizione, sopratitolo domani sabato ore 20:30. Data grande: 1 agosto 1981. Testo: stanotte, in un angolo del New Jersey, qualcuno accende qualcosa che non si era mai visto; quasi nessuno può vederlo, le case discografiche sono scettiche e gli inserzionisti pure. In fondo, su due bande nere: noi lo scriviamo senza sapere che diventerà MTV.",
+          "w": 1080,
+          "h": 1350,
+          "bytes": 177532
+        },
+        {
+          "n": 4,
+          "file": "media/000-edizione-zero/slide_4.jpg",
+          "url": "https://mds1089.github.io/breaking-past-auto/media/000-edizione-zero/slide_4.jpg",
+          "alt_text": "Slide 4 di 4, su fondo scuro. Wordmark Breaking Past in grande, con la parola Past su blocco rosso. Sotto, la frase: le notizie del passato, prima che diventassero storia. Poi: prima edizione domani, ore 20:30. In fondo, due righe piccole: fonti verificate e citate in ogni edizione, nessuna immagine generata senza dichiararlo.",
+          "w": 1080,
+          "h": 1350,
+          "bytes": 121093
+        }
+      ],
+      "posted": false,
+      "posted_at": null,
+      "media_id": null,
+      "permalink": null
+    },
     {
       "n": "001",
       "slug": "001-il-debutto-di-mtv",
