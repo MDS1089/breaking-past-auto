@@ -9,9 +9,19 @@ name: Pubblica edizione delle 20:30
 # come pubblicata, ed esce senza fare nulla.
 
 on:
+  # Il cron di Actions non e' puntuale: il 31/07/2026 e' partito con quasi
+  # quattro ore di ritardo, mancando l'orario di pubblicazione. Rimedio:
+  # cinque tentativi distribuiti nel pomeriggio. Chi si sveglia troppo presto
+  # rinuncia e lascia il turno al successivo; chi si sveglia nella finestra
+  # utile dorme fino alle 20:30:00 e pubblica. Cosi' l'edizione esce in orario
+  # sia col cron puntuale sia con slittamenti fino a cinque ore.
+  # Minuti volutamente non tondi: gli orari pieni sono i piu' congestionati.
   schedule:
-    - cron: '50 17 * * *'   # ora legale (CEST): 19:50 locali
-    - cron: '50 18 * * *'   # ora solare (CET):  19:50 locali
+    - cron: '13 11 * * *'   # 13:13 CEST · 12:13 CET
+    - cron: '41 13 * * *'   # 15:41 CEST · 14:41 CET
+    - cron: '17 15 * * *'   # 17:17 CEST · 16:17 CET
+    - cron: '23 16 * * *'   # 18:23 CEST · 17:23 CET
+    - cron: '37 17 * * *'   # 19:37 CEST · 18:37 CET
   workflow_dispatch:
     inputs:
       data:
@@ -20,6 +30,11 @@ on:
         type: string
       dry_run:
         description: 'Prova senza pubblicare'
+        required: false
+        type: boolean
+        default: false
+      subito:
+        description: 'Pubblica adesso invece di aspettare le 20:30'
         required: false
         type: boolean
         default: false
@@ -35,7 +50,7 @@ permissions:
 jobs:
   pubblica:
     runs-on: ubuntu-latest
-    timeout-minutes: 90
+    timeout-minutes: 300   # il job dorme fino alle 20:30: serve spazio
     steps:
       - uses: actions/checkout@v4
 
@@ -60,6 +75,13 @@ jobs:
           PAGES_BASE_URL: ${{ vars.PAGES_BASE_URL }}
           HASHTAGS_IN_FIRST_COMMENT: ${{ vars.HASHTAGS_IN_FIRST_COMMENT }}
           DRY_RUN: ${{ inputs.dry_run }}
+          # Con "subito" l'orario bersaglio diventa le 00:01 di oggi: essendo
+          # gia' passato, lo script smette di aspettare e pubblica all'istante.
+          # Sui lanci programmati inputs e' vuoto e valgono i valori normali.
+          PUBLISH_HOUR: ${{ inputs.subito && '0' || '20' }}
+          PUBLISH_MINUTE: ${{ inputs.subito && '1' || '30' }}
+          EARLY_SKIP_MIN: ${{ inputs.subito && '1440' || '240' }}
+          LATE_TOLERANCE_MIN: ${{ inputs.subito && '1440' || '240' }}
         run: python bp.py publish ${{ inputs.data && format('--date {0}', inputs.data) || '' }}
 
       - name: Registra l'avvenuta pubblicazione

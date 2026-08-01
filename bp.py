@@ -74,7 +74,19 @@ CONTAINER_POLL_S = int(os.environ.get("CONTAINER_POLL_S", "5"))
 
 # Tolleranza: se il job parte DOPO le 20:30 di quanto sotto, pubblica comunque
 # (rete di sicurezza). Oltre, si ferma e segnala.
-LATE_TOLERANCE_MIN = int(os.environ.get("LATE_TOLERANCE_MIN", "90"))
+#
+# Misurato sul campo il 31/07/2026: il cron di GitHub Actions e' partito con
+# 3h53m di ritardo. Con la vecchia soglia di 90 minuti il job si rifiutava di
+# pubblicare e l'edizione saltava. Meglio un'edizione in ritardo che nessuna
+# edizione: 240 minuti coprono lo slittamento peggiore osservato.
+LATE_TOLERANCE_MIN = int(os.environ.get("LATE_TOLERANCE_MIN", "240"))
+
+# Un job GitHub non puo' durare piu' di 6 ore, quindi non si puo' partire la
+# mattina e dormire fino a sera. I tentativi sono percio' distribuiti nel
+# pomeriggio: quello che si sveglia troppo presto rinuncia subito e lascia il
+# turno al successivo. Cosi' gli orari anticipati fanno da rete quando il cron
+# slitta, senza sprecare un job da sette ore quando invece e' puntuale.
+EARLY_SKIP_MIN = int(os.environ.get("EARLY_SKIP_MIN", "240"))
 
 SLIDE_RE = re.compile(r"^\s*[—\-–]{0,2}\s*SLIDE\s+(\d+)\s*[—\-–]{0,2}\s*$", re.IGNORECASE)
 
@@ -575,9 +587,15 @@ def cmd_preflight(args) -> int:
 
 def attendi_le_2030(dry_run: bool = False) -> bool:
     """Il cron di Actions slitta: qui l'orario lo decide Python, ora legale inclusa.
-    Ritorna False se siamo troppo in ritardo per pubblicare."""
+    Ritorna False se e' troppo presto o troppo tardi per pubblicare."""
     now = datetime.now(TZ)
     target = now.replace(hour=PUBLISH_HOUR, minute=PUBLISH_MINUTE, second=0, microsecond=0)
+    anticipo = (target - now).total_seconds() / 60
+    if anticipo > EARLY_SKIP_MIN and not dry_run:
+        log(f"mancano {anticipo:.0f} minuti alle {PUBLISH_HOUR:02d}:{PUBLISH_MINUTE:02d}: "
+            f"troppo presto per restare in attesa (limite {EARLY_SKIP_MIN} min). "
+            f"Lascio il turno al tentativo successivo.")
+        return False
     if now > target:
         ritardo = (now - target).total_seconds() / 60
         if ritardo > LATE_TOLERANCE_MIN:
@@ -638,7 +656,10 @@ def cmd_publish(args) -> int:
     log(f"edizione {ep['n']} — {ep['titolo']} ({len(ep['slides'])} slide)")
 
     if not attendi_le_2030(dry_run=dry):
-        return 2
+        # Non e' un guasto: o e' troppo presto, o troppo tardi. In entrambi i
+        # casi il job esce pulito, cosi' la cronologia resta leggibile e i
+        # rossi segnalano solo i problemi veri.
+        return 0
 
     # Ricontrollo l'idempotenza DOPO l'attesa: nel frattempo un altro job
     # potrebbe aver pubblicato.
