@@ -1,6 +1,6 @@
 {
   "progetto": "BREAKING PAST",
-  "aggiornato": "2026-08-02T20:22:11+02:00",
+  "aggiornato": "2026-08-02T20:23:00+02:00",
   "episodi": [
     {
       "n": "000",
@@ -2159,6 +2159,94 @@
           "w": 1080,
           "h": 1350,
           "bytes": 327850
+        }
+      ],
+      "posted": false,
+      "posted_at": null,
+      "media_id": null,
+      "permalink": null
+    },
+    {
+      "n": "025",
+      "slug": "025-l-occhiale-di-galilei-alla-serenissima",
+      "titolo": "L occhiale di Galilei alla Serenissima",
+      "cartella": "Episodio_025_2026-08-25_L_occhiale_di_Galilei_alla_Serenissima",
+      "data_pubblicazione": "2026-08-25",
+      "ora_pubblicazione": "20:30",
+      "timezone": "Europe/Rome",
+      "caption": "Un tubo di cartone e piombo, due vetri alle estremità: dalla sommità del campanile di San Marco le vele in mare si riconoscono due ore prima che a occhio nudo. Oggi Galileo Galilei, lettore di matematiche allo Studio di Padova, compare in Collegio e fa libero dono dello strumento alla Repubblica. Nella supplica autografa al doge Leonardo Donà lo chiama «occhiale» e ne indica l'uso: scoprire in mare «legni et vele dell'inimico», distinguendo «il numero et la qualità de i vasselli». Il Senato delibera in giornata: condotta a vita nella lettura delle matematiche a Padova e stipendio portato a mille fiorini l'anno, contro i cinquecentoventi attuali. Scorri le otto slide per l'edizione completa della sera. Non risulta però che l'artifizio sia un ritrovato suo: da mesi circolano notizie di occhiali venuti dai Paesi Bassi. Per una Repubblica che vive di rotte e di dogane, quanto può restare segreto un vantaggio di due ore? Breaking Past ricostruisce gli eventi utilizzando le informazioni disponibili all'epoca. Il contesto completo è nell'ultima slide. Fonti: Archivio di Stato di Venezia (supplica autografa al Doge), Edizione Nazionale delle Opere, Museo Galileo, The Galileo Project della Rice University, Treccani (registro F396–F415). Illustrazione originale Breaking Past. #BreakingPast #accaddeoggi #galileo #venezia #cannocchiale #serenissima #storiadellascienza",
+      "slides": [
+        {
+          "n": 1,
+          "file": "media/025-l-occhiale-di-galilei-alla-serenissima/slide_1.jpg",
+          "url": "https://mds1089.github.io/breaking-past-auto/media/025-l-occhiale-di-galilei-alla-serenissima/slide_1.jpg",
+          "alt_text": "Slide 1 di 8, apertura. Illustrazione originale al tratto, vettoriale piatta: la sagoma del campanile di San Marco vista di scorcio e, in primo piano, un lungo tubo cilindrico puntato sull'orizzonte, tenuto da due mani; sulla linea del mare tre piccole vele molto lontane. Palette bianco sporco, nero, rosso e blu-verde di laguna, con timbro «VENEZIA — ORE 20:30». Testata Breaking Past, MARTEDÌ 25 AGOSTO 1609, Venezia, dicitura «ILLUSTRAZIONE ORIGINALE». Titolo: «Un occhiale vede le navi due ore prima: Venezia ricompensa Galilei». Sottotitolo: il lettore di matematiche dello Studio di Padova ha offerto lo strumento alla Serenissima; il Senato gli rinnova la condotta a vita e porta lo stipendio a mille fiorini l'anno.",
+          "w": 1080,
+          "h": 1350,
+          "bytes": 212736
+        },
+        {
+          "n": 2,
+          "file": "media/025-l-occhiale-di-galilei-alla-serenissima/slide_2.jpg",
+          "url": "https://mds1089.github.io/breaking-past-auto/media/025-l-occhiale-di-galilei-alla-serenissima/slide_2.jpg",
+          "alt_text": "Slide 2 di 8, l'edizione della sera. Galileo Galilei, lettore di matematiche a Padova, ha donato alla Repubblica un occhiale che avvicina gli oggetti lontani. Dal campanile di San Marco patrizi e senatori hanno visto vele in mare due ore prima che fossero riconoscibili a occhio nudo. Il Senato delibera la ricompensa. In nota, riquadro giallo: il vantaggio di «due hore et più» è dichiarato da Galilei nella supplica al Doge e non risulta una misurazione indipendente; nei documenti veneziani lo strumento è chiamato «occhiale».",
+          "w": 1080,
+          "h": 1350,
+          "bytes": 239634
+        },
+        {
+          "n": 3,
+          "file": "media/025-l-occhiale-di-galilei-alla-serenissima/slide_3.jpg",
+          "url": "https://mds1089.github.io/breaking-past-auto/media/025-l-occhiale-di-galilei-alla-serenissima/slide_3.jpg",
+          "alt_text": "Slide 3 di 8, cronologia della giornata in quattro passaggi. Nei mesi scorsi: da Venezia corre voce che in Fiandra sia stato presentato al conte Maurizio di Nassau un occhiale che avvicina le cose lontane; fra Paolo Sarpi ne sa dal novembre 1608 e in primavera strumenti simili si vendono a Parigi. Venerdì 21 agosto: dalla sommità del campanile di San Marco Galilei mostra a patrizi e notabili un esemplare da circa otto ingrandimenti; si distinguono persone che entrano ed escono dalla chiesa di San Giacomo a Murano. Ieri e oggi: Galilei compare in Collegio davanti al doge Leonardo Donà e fa «libero dono» dello strumento; la supplica autografa porta la data del 24 agosto, una lettera privata colloca la comparizione al 25. In giornata: il Senato delibera condotta a vita e mille fiorini l'anno, contro i cinquecentoventi attuali.",
+          "w": 1080,
+          "h": 1350,
+          "bytes": 283930
+        },
+        {
+          "n": 4,
+          "file": "media/025-l-occhiale-di-galilei-alla-serenissima/slide_4.jpg",
+          "url": "https://mds1089.github.io/breaking-past-auto/media/025-l-occhiale-di-galilei-alla-serenissima/slide_4.jpg",
+          "alt_text": "Slide 4 di 8, cosa sappiamo finora. Confermato: nella supplica al Doge Galilei presenta «un nuovo artifizio di un occhiale cavato dalle più recondite speculazioni di prospettiva»; gli usi che indica sono marittimi e terrestri — scoprire «legni et vele dell'inimico» e distinguere «il numero et la qualità de i vasselli» — e nel documento non risultano menzioni di osservazioni celesti; il Senato ha stabilito la condotta a vita e mille fiorini l'anno, contro i trecentoventi del 1599 e i cinquecentoventi dal 1606. Non confermato: che l'artifizio sia un ritrovato di Galilei; da mesi circolano notizie di occhiali venuti dai Paesi Bassi, dove nell'ottobre scorso più artefici ne hanno rivendicato la paternità. Da chiarire: se la comparizione in Collegio sia del 24 o del 25 agosto, e da quando decorra il nuovo stipendio.",
+          "w": 1080,
+          "h": 1350,
+          "bytes": 275705
+        },
+        {
+          "n": 5,
+          "file": "media/025-l-occhiale-di-galilei-alla-serenissima/slide_5.jpg",
+          "url": "https://mds1089.github.io/breaking-past-auto/media/025-l-occhiale-di-galilei-alla-serenissima/slide_5.jpg",
+          "alt_text": "Slide 5 di 8, le parole dei protagonisti, due citazioni. La prima è di Galileo Galilei, lettore di matematiche allo Studio di Padova, dalla supplica al doge Leonardo Donà datata 24 agosto 1609, e dice: «per due hore et più di tempo possiamo prima scoprir lui che egli scuopra noi». La seconda è del senatore Antonio Priuli, procuratore di San Marco e riformatore dello Studio di Padova, dalla relazione sulle prove dello strumento, e dice che si distinguevano «quelli che entravano et uscivano di chiesa di San Giacomo di Muran». Entrambe in italiano del Seicento, grafia originale non modernizzata.",
+          "w": 1080,
+          "h": 1350,
+          "bytes": 302639
+        },
+        {
+          "n": 6,
+          "file": "media/025-l-occhiale-di-galilei-alla-serenissima/slide_6.jpg",
+          "url": "https://mds1089.github.io/breaking-past-auto/media/025-l-occhiale-di-galilei-alla-serenissima/slide_6.jpg",
+          "alt_text": "Slide 6 di 8, le reazioni politiche, tre punti. Senato della Repubblica: la risposta è la delibera stessa, condotta a vita e mille fiorini l'anno, trattamento mai visto allo Studio di Padova per un lettore di matematiche. Patriziato veneziano: una lettera privata attribuita a Galilei e datata 29 agosto, quattro giorni dopo questa edizione, riferisce che «moltissimi» gentiluomini e senatori, «benché vecchi», hanno salito più d'una volta le scale dei campanili più alti; gli editori dell'Edizione Nazionale ne mettono in dubbio l'autenticità. Riformatori dello Studio di Padova: fra i testimoni delle prove figura Antonio Priuli. In coda, la nota che non risultano prese di posizione di altri Stati italiani né contestazioni pubbliche sulla paternità.",
+          "w": 1080,
+          "h": 1350,
+          "bytes": 308741
+        },
+        {
+          "n": 7,
+          "file": "media/025-l-occhiale-di-galilei-alla-serenissima/slide_7.jpg",
+          "url": "https://mds1089.github.io/breaking-past-auto/media/025-l-occhiale-di-galilei-alla-serenissima/slide_7.jpg",
+          "alt_text": "Slide 7 di 8, che cosa può succedere adesso, quattro scenari. Il vantaggio potrebbe durare poco: occhiali dello stesso genere si vendono da mesi fuori d'Italia. Le autorità potrebbero chiedere altri esemplari per le navi e per l'Arsenale, ma quanti se ne possano fabbricare dipende dai vetri, e la qualità delle lenti comuni è bassa. Galilei stesso indica l'impiego a terra, per riconoscere da lontano movimenti e preparativi di un campo nemico. Le condizioni della delibera restano ignote: i documenti non dicono da quando decorra il nuovo stipendio.",
+          "w": 1080,
+          "h": 1350,
+          "bytes": 250874
+        },
+        {
+          "n": 8,
+          "file": "media/025-l-occhiale-di-galilei-alla-serenissima/slide_8.jpg",
+          "url": "https://mds1089.github.io/breaking-past-auto/media/025-l-occhiale-di-galilei-alla-serenissima/slide_8.jpg",
+          "alt_text": "Slide 8 di 8, come andò davvero. L'occhiale non era un'invenzione di Galilei: nell'ottobre 1608 Hans Lipperhey ne aveva chiesto il brevetto agli Stati Generali e gli fu negato perché anche Jacob Metius e Sacharias Janssen rivendicavano la stessa cosa. Il merito di Galilei fu il potere di ingrandimento: tre volte a luglio, otto in agosto, venti in novembre. Rimase scontento dei termini dell'incarico veneziano. Fra il 7 e il 15 gennaio 1610 vide quattro corpi attorno a Giove; il Sidereus Nuncius uscì nel marzo 1610. Il nome «telescopio» si diffuse dal 1611. Nel 2022 l'abbozzo della lettera al Doge conservato in Michigan è stato riconosciuto falso di Tobia Nicotra.",
+          "w": 1080,
+          "h": 1350,
+          "bytes": 333767
         }
       ],
       "posted": false,
