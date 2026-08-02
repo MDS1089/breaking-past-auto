@@ -52,6 +52,10 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 300   # il job dorme fino alle 20:30: serve spazio
     steps:
+      # ref: main e' essenziale. Senza, checkout aggancia il commit che ha
+      # INNESCATO il workflow: un job schedulato alle 13:13 e uno alle 17:37
+      # partono dallo stesso commit, leggono lo stesso queue.json e pubblicano
+      # due volte. E' quello che e' successo il 1 agosto 2026.
       - uses: actions/checkout@v4
         with:
           ref: main
@@ -87,20 +91,37 @@ jobs:
           LATE_TOLERANCE_MIN: ${{ inputs.subito && '1440' || '240' }}
         run: python bp.py publish ${{ inputs.data && format('--date {0}', inputs.data) || '' }}
 
+      # La marcatura NON si commissiona con un rebase: il ramo e' avanzato
+      # mentre dormivamo e il rebase finiva in conflitto su queue.json (1
+      # agosto 2026). Si riprende invece il file dalla punta di origin/main e
+      # ci si riapplica sopra lo scontrino della pubblicazione appena fatta.
       - name: Registra l'avvenuta pubblicazione
         if: success()
+        env:
+          PAGES_BASE_URL: ${{ vars.PAGES_BASE_URL }}
         run: |
-          if [[ -z "$(git status --porcelain queue.json docs/index.html)" ]]; then
-            echo "queue.json invariato: niente da registrare."
+          if [[ ! -f .ultima_pubblicazione.json ]]; then
+            echo "nessuna pubblicazione in questo job: niente da registrare."
             exit 0
           fi
           git config user.name  "breaking-past-bot"
           git config user.email "bot@users.noreply.github.com"
-          git add queue.json docs/index.html
-          git commit -m "chore: edizione pubblicata $(date -u +%Y-%m-%d)"
-          # Il ramo puo' essere avanzato mentre dormivamo: riallineati e riprova.
+          # Ci si sposta SULLA PUNTA di origin/main prima di committare: il
+          # checkout del job e' fermo al commit di innesco, e committarci
+          # sopra darebbe un push non-fast-forward. Lo scontrino
+          # .ultima_pubblicazione.json non e' tracciato, quindi sopravvive.
           for i in 1 2 3; do
-            git pull --rebase --autostash && git push && exit 0
+            git fetch --quiet origin main
+            git checkout --force --detach origin/main
+            python bp.py registra
+            if [[ -z "$(git status --porcelain queue.json docs/index.html)" ]]; then
+              echo "queue.json gia' allineato: niente da registrare."
+              exit 0
+            fi
+            git add queue.json docs/index.html
+            git commit -m "chore: edizione pubblicata $(date -u +%Y-%m-%d)"
+            git push origin HEAD:main && exit 0
+            echo "push respinto: il ramo si e' mosso. Riprovo dalla punta aggiornata."
             sleep 5
           done
           echo "::error::impossibile registrare queue.json dopo 3 tentativi"
