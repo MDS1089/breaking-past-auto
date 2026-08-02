@@ -1,6 +1,6 @@
 {
   "progetto": "BREAKING PAST",
-  "aggiornato": "2026-08-02T20:44:06+02:00",
+  "aggiornato": "2026-08-02T22:02:39+02:00",
   "episodi": [
     {
       "n": "000",
@@ -2335,6 +2335,94 @@
           "w": 1080,
           "h": 1350,
           "bytes": 309462
+        }
+      ],
+      "posted": false,
+      "posted_at": null,
+      "media_id": null,
+      "permalink": null
+    },
+    {
+      "n": "027",
+      "slug": "027-la-follia-di-drake",
+      "titolo": "La follia di Drake",
+      "cartella": "Episodio_027_2026-08-27_La_follia_di_Drake",
+      "data_pubblicazione": "2026-08-27",
+      "ora_pubblicazione": "20:30",
+      "timezone": "Europe/Rome",
+      "caption": "Un cantiere senza più soldi, in una valle di segherie della Pennsylvania occidentale. Da mesi Edwin Drake perfora accanto a Oil Creek per conto della Seneca Oil Company: circa tre piedi di roccia al giorno, attrezzi battuti a mano dal fabbro William «Uncle Billy» Smith. Oggi pomeriggio, a 69 piedi e mezzo — poco più di 21 metri — gli attrezzi sprofondano in una fessura e il lavoro si ferma. Nel foro affiora un liquido scuro; sul momento esatto dell'avvistamento le ricostruzioni divergono. Scorrete le slide per la cronaca della giornata. Nel 1859 l'olio di roccia si raccoglie a mano dalle sorgenti e serve come medicinale, come lubrificante e, da pochi anni, come materia prima per l'olio da lampada: lo sosteneva una relazione del chimico Benjamin Silliman jr. del 1855. Entro la sera non risultano reazioni ufficiali. Una domanda per voi: nell'agosto del 1859, a che cosa poteva servire un barile di olio di roccia? Breaking Past ricostruisce gli eventi utilizzando le informazioni disponibili all'epoca. Il contesto completo è nell'ultima slide. Fonti: Drake Well Museum, ExplorePAHistory (PHMC), American Chemical Society, American Oil & Gas Historical Society, AAPG Explorer, Penn State Center for the Book, GeoExpro (registro F436–F450). Illustrazione originale Breaking Past. #BreakingPast #accaddeoggi #titusville #oilcreek #edwindrake #storiadelleconomia #ottocento",
+      "slides": [
+        {
+          "n": 1,
+          "file": "media/027-la-follia-di-drake/slide_1.jpg",
+          "url": "https://mds1089.github.io/breaking-past-auto/media/027-la-follia-di-drake/slide_1.jpg",
+          "alt_text": "Slide 1 di 8. Illustrazione al tratto in stile piatto: una torre di perforazione di legno su un fondovalle stretto, accanto una bassa casa delle macchine con un pennacchio di vapore; in primo piano la bocca di un tubo di ghisa con una macchia scura sull'acqua. Palette avorio, nero, verde-petrolio. In alto la testata Breaking Past, sezione ECONOMIA, data storica SABATO 27 AGOSTO 1859, luogo TITUSVILLE, indicazione ORE 20:30. Titolo: «Titusville, lo scalpello sprofonda a 21 metri: nel pozzo affiora petrolio». Sottotitolo: sul pozzo della Seneca Oil Company a Oil Creek gli attrezzi cedono in una fessura della roccia a 69 piedi e mezzo; il cantiere è senza fondi da mesi. In basso la dicitura ILLUSTRAZIONE ORIGINALE.",
+          "w": 1080,
+          "h": 1350,
+          "bytes": 207162
+        },
+        {
+          "n": 2,
+          "file": "media/027-la-follia-di-drake/slide_2.jpg",
+          "url": "https://mds1089.github.io/breaking-past-auto/media/027-la-follia-di-drake/slide_2.jpg",
+          "alt_text": "Slide 2 di 8, aggiornamento delle 20:30, kicker OIL CREEK. Testo: al pozzo di Edwin Drake, a poche miglia da Titusville, gli attrezzi sono sprofondati in una fessura a 69 piedi e mezzo, poco più di 21 metri; il perforatore William A. Smith riferisce di un liquido scuro che galleggia sull'acqua dentro il foro. Riquadro di avvertenza giallo: dato incerto, le fonti divergono sul momento dell'avvistamento — pomeriggio di oggi per alcune ricostruzioni, mattina successiva per altre, e nessuna registra un'ora.",
+          "w": 1080,
+          "h": 1350,
+          "bytes": 220678
+        },
+        {
+          "n": 3,
+          "file": "media/027-la-follia-di-drake/slide_3.jpg",
+          "url": "https://mds1089.github.io/breaking-past-auto/media/027-la-follia-di-drake/slide_3.jpg",
+          "alt_text": "Slide 3 di 8, cronologia del 27 agosto 1859, quattro passaggi con orari approssimati. In mattinata: la perforazione prosegue a circa tre piedi di roccia al giorno con attrezzi a percussione mossi da una macchina a vapore; il foro è tenuto aperto da un tubo di ghisa piantato fino alla roccia, idea di Drake. Nel pomeriggio: a 69 piedi e mezzo gli attrezzi sprofondano di circa sei pollici in una fessura, la squadra sospende e lascia il cantiere. A fine giornata: guardando nel tubo, William A. Smith vede un liquido scuro galleggiare sull'acqua a pochi pollici dalla bocca del pozzo. In serata: al pozzo restano Smith e i figli, che alloggiano nella casa delle macchine; Drake non risulta sul posto.",
+          "w": 1080,
+          "h": 1350,
+          "bytes": 263206
+        },
+        {
+          "n": 4,
+          "file": "media/027-la-follia-di-drake/slide_4.jpg",
+          "url": "https://mds1089.github.io/breaking-past-auto/media/027-la-follia-di-drake/slide_4.jpg",
+          "alt_text": "Slide 4 di 8, cosa sappiamo finora. Confermato: il pozzo, perforato per conto della Seneca Oil Company del Connecticut, ha raggiunto 69 piedi e mezzo, poco più di 21 metri; a perforare è William A. Smith, fabbro di Tarentum e trivellatore di pozzi di sale, assunto lo scorso aprile, che si è costruito gli attrezzi nella propria officina; il denaro è esaurito da tempo, i finanziatori hanno già scritto di saldare i conti e abbandonare il pozzo e le ultime spese sono state coperte da un prestito personale. Non confermato: la resa del pozzo, non risulta avviata alcuna estrazione né presa alcuna misura. Da chiarire: il momento esatto dell'avvistamento del liquido, fra il pomeriggio di oggi e la mattina successiva, senza alcuna ora registrata.",
+          "w": 1080,
+          "h": 1350,
+          "bytes": 244585
+        },
+        {
+          "n": 5,
+          "file": "media/027-la-follia-di-drake/slide_5.jpg",
+          "url": "https://mds1089.github.io/breaking-past-auto/media/027-la-follia-di-drake/slide_5.jpg",
+          "alt_text": "Slide 5 di 8, le parole dei protagonisti. Prima citazione, di Benjamin Silliman jr., chimico di Yale, dalla relazione del 1855 sull'olio di roccia della contea di Venango: «Mi pare che vi sia molto motivo di incoraggiamento nel ritenere che la vostra società possieda una materia prima dalla quale, con processi semplici e non costosi, si possono fabbricare prodotti di grande valore». In nota: traduzione dall'inglese, documento del 1855 e non dichiarazione odierna. Seconda voce, senza virgolette, su William A. «Uncle Billy» Smith: di lui non risulta alcuna dichiarazione di oggi; in un ricordo successivo raccontò che, assunto in aprile, disse a Drake di non avere timore di garantire dieci barili al giorno, e che Drake si sarebbe accontentato della metà.",
+          "w": 1080,
+          "h": 1350,
+          "bytes": 320548
+        },
+        {
+          "n": 6,
+          "file": "media/027-la-follia-di-drake/slide_6.jpg",
+          "url": "https://mds1089.github.io/breaking-past-auto/media/027-la-follia-di-drake/slide_6.jpg",
+          "alt_text": "Slide 6 di 8, ancora nessuna reazione ufficiale. Seneca Oil Company, New Haven, Connecticut: i finanziatori hanno già scritto a Drake di pagare i debiti residui e abbandonare il pozzo, e da New Haven non risulta alcuna comunicazione riferita a oggi. Titusville e la valle di Oil Creek: non risultano dichiarazioni pubbliche né resoconti di stampa entro questa sera; al cantiere ci sono Smith e i suoi figli, che vivono nella casa delle macchine. Nota: entro il cutoff non risultano reazioni ufficiali, comunicati o notizie di stampa sull'esito della perforazione.",
+          "w": 1080,
+          "h": 1350,
+          "bytes": 266499
+        },
+        {
+          "n": 7,
+          "file": "media/027-la-follia-di-drake/slide_7.jpg",
+          "url": "https://mds1089.github.io/breaking-past-auto/media/027-la-follia-di-drake/slide_7.jpg",
+          "alt_text": "Slide 7 di 8, che cosa può succedere adesso, quattro scenari. Primo: la prima verifica sarà il pompaggio, nessuno ha misurato quanto la fessura possa dare in un giorno né se il flusso si esaurisca. Secondo: l'impiego atteso è l'illuminazione, a Pittsburgh Samuel Kier distilla già un carbon oil venduto a 1,50 dollari il gallone e la relazione di Silliman del 1855 sostiene che dall'olio di roccia si ricavi un buon combustibile da lampada; non è chiaro se un pozzo possa consegnarne abbastanza a un prezzo che regga il confronto con l'olio di balena e le candele. Terzo: altri potrebbero piantare sonde lungo Oil Creek, dove i terreni sono già comprati o affittati da società del New England. Quarto: resta lo scenario della chiusura, con le istruzioni a liquidare le pendenze.",
+          "w": 1080,
+          "h": 1350,
+          "bytes": 292088
+        },
+        {
+          "n": 8,
+          "file": "media/027-la-follia-di-drake/slide_8.jpg",
+          "url": "https://mds1089.github.io/breaking-past-auto/media/027-la-follia-di-drake/slide_8.jpg",
+          "alt_text": "Slide 8 di 8, come andò davvero. Il pompaggio iniziò nei giorni successivi, con stime divergenti fra 10 e 40 barili al giorno; il greggio andò a Samuel Kier, circa 20 dollari al barile a Pittsburgh. La lettera di James Townsend, spedita a inizio agosto con un assegno da 500 dollari e l'ordine di chiudere, arrivò pochi giorni dopo. Il 7 ottobre 1859 un incendio distrusse torre, casa delle macchine e abitazione di Smith. Lungo Oil Creek partì la corsa alle perforazioni: 4.500 barili nel 1859, tre milioni nel 1862. Drake non brevettò il tubo guida, si impoverì, ottenne una pensione dalla Pennsylvania e morì nel 1880; Smith morì nel 1890. Le fonti restano divise fra il 27 e il 28 agosto.",
+          "w": 1080,
+          "h": 1350,
+          "bytes": 298826
         }
       ],
       "posted": false,
