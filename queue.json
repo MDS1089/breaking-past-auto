@@ -1,6 +1,6 @@
 {
   "progetto": "BREAKING PAST",
-  "aggiornato": "2026-08-02T20:20:33+02:00",
+  "aggiornato": "2026-08-02T20:21:23+02:00",
   "episodi": [
     {
       "n": "000",
@@ -1983,6 +1983,94 @@
           "w": 1080,
           "h": 1350,
           "bytes": 324097
+        }
+      ],
+      "posted": false,
+      "posted_at": null,
+      "media_id": null,
+      "permalink": null
+    },
+    {
+      "n": "023",
+      "slug": "023-la-prima-terra-vista-dalla-luna",
+      "titolo": "La prima Terra vista dalla Luna",
+      "cartella": "Episodio_023_2026-08-23_La_prima_Terra_vista_dalla_Luna",
+      "data_pubblicazione": "2026-08-23",
+      "ora_pubblicazione": "20:30",
+      "timezone": "Europe/Rome",
+      "caption": "Il compito di Lunar Orbiter 1 è guardare in basso: fotografare il suolo della Luna per scegliere dove far scendere gli uomini dell'Apollo. Oggi, 23 agosto 1966, la sonda guarda altrove. Un problema al sistema di sviluppo ha lasciato fotogrammi liberi: per usarli la direzione della missione decide di ruotare il veicolo, fuori dal piano. Alle 16:36:23 GMT, alla sedicesima orbita, mentre la sonda riemerge dalla faccia nascosta, viene esposto il fotogramma 102 con l'obiettivo da 610 mm. La pellicola è sviluppata a bordo, letta da un punto di luce di 6,5 micron e trasmessa come segnale video alla stazione NASA di Robledo de Chavela, presso Madrid. La Terra è una falce sopra l'orizzonte lunare. Entro la fine della giornata non risultano comunicati né riprese di stampa. Scorri le slide per la cronologia della giornata. Breaking Past ricostruisce gli eventi utilizzando le informazioni disponibili all'epoca. Il contesto completo è nell'ultima slide. Quanto vale, per un'agenzia spaziale, una fotografia che non serve a nessun obiettivo della missione? Fonti: NASA (schede immagine e missione), Boeing per NASA Langley (CR-782, 1967), NASA History Office, Lunar Orbiter Image Recovery Project (registro F356–F372). Illustrazione originale Breaking Past. #BreakingPast #accaddeoggi #lunarorbiter1 #nasa #storiadellospazio #esplorazionelunare #fotografiastorica",
+      "slides": [
+        {
+          "n": 1,
+          "file": "media/023-la-prima-terra-vista-dalla-luna/slide_1.jpg",
+          "url": "https://mds1089.github.io/breaking-past-auto/media/023-la-prima-terra-vista-dalla-luna/slide_1.jpg",
+          "alt_text": "Slide 1 di 8, apertura. Illustrazione al tratto: in basso una fascia grigia di superficie lunare butterata di crateri, sopra l'orizzonte una piccola falce di Terra bianca su fondo nero, a destra la sagoma della sonda con quattro pannelli solari e antenna a parabola, ruotata di novanta gradi con gli obiettivi verso la Terra, e una linea rossa tratteggiata che indica l'arco di rotazione; timbro «ROBLEDO DE CHAVELA — ORE 20:30». Testata Breaking Past, martedì 23 agosto 1966, Madrid. Titolo: Lunar Orbiter gira le camere e fotografa la Terra dalla Luna. Sottotitolo: alle 16:36:23 GMT, alla sedicesima orbita, la sonda espone il fotogramma 102 con l'obiettivo da 610 mm; il segnale arriva alla stazione NASA di Robledo de Chavela, presso Madrid; la rotazione non era nel piano di missione.",
+          "w": 1080,
+          "h": 1350,
+          "bytes": 222419
+        },
+        {
+          "n": 2,
+          "file": "media/023-la-prima-terra-vista-dalla-luna/slide_2.jpg",
+          "url": "https://mds1089.github.io/breaking-past-auto/media/023-la-prima-terra-vista-dalla-luna/slide_2.jpg",
+          "alt_text": "Slide 2 di 8, la notizia della giornata. Testo: per la prima volta un veicolo ha fotografato la Terra dai pressi della Luna; lo scatto è delle 16:36:23 GMT, sedicesima orbita, e la sonda era stata ruotata con una manovra non prevista; il segnale è arrivato a Robledo de Chavela; nessun comunicato in giornata. Nota gialla di avvertenza: l'orario non è univoco, il rapporto di missione preparato da Boeing per la NASA indica 16:36:23 GMT, una ricostruzione divulgativa recente indica 16:35 GMT; l'ora di ricezione a terra non risulta documentata.",
+          "w": 1080,
+          "h": 1350,
+          "bytes": 238583
+        },
+        {
+          "n": 3,
+          "file": "media/023-la-prima-terra-vista-dalla-luna/slide_3.jpg",
+          "url": "https://mds1089.github.io/breaking-past-auto/media/023-la-prima-terra-vista-dalla-luna/slide_3.jpg",
+          "alt_text": "Slide 3 di 8, cronologia della giornata in cinque passaggi. Nei giorni scorsi: un problema al sistema di sviluppo della pellicola lascia fotogrammi da consumare e la direzione della missione decide di usarli ruotando la sonda verso la direzione di volo. Alle 17:36 ora locale, cioè 16:36:23 GMT, sedicesima orbita: la sonda espone il fotogramma 102 con l'obiettivo panoramico da 610 mm e la Terra compare come una falce sopra l'orizzonte lunare. Poco dopo: la pellicola da 70 mm è sviluppata a bordo con il sistema Bimat, 2,4 pollici al minuto e 3,4 minuti di sviluppo, poi letta da un punto di luce di 6,5 micron, circa 43 minuti per fotogramma. In giornata: il segnale arriva a Robledo de Chavela (DSIF-61). In serata: nessun comunicato.",
+          "w": 1080,
+          "h": 1350,
+          "bytes": 327515
+        },
+        {
+          "n": 4,
+          "file": "media/023-la-prima-terra-vista-dalla-luna/slide_4.jpg",
+          "url": "https://mds1089.github.io/breaking-past-auto/media/023-la-prima-terra-vista-dalla-luna/slide_4.jpg",
+          "alt_text": "Slide 4 di 8, quadro delle informazioni. Confermato: il fotogramma 102 è stato esposto alle 16:36:23 GMT nella sedicesima orbita, con l'obiettivo da 610 mm, mentre la sonda riemergeva dalla faccia nascosta; il segnale è stato ricevuto a Robledo de Chavela, vicino a Madrid, ed è la prima volta che la Terra viene fotografata da un veicolo nei pressi della Luna; la ripresa non era prevista dal piano di missione. Non confermato: chi abbia proposto per primo di ruotare la sonda, perché le fonti NASA parlano genericamente della direzione della missione. Da chiarire: la quota dello scatto, perché le schede NASA danno il centro dell'inquadratura al cratere Pasteur, 10° S – 105° E, orizzonte di circa 550 km e Terra a 380.000 km, ma non l'altezza sul suolo lunare.",
+          "w": 1080,
+          "h": 1350,
+          "bytes": 287416
+        },
+        {
+          "n": 5,
+          "file": "media/023-la-prima-terra-vista-dalla-luna/slide_5.jpg",
+          "url": "https://mds1089.github.io/breaking-past-auto/media/023-la-prima-terra-vista-dalla-luna/slide_5.jpg",
+          "alt_text": "Slide 5 di 8, le parole dei protagonisti: una sola voce, senza virgolette, attribuita ai documenti di missione NASA. Dice che non risultano parole dei protagonisti datate a oggi, né dichiarazioni dei responsabili del programma né commenti dei tecnici, e che la sola descrizione disponibile della manovra è quella dei documenti di missione: il problema al sistema di sviluppo ha reso necessari scatti non pianificati e la direzione ha stabilito che si potessero ottenere riorientando la sonda, dalle camere puntate verso il basso a camere puntate nella direzione di volo. In nota: nessun virgolettato del 23 agosto 1966 è stato reperito.",
+          "w": 1080,
+          "h": 1350,
+          "bytes": 330985
+        },
+        {
+          "n": 6,
+          "file": "media/023-la-prima-terra-vista-dalla-luna/slide_6.jpg",
+          "url": "https://mds1089.github.io/breaking-past-auto/media/023-la-prima-terra-vista-dalla-luna/slide_6.jpg",
+          "alt_text": "Slide 6 di 8, reazioni. Titolo ANCORA NESSUNA REAZIONE UFFICIALE e nota: entro la fine della giornata non risultano comunicati NASA né riprese di stampa datati 23 agosto 1966; il programma è diretto dal Lunar Orbiter Project Office del Langley Research Center, guidato da Clifford H. Nelson sotto la direzione di Floyd L. Thompson, ma nessuna dichiarazione dei responsabili risulta datata a oggi. L'immagine è a terra, la sua diffusione pubblica non è documentata a questa data.",
+          "w": 1080,
+          "h": 1350,
+          "bytes": 199884
+        },
+        {
+          "n": 7,
+          "file": "media/023-la-prima-terra-vista-dalla-luna/slide_7.jpg",
+          "url": "https://mds1089.github.io/breaking-past-auto/media/023-la-prima-terra-vista-dalla-luna/slide_7.jpg",
+          "alt_text": "Slide 7 di 8, scenari possibili con le conoscenze di allora: se la manovra potrà essere ripetuta, dato che ogni rotazione sottrae fotogrammi e tempo alla scelta dei siti di allunaggio; quanto dettaglio si potrà estrarre da un segnale video analogico ricostruito a terra su pellicola; il completamento delle riprese dei siti candidati e le altre sonde Lunar Orbiter previste dal programma; se la NASA tratterà la fotografia della Terra come materiale da diffondere o come un sottoprodotto della mappatura.",
+          "w": 1080,
+          "h": 1350,
+          "bytes": 289026
+        },
+        {
+          "n": 8,
+          "file": "media/023-la-prima-terra-vista-dalla-luna/slide_8.jpg",
+          "url": "https://mds1089.github.io/breaking-past-auto/media/023-la-prima-terra-vista-dalla-luna/slide_8.jpg",
+          "alt_text": "Slide 8 di 8, come andò davvero: chi propose la manovra non fu mai accertato, e solo nel 2011 un curatore NASA raccontò il timore che la sonda non tornasse in assetto e la decisione di volere comunque la fotografia; la data della diffusione pubblica non risulta nei documenti istituzionali; il 25 agosto 1966, alle 13:02:05 GMT, la manovra fu ripetuta; la sonda fu fatta impattare sulla Luna il 29 ottobre 1966 dopo 577 orbite; la versione restaurata a piena risoluzione uscì il 13 novembre 2008; nel dicembre 1968 arrivò l'Earthrise a colori di Apollo 8.",
+          "w": 1080,
+          "h": 1350,
+          "bytes": 326098
         }
       ],
       "posted": false,
