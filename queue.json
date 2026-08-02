@@ -1,6 +1,6 @@
 {
   "progetto": "BREAKING PAST",
-  "aggiornato": "2026-08-02T22:13:20+02:00",
+  "aggiornato": "2026-08-02T22:14:37+02:00",
   "episodi": [
     {
       "n": "000",
@@ -3215,6 +3215,94 @@
           "w": 1080,
           "h": 1350,
           "bytes": 298970
+        }
+      ],
+      "posted": false,
+      "posted_at": null,
+      "media_id": null,
+      "permalink": null
+    },
+    {
+      "n": "037",
+      "slug": "037-la-victoria-rientra-a-sanlucar",
+      "titolo": "La Victoria rientra a Sanlucar",
+      "cartella": "Episodio_037_2026-09-06_La_Victoria_rientra_a_Sanlucar",
+      "data_pubblicazione": "2026-09-06",
+      "ora_pubblicazione": "20:30",
+      "timezone": "Europe/Rome",
+      "caption": "Diciotto uomini, la maggior parte malati. È quello che resta dell'armata partita da Sanlúcar de Barrameda il 20 settembre 1519: cinque navi e oltre duecento uomini per raggiungere le isole delle spezie navigando verso ponente. Questa sera nella baia è alla fonda una nave sola, la nao Victoria, con il garofano caricato alle Molucche. Il capitano generale, Ferdinando Magellano, è morto nell'aprile del 1521 nell'isola di Matan; il comando è di Juan Sebastián Elcano. A bordo c'è anche il vicentino Antonio Pigafetta, che ha tenuto il giornale del viaggio giorno per giorno. Scorri le slide per la cronaca della giornata. C'è un conto che a bordo non torna: a Capo Verde, in luglio, i portoghesi a terra hanno detto che era giovedì, mentre sul giornale di bordo era mercoledì. Un giorno intero, e nessuno sa dove sia finito. Breaking Past ricostruisce gli eventi utilizzando le informazioni disponibili all'epoca. Il contesto completo è nell'ultima slide. Con il diario in mano e la certezza di non aver saltato una data, come spieghereste quel giorno mancante? Fonti: Antonio Pigafetta, Relazione del primo viaggio intorno al mondo (edizioni Robertson 1906 e Hakluyt Society 1874); F. H. H. Guillemard; Treccani; Encyclopaedia Britannica (registro F636–F655). Illustrazione originale Breaking Past. #BreakingPast #accaddeoggi #pigafetta #elcano #magellano #storiadellenavigazioni #molucche",
+      "slides": [
+        {
+          "n": 1,
+          "file": "media/037-la-victoria-rientra-a-sanlucar/slide_1.jpg",
+          "url": "https://mds1089.github.io/breaking-past-auto/media/037-la-victoria-rientra-a-sanlucar/slide_1.jpg",
+          "alt_text": "Slide 1 di 8. Copertina illustrata: una sola caravella stilizzata, ferma sull'acqua davanti a una costa bassa; accanto, quattro navi appena accennate in trasparenza e una griglia di calendario con una casella vuota. Testata Breaking Past, data storica SABATO 6 SETTEMBRE 1522, luogo SANLÚCAR, indicazione ORE 20:30, dicitura ILLUSTRAZIONE ORIGINALE. Titolo: «Torna una nave sola: la Victoria a Sanlúcar con diciotto uomini». Sottotitolo: da questa baia erano partite cinque navi nel settembre 1519; rientra la sola nao Victoria, con l'equipaggio in gran parte malato e un carico di garofano delle Molucche; il capitano generale Magellano è morto l'anno scorso nell'isola di Matan.",
+          "w": 1080,
+          "h": 1350,
+          "bytes": 220296
+        },
+        {
+          "n": 2,
+          "file": "media/037-la-victoria-rientra-a-sanlucar/slide_2.jpg",
+          "url": "https://mds1089.github.io/breaking-past-auto/media/037-la-victoria-rientra-a-sanlucar/slide_2.jpg",
+          "alt_text": "Slide 2 di 8, aggiornamento delle 20:30 da Sanlúcar: la nao Victoria è alla fonda nella baia di Sanlúcar con diciotto uomini a bordo, la maggior parte malati, e il garofano caricato alle Molucche. Da questa stessa baia era salpata il 20 settembre 1519 con altre quattro navi e oltre duecento uomini. Avvertenza in giallo: sul numero degli imbarcati alla partenza le fonti non concordano, 237, 265 oppure circa 280.",
+          "w": 1080,
+          "h": 1350,
+          "bytes": 217828
+        },
+        {
+          "n": 3,
+          "file": "media/037-la-victoria-rientra-a-sanlucar/slide_3.jpg",
+          "url": "https://mds1089.github.io/breaking-past-auto/media/037-la-victoria-rientra-a-sanlucar/slide_3.jpg",
+          "alt_text": "Slide 3 di 8, cronologia. Nelle settimane scorse: due mesi di navigazione senza mai una sosta, ventuno morti annotati sul giornale di bordo. Mercoledì 9 luglio: la nave tocca l'isola di Santo Jacobo, a Capo Verde, per comprare riso; a terra i portoghesi dicono che è giovedì, sul giornale di bordo è mercoledì. Pochi giorni dopo: tredici uomini e la scialuppa trattenuti dai portoghesi dopo che uno dell'equipaggio ha rivelato la morte del capitano generale. In giornata: la Victoria entra nella baia di Sanlúcar, dei sessanta partiti dalle Molucche ne restano diciotto più quattro uomini imbarcati nelle isole. A sera: il conto di bordo dà oltre 14.460 leghe percorse.",
+          "w": 1080,
+          "h": 1350,
+          "bytes": 269251
+        },
+        {
+          "n": 4,
+          "file": "media/037-la-victoria-rientra-a-sanlucar/slide_4.jpg",
+          "url": "https://mds1089.github.io/breaking-past-auto/media/037-la-victoria-rientra-a-sanlucar/slide_4.jpg",
+          "alt_text": "Slide 4 di 8, cosa sappiamo finora. Confermato: la Victoria è entrata oggi nella baia di Sanlúcar con diciotto uomini, in gran parte malati, dei sessanta partiti dalle Molucche; Ferdinando Magellano è morto il 27 aprile 1521 nell'isola di Matan e il comando della nave è di Juan Sebastián Elcano; delle cinque navi salpate nel 1519 rientra solo questa, perché la Santiago si è perduta, la San Antonio si è separata nello Stretto, la Concepción è stata bruciata e la Trinidad è rimasta alle Molucche. Non confermato: il computo dei giorni, con il calendario di bordo indietro di un giorno dal 9 luglio e nessuna spiegazione. Da chiarire: la sorte della Trinidad e dei tredici uomini trattenuti a Capo Verde.",
+          "w": 1080,
+          "h": 1350,
+          "bytes": 259809
+        },
+        {
+          "n": 5,
+          "file": "media/037-la-victoria-rientra-a-sanlucar/slide_5.jpg",
+          "url": "https://mds1089.github.io/breaking-past-auto/media/037-la-victoria-rientra-a-sanlucar/slide_5.jpg",
+          "alt_text": "Slide 5 di 8, le parole dei protagonisti. Dal giornale di bordo di Antonio Pigafetta, vicentino imbarcato sulla spedizione: «Sabato, a sei de septembre 1522, intrassemo nella baia de San Lucar», cioè «sabato 6 settembre 1522 siamo entrati nella baia di Sanlúcar»; le traduzioni proseguono: di sessanta uomini partiti dalle Molucche ne restano diciotto. Seconda citazione, Capo Verde, 9 luglio: «I portoghesi che abitano l'isola dissero loro che era giovedì, il che fu per noi grande motivo di stupore, perché per noi era soltanto mercoledì». Nota: la prima citazione è nel testo italiano del manoscritto, la seconda è tradotta dall'edizione inglese del 1874.",
+          "w": 1080,
+          "h": 1350,
+          "bytes": 297214
+        },
+        {
+          "n": 6,
+          "file": "media/037-la-victoria-rientra-a-sanlucar/slide_6.jpg",
+          "url": "https://mds1089.github.io/breaking-past-auto/media/037-la-victoria-rientra-a-sanlucar/slide_6.jpg",
+          "alt_text": "Slide 6 di 8, ancora nessuna reazione ufficiale. Entro la sera non risultano reazioni ufficiali: la nave è ferma alla foce del Guadalquivir, mentre la Casa de Contratación, che ha armato e finanziato l'armata, ha sede a Siviglia, dove la Victoria non è ancora risalita.",
+          "w": 1080,
+          "h": 1350,
+          "bytes": 143217
+        },
+        {
+          "n": 7,
+          "file": "media/037-la-victoria-rientra-a-sanlucar/slide_7.jpg",
+          "url": "https://mds1089.github.io/breaking-past-auto/media/037-la-victoria-rientra-a-sanlucar/slide_7.jpg",
+          "alt_text": "Slide 7 di 8, che cosa può succedere adesso. Primo: la risalita fino a Siviglia, dove il garofano sarà scaricato, pesato e registrato dalla Casa de Contratación, e solo allora si saprà se il carico copre la spesa dell'armata. Secondo: il giorno mancante, con l'ipotesi che l'errore sia dei portoghesi di Capo Verde o di chi ha tenuto il conto in mare. Terzo: i tredici uomini trattenuti a Capo Verde, di cui le autorità castigliane potrebbero chiedere conto alla corona di Portogallo. Quarto: le Molucche, raggiunte navigando verso ponente, con la questione di quale corona possieda le isole delle spezie.",
+          "w": 1080,
+          "h": 1350,
+          "bytes": 284161
+        },
+        {
+          "n": 8,
+          "file": "media/037-la-victoria-rientra-a-sanlucar/slide_8.jpg",
+          "url": "https://mds1089.github.io/breaking-past-auto/media/037-la-victoria-rientra-a-sanlucar/slide_8.jpg",
+          "alt_text": "Slide 8 di 8, come andò davvero. La Victoria risalì il fiume e lunedì 8 settembre gettò l'ancora presso il molo di Siviglia, tre anni meno dodici giorni dopo la partenza; il martedì l'equipaggio andò in processione, in camicia e scalzo, con una candela, al santuario di Santa María de la Victoria. Il carico fu contato in 520 quintali di garofano, circa ventisei tonnellate. Elcano, Pigafetta e il pilota Albo raggiunsero Carlo V a Valladolid: Pigafetta gli consegnò il giornale, «né oro né argento, ma cose ben più preziose»; a Elcano andarono una pensione di cinquecento ducati e uno stemma. I tredici di Capo Verde furono liberati. Il 6 settembre 1522 fu davvero un sabato.",
+          "w": 1080,
+          "h": 1350,
+          "bytes": 336732
         }
       ],
       "posted": false,
