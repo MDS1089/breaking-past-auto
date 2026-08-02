@@ -1,6 +1,6 @@
 {
   "progetto": "BREAKING PAST",
-  "aggiornato": "2026-08-02T22:08:25+02:00",
+  "aggiornato": "2026-08-02T22:09:14+02:00",
   "episodi": [
     {
       "n": "000",
@@ -2951,6 +2951,94 @@
           "w": 1080,
           "h": 1350,
           "bytes": 301312
+        }
+      ],
+      "posted": false,
+      "posted_at": null,
+      "media_id": null,
+      "permalink": null
+    },
+    {
+      "n": "034",
+      "slug": "034-dagen-h-la-svezia-cambia-lato",
+      "titolo": "Dagen H la Svezia cambia lato",
+      "cartella": "Episodio_034_2026-09-03_Dagen_H_la_Svezia_cambia_lato",
+      "data_pubblicazione": "2026-09-03",
+      "ora_pubblicazione": "20:30",
+      "timezone": "Europe/Rome",
+      "caption": "Dieci minuti di silenzio sulle strade svedesi. Alle 04:50 di questa domenica tutti i veicoli ancora in circolazione si fermano sul lato sinistro; alle 05:00, al segnale orario della radio, il Paese riparte sulla destra. Il traffico privato era fermo dall'una di notte; a Stoccolma e a Malmö dalle dieci di ieri mattina. Oggi si viaggia a 30 km/h nei centri abitati e oltre diecimila fra agenti e militari presidiano incroci e passaggi pedonali. Scorri le slide per la cronologia della giornata, ora per ora. La decisione arriva dal maggio 1963, quando il riksdag approvò il passaggio: dodici anni fa, in un referendum, l'82,9% dei votanti aveva scelto di tenere la guida a sinistra. Breaking Past ricostruisce gli eventi utilizzando le informazioni disponibili all'epoca. Il contesto completo è nell'ultima slide. Quanto tempo serve, secondo voi, per disimparare il lato della strada su cui si è guidato per tutta la vita? Fonti: atti del riksdag 1963, film informativo «3 september» (Kungliga biblioteket), Spårvägsmuseet, TT, Klassiker, Volvo Club UK, Mental Floss (registro F576–F590). Illustrazione originale Breaking Past. #BreakingPast #accaddeoggi #dagenh #svezia #sicurezzastradale #storiadeitrasporti #guidaadestra",
+      "slides": [
+        {
+          "n": 1,
+          "file": "media/034-dagen-h-la-svezia-cambia-lato/slide_1.jpg",
+          "url": "https://mds1089.github.io/breaking-past-auto/media/034-dagen-h-la-svezia-cambia-lato/slide_1.jpg",
+          "alt_text": "Slide 1 di 8, copertina illustrata: vista dall'alto di una strada divisa da una linea, con file di automobili stilizzate che scivolano dalla corsia sinistra a quella destra disegnando una esse; sopra, un grande orologio fermo sulle 05:00 e la lettera H. Palette bianco, nero, rosso e blu notte. Testata Breaking Past, data storica DOMENICA 3 SETTEMBRE 1967, luogo SVEZIA, dicitura ORE 20:30. Titolo: «La Svezia passa a destra: alle 05:00 il Paese cambia lato». Sottotitolo: traffico fermo dalle 04:50, ripartenza al segnale orario della radio, divieto di circolazione per i privati dall'una di notte, limite di 30 km/h nei centri abitati.",
+          "w": 1080,
+          "h": 1350,
+          "bytes": 208550
+        },
+        {
+          "n": 2,
+          "file": "media/034-dagen-h-la-svezia-cambia-lato/slide_2.jpg",
+          "url": "https://mds1089.github.io/breaking-past-auto/media/034-dagen-h-la-svezia-cambia-lato/slide_2.jpg",
+          "alt_text": "Slide 2 di 8, l'edizione della sera: alle 04:50 i veicoli ancora in strada si fermano sulla sinistra; dieci minuti dopo, al segnale delle 05:00, la Svezia riparte sulla destra. Oltre diecimila fra poliziotti e militari sorvegliano l'operazione. A fine giornata non risulta un bilancio ufficiale degli incidenti. Avvertenza in giallo: l'ora dello stop non è riportata allo stesso modo da tutte le fonti, la maggior parte indica le 04:50, alcune le 04:45.",
+          "w": 1080,
+          "h": 1350,
+          "bytes": 217642
+        },
+        {
+          "n": 3,
+          "file": "media/034-dagen-h-la-svezia-cambia-lato/slide_3.jpg",
+          "url": "https://mds1089.github.io/breaking-past-auto/media/034-dagen-h-la-svezia-cambia-lato/slide_3.jpg",
+          "alt_text": "Slide 3 di 8, cronologia della giornata. Ore 01:00: scatta il divieto di circolazione per il traffico privato fino alle 06:00, restano in strada solo i mezzi autorizzati. Verso le 04:00: a Stoccolma la gente si raduna al buio, in Svezia non è in vigore l'ora legale; poco dopo la Kungsgatan viene chiusa al traffico ordinario. Intorno alle 04:50: i veicoli si fermano a sinistra, attraversano lentamente e si arrestano a destra; biciclette e taxi vengono accompagnati dall'altra parte. Ore 05:00: il segnale orario della radio «fem, noll och noll» dà il via, si riparte a 30 km/h nei centri abitati e 50 km/h fuori. Ore 15:00: a Stoccolma e Malmö riapre il traffico privato, fermo dalle 10:00 di ieri.",
+          "w": 1080,
+          "h": 1350,
+          "bytes": 255921
+        },
+        {
+          "n": 4,
+          "file": "media/034-dagen-h-la-svezia-cambia-lato/slide_4.jpg",
+          "url": "https://mds1089.github.io/breaking-past-auto/media/034-dagen-h-la-svezia-cambia-lato/slide_4.jpg",
+          "alt_text": "Slide 4 di 8, cosa sappiamo finora. Confermato: il cambio è avvenuto in tutto il Paese al segnale delle 05:00, con lo stop dieci minuti prima sul lato sinistro; il traffico privato è rimasto fermo dall'01:00 alle 06:00, a Stoccolma e Malmö dalle 10:00 di ieri fino alle 15:00 di oggi; valgono limiti di 30 km/h nei centri abitati e 50 km/h altrove, con oltre diecimila fra agenti e militari impiegati e guardie ai passaggi pedonali per tutta la settimana. Non confermato: l'orario esatto dello stop, indicato dalla maggior parte dei resoconti alle 04:50 e da altri alle 04:45. Da chiarire: il numero di incidenti della giornata, senza bilancio consolidato a fine domenica, e il conto finale della riforma, stimata nel 1963 in circa 400 milioni di corone.",
+          "w": 1080,
+          "h": 1350,
+          "bytes": 259658
+        },
+        {
+          "n": 5,
+          "file": "media/034-dagen-h-la-svezia-cambia-lato/slide_5.jpg",
+          "url": "https://mds1089.github.io/breaking-past-auto/media/034-dagen-h-la-svezia-cambia-lato/slide_5.jpg",
+          "alt_text": "Slide 5 di 8, le parole dei protagonisti. Citazione dalla proposta di legge n. 58 del 15 febbraio 1963, con cui il governo chiese al riksdag il passaggio a destra, ministro delle comunicazioni Gösta Skoglund: «Il motivo principale per il passaggio alla circolazione a destra è, secondo la commissione, lo sviluppo del traffico stradale internazionale e il conseguente interesse a regole di circolazione uniformi fra i Paesi». Traduzione dallo svedese. Secondo punto, senza virgolette: il ministro delle comunicazioni Olof Palme parla alla radio nelle ore del passaggio e il generaldirettore Lars Skiöld dirige l'operazione via radio al momento del cambio; il testo dei loro interventi non risulta riportato per esteso da fonti verificabili.",
+          "w": 1080,
+          "h": 1350,
+          "bytes": 302213
+        },
+        {
+          "n": 6,
+          "file": "media/034-dagen-h-la-svezia-cambia-lato/slide_6.jpg",
+          "url": "https://mds1089.github.io/breaking-past-auto/media/034-dagen-h-la-svezia-cambia-lato/slide_6.jpg",
+          "alt_text": "Slide 6 di 8, come reagisce il Paese. Motormännen ha lavorato dentro la commissione statale, aperto con l'ABF la Högertrafikskolan, prestato le proprie piste e schierato pattuglie di assistenza. Trasmissione notturna, comunicati radio e annunci sui giornali accompagnano il cambio: la campagna gira intorno alla lettera H di höger, con circa 130.000 cartelli promemoria lungo le strade, adesivi sul cruscotto, guanti, opuscoli e la canzone «Håll dig till höger, Svensson» dei Telstars, vincitrice di un concorso televisivo. A Stoccolma folla in strada già alle quattro del mattino e fine del tram nel centro, sostituito da metropolitana e autobus. La riforma è stata pagata con un'imposta sui veicoli da 20 a 100 corone l'anno fra il 1963/64 e il 1966/67.",
+          "w": 1080,
+          "h": 1350,
+          "bytes": 291109
+        },
+        {
+          "n": 7,
+          "file": "media/034-dagen-h-la-svezia-cambia-lato/slide_7.jpg",
+          "url": "https://mds1089.github.io/breaking-past-auto/media/034-dagen-h-la-svezia-cambia-lato/slide_7.jpg",
+          "alt_text": "Slide 7 di 8, che cosa può succedere adesso. La prova vera è attesa domani mattina, primo lunedì di lavoro sulla destra, mentre oggi è domenica e il traffico è ridotto. Guardie ausiliarie ai passaggi pedonali per tutta la settimana: l'interrogativo è che cosa accadrà quando i limiti ridotti verranno tolti. Il conto della riforma potrebbe superare i circa 400 milioni di corone stimati nel 1963, con i primi dieci milioni stanziati dal riksdag. Il parco autobus è stato rifatto in fretta: prima del cambio solo 170 degli oltre 8.000 mezzi svedesi risultavano utilizzabili nella circolazione a destra.",
+          "w": 1080,
+          "h": 1350,
+          "bytes": 288397
+        },
+        {
+          "n": 8,
+          "file": "media/034-dagen-h-la-svezia-cambia-lato/slide_8.jpg",
+          "url": "https://mds1089.github.io/breaking-past-auto/media/034-dagen-h-la-svezia-cambia-lato/slide_8.jpg",
+          "alt_text": "Slide 8 di 8, come andò davvero: 157 incidenti segnalati quel giorno, meno di una domenica media, e 125 il lunedì successivo; per settimane le cifre restarono sotto la norma per eccesso di prudenza e i livelli precedenti tornarono dopo circa sei settimane. Il 1967 si chiuse con 1.077 morti sulle strade contro 1.313 nel 1966. Costo finale 628 milioni di corone contro i 400 stimati; a Stoccolma finì il tram in centro.",
+          "w": 1080,
+          "h": 1350,
+          "bytes": 324062
         }
       ],
       "posted": false,
