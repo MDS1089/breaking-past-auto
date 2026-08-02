@@ -1,6 +1,6 @@
 {
   "progetto": "BREAKING PAST",
-  "aggiornato": "2026-08-02T22:17:39+02:00",
+  "aggiornato": "2026-08-02T22:19:06+02:00",
   "episodi": [
     {
       "n": "000",
@@ -3479,6 +3479,94 @@
           "w": 1080,
           "h": 1350,
           "bytes": 330968
+        }
+      ],
+      "posted": false,
+      "posted_at": null,
+      "media_id": null,
+      "permalink": null
+    },
+    {
+      "n": "040",
+      "slug": "040-elvis-all-ed-sullivan-show",
+      "titolo": "Elvis all Ed Sullivan Show",
+      "cartella": "Episodio_040_2026-09-09_Elvis_all_Ed_Sullivan_Show",
+      "data_pubblicazione": "2026-09-09",
+      "ora_pubblicazione": "20:30",
+      "timezone": "Europe/Rome",
+      "caption": "Un debutto che il padrone di casa aveva escluso di concedere. Stasera Elvis Presley entra nelle case americane dalla domenica sera della CBS: canta «Don't Be Cruel», «Love Me Tender», «Ready Teddy» e un passaggio di «Hound Dog». Ma non è a New York. È a Hollywood, dove sta girando il suo primo film, e canta da una soundstage della CBS in California. In studio manca anche Ed Sullivan: è in convalescenza dopo un incidente d'auto e a condurre è l'attore britannico Charles Laughton, che passa la linea alla costa opposta. Scorri il carosello per la cronologia della serata e le parole pronunciate in onda. Sullivan aveva detto pubblicamente di non volerlo: lo giudicava non adatto a uno spettacolo per famiglie. Poi è arrivato il contratto per tre serate, 50.000 dollari. Quante persone abbiano guardato, stasera, non lo sa nessuno: le rilevazioni non ci sono. Breaking Past ricostruisce gli eventi utilizzando le informazioni disponibili all'epoca. Il contesto completo è nell'ultima slide. Vi viene in mente un altro programma che ha invitato proprio l'artista che aveva detto di non voler ospitare? Fonti: archivio The Ed Sullivan Show, Graceland, Broadcasting • Telecasting del 10 e 17 settembre 1956, uDiscover Music (registro F696–F705). Illustrazione originale Breaking Past. #BreakingPast #accaddeoggi #elvispresley #edsullivanshow #storiadellatv #annicinquanta #rockandroll",
+      "slides": [
+        {
+          "n": 1,
+          "file": "media/040-elvis-all-ed-sullivan-show/slide_1.jpg",
+          "url": "https://mds1089.github.io/breaking-past-auto/media/040-elvis-all-ed-sullivan-show/slide_1.jpg",
+          "alt_text": "Slide 1 di 8, copertina illustrata: un televisore a valvole anni Cinquanta di tre quarti, sullo schermo la sagoma nera di un chitarrista ripreso dal petto in su, ai lati due telecamere da studio e sul fondo una linea che unisce due coste. Testata Breaking Past, sezione CULTURA, data storica DOMENICA 9 SETTEMBRE 1956, luogo New York, indicazione ORE 20:30. Titolo: «Elvis debutta all'Ed Sullivan Show: canta da Hollywood, presenta Charles Laughton». Sottotitolo: quattro brani in collegamento dagli studi CBS della California, dove sta girando il suo primo film; Ed Sullivan, che in passato aveva escluso di ospitarlo, è assente per convalescenza dopo un incidente d'auto. In basso la dicitura ILLUSTRAZIONE ORIGINALE.",
+          "w": 1080,
+          "h": 1350,
+          "bytes": 230494
+        },
+        {
+          "n": 2,
+          "file": "media/040-elvis-all-ed-sullivan-show/slide_2.jpg",
+          "url": "https://mds1089.github.io/breaking-past-auto/media/040-elvis-all-ed-sullivan-show/slide_2.jpg",
+          "alt_text": "Slide 2 di 8, L'EDIZIONE DELLA SERA: Elvis Presley debutta stasera all'Ed Sullivan Show, in collegamento dagli studi CBS di Hollywood dove sta girando il suo primo film. Canta «Don't Be Cruel», «Love Me Tender», «Ready Teddy» e un passaggio di «Hound Dog». Ed Sullivan è assente: conduce Charles Laughton. Riquadro giallo di avvertenza: sulla scaletta le fonti divergono, alcune ricostruzioni elencano tre brani e non citano «Hound Dog».",
+          "w": 1080,
+          "h": 1350,
+          "bytes": 223973
+        },
+        {
+          "n": 3,
+          "file": "media/040-elvis-all-ed-sullivan-show/slide_3.jpg",
+          "url": "https://mds1089.github.io/breaking-past-auto/media/040-elvis-all-ed-sullivan-show/slide_3.jpg",
+          "alt_text": "Slide 3 di 8, cronologia della giornata in cinque passaggi, tutti con orario approssimato. In giornata: Presley è a Hollywood per le riprese del suo primo film e canterà da una soundstage CBS a Television City. Prima serata: lo show va in onda sulla CBS, conduce Charles Laughton al posto di Ed Sullivan, in convalescenza dopo un incidente d'auto. Durante la trasmissione: Laughton passa la linea con «E adesso, via a Hollywood, a conoscere Elvis Presley!». Nel corso dello show: Presley canta «Don't Be Cruel», «Love Me Tender», «Ready Teddy» e un passaggio di «Hound Dog». Durante l'esibizione: le inquadrature restano per lo più su testa e spalle, senza le limitazioni della sua ultima apparizione su un'altra rete.",
+          "w": 1080,
+          "h": 1350,
+          "bytes": 267705
+        },
+        {
+          "n": 4,
+          "file": "media/040-elvis-all-ed-sullivan-show/slide_4.jpg",
+          "url": "https://mds1089.github.io/breaking-past-auto/media/040-elvis-all-ed-sullivan-show/slide_4.jpg",
+          "alt_text": "Slide 4 di 8, COSA SAPPIAMO FINORA. Confermato: l'esibizione arriva da Hollywood, dagli studi CBS di Television City, mentre lo show è trasmesso da New York; conduce Charles Laughton perché Ed Sullivan è in convalescenza dopo un incidente d'auto, con costole incrinate e contusioni al volto; il contratto con la CBS prevede tre apparizioni per 50.000 dollari complessivi e questa è la prima. Non confermato: quante persone abbiano guardato, perché entro la serata non è stata diffusa alcuna rilevazione d'ascolto. Da chiarire: quando Sullivan tornerà a condurre e in quali date sono fissate le altre due apparizioni previste dal contratto.",
+          "w": 1080,
+          "h": 1350,
+          "bytes": 256276
+        },
+        {
+          "n": 5,
+          "file": "media/040-elvis-all-ed-sullivan-show/slide_5.jpg",
+          "url": "https://mds1089.github.io/breaking-past-auto/media/040-elvis-all-ed-sullivan-show/slide_5.jpg",
+          "alt_text": "Slide 5 di 8, LE PAROLE DEI PROTAGONISTI. Prima citazione, fra caporali: «E adesso, via a Hollywood, a conoscere Elvis Presley!» — Charles Laughton, attore, conduttore della serata al posto di Ed Sullivan, nel presentare il collegamento con la California; traduzione dall'inglese «…and now, away to Hollywood to meet Elvis Presley!». Secondo blocco, senza virgolette: Ed Sullivan aveva escluso pubblicamente di ospitare Presley, giudicandolo non nelle proprie corde e non adatto a un intrattenimento per famiglie, e volendo restare lontano dalle polemiche sulle sue apparizioni televisive; il contratto per tre serate è arrivato dopo. Nota: sintesi non testuale, le frasi in inglese sono «not my cup of tea» e «wasn't fit for family entertainment», senza data.",
+          "w": 1080,
+          "h": 1350,
+          "bytes": 278359
+        },
+        {
+          "n": 6,
+          "file": "media/040-elvis-all-ed-sullivan-show/slide_6.jpg",
+          "url": "https://mds1089.github.io/breaking-past-auto/media/040-elvis-all-ed-sullivan-show/slide_6.jpg",
+          "alt_text": "Slide 6 di 8, ANCORA NESSUNA REAZIONE UFFICIALE. Nessun punto elencato. Testo: entro la fine della giornata non risultano reazioni pubbliche documentate, nessuna dichiarazione della CBS, nessuna presa di posizione di Ed Sullivan, nessuna recensione pubblicata; le rilevazioni d'ascolto e i giudizi dei critici televisivi non sono ancora disponibili.",
+          "w": 1080,
+          "h": 1350,
+          "bytes": 156079
+        },
+        {
+          "n": 7,
+          "file": "media/040-elvis-all-ed-sullivan-show/slide_7.jpg",
+          "url": "https://mds1089.github.io/breaking-past-auto/media/040-elvis-all-ed-sullivan-show/slide_7.jpg",
+          "alt_text": "Slide 7 di 8, CHE COSA PUÒ SUCCEDERE ADESSO, quattro scenari. Restano due apparizioni previste dal contratto CBS e non è indicato chi le condurrà, perché la convalescenza di Sullivan non ha durata annunciata. La questione delle riprese resta aperta: la rete potrebbe adottare accorgimenti di inquadratura nelle prossime serate oppure lasciare l'esibizione senza vincoli. Il film girato a Hollywood e il brano presentato stasera arrivano al pubblico più largo che Presley abbia mai avuto, e occorrerà vedere se lo spettatore adulto della domenica accetterà quel repertorio. Le critiche dei mesi scorsi potrebbero riaccendersi dopo una vetrina di questa portata.",
+          "w": 1080,
+          "h": 1350,
+          "bytes": 291528
+        },
+        {
+          "n": 8,
+          "file": "media/040-elvis-all-ed-sullivan-show/slide_8.jpg",
+          "url": "https://mds1089.github.io/breaking-past-auto/media/040-elvis-all-ed-sullivan-show/slide_8.jpg",
+          "alt_text": "Slide 8 di 8, COME ANDÒ DAVVERO. Presley tornò il 28 ottobre 1956 con Sullivan rientrato e il 6 gennaio 1957 per la terza e ultima volta: fu quella sera di gennaio, non il 9 settembre, che le telecamere lo inquadrarono solo dalla vita in su e che Sullivan lo definì «un ragazzo perbene, davvero a posto». Il mito viene spesso retrodatato al debutto. La stampa di settore scrisse il 17 settembre 1956 che il 9 gli era stata concessa «piena libertà di movimento», pur notando la telecamera CBS «per lo più su testa e spalle». Le cifre d'ascolto uscirono dopo e divergono: circa 60 milioni e 82,6% secondo Graceland, oltre l'82% secondo l'archivio dello show, oltre l'80% per altre ricostruzioni.",
+          "w": 1080,
+          "h": 1350,
+          "bytes": 310900
         }
       ],
       "posted": false,
