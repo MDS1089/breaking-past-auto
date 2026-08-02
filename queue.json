@@ -1,6 +1,6 @@
 {
   "progetto": "BREAKING PAST",
-  "aggiornato": "2026-08-02T22:11:53+02:00",
+  "aggiornato": "2026-08-02T22:13:20+02:00",
   "episodi": [
     {
       "n": "000",
@@ -3127,6 +3127,94 @@
           "w": 1080,
           "h": 1350,
           "bytes": 312970
+        }
+      ],
+      "posted": false,
+      "posted_at": null,
+      "media_id": null,
+      "permalink": null
+    },
+    {
+      "n": "036",
+      "slug": "036-il-disco-d-oro-del-voyager-1",
+      "titolo": "Il disco d oro del Voyager 1",
+      "cartella": "Episodio_036_2026-09-05_Il_disco_d_oro_del_Voyager_1",
+      "data_pubblicazione": "2026-09-05",
+      "ora_pubblicazione": "20:30",
+      "timezone": "Europe/Rome",
+      "caption": "Si chiama Voyager 1 ma è la seconda a partire. Alle 8:56 di stamattina un Titan IIIE-Centaur si stacca dal Complesso 41 di Cape Canaveral, sedici giorni dopo la sonda gemella. Il numero non segue l'ordine di partenza: segue l'ordine di arrivo. La rotta assegnata a questo veicolo è più corta e più veloce, e nei piani lo porta a Giove nel 1979 e a Saturno nel 1980 prima dell'altra. Scorri le slide per la cronologia della giornata e per il contenuto del disco. Perché a bordo, in una custodia di alluminio con puntina e cartuccia, viaggia un disco di rame dorato: 115 immagini codificate, saluti registrati in 55 lingue dall'accadico al wu, novanta minuti di musica fra Bach, Mozart, gamelan giavanese, jazz e rock, i suoni della Terra e i messaggi di Jimmy Carter e Kurt Waldheim. Lo ha composto in meno di sei settimane un comitato guidato da Carl Sagan. Breaking Past ricostruisce gli eventi utilizzando le informazioni disponibili all'epoca. Il contesto completo è nell'ultima slide. Un oggetto pensato per durare più di un miliardo di anni, spedito senza sapere se qualcuno lo troverà: vale la pena costruirlo lo stesso? Fonti: NASA, JPL, NASA History, The American Presidency Project, Nazioni Unite, AmericaSpace, Sky & Telescope (registro F616–F632). Illustrazione originale Breaking Past. #BreakingPast #accaddeoggi #Voyager1 #goldenrecord #carlsagan #capecanaveral #storiadellospazio",
+      "slides": [
+        {
+          "n": 1,
+          "file": "media/036-il-disco-d-oro-del-voyager-1/slide_1.jpg",
+          "url": "https://mds1089.github.io/breaking-past-auto/media/036-il-disco-d-oro-del-voyager-1/slide_1.jpg",
+          "alt_text": "Slide 1 di 8, apertura. Illustrazione originale al tratto, stile piatto: al centro un grande disco dorato con solchi concentrici, visto di fronte; sopra il disco due sottili linee curve, una che sorpassa l'altra, con due piccole sagome di sonde; in basso la silhouette della rampa e del traliccio di lancio su fondo scuro. Barra superiore: Breaking Past, CAPE CANAVERAL, LUNEDÌ 5 SETTEMBRE 1977, ORE 20:30. Titolo: «Parte la seconda sonda: si chiama Voyager 1, porta un disco d'oro». Sottotitolo: decollo alle 8:56 dal Complesso 41 su Titan IIIE-Centaur, sedici giorni dopo la gemella; numerata 1 perché nei piani arriva per prima, con Giove nel 1979 e Saturno nel 1980; a bordo un disco di rame dorato con 115 immagini, saluti in 55 lingue e novanta minuti di musica. In basso la dicitura ILLUSTRAZIONE ORIGINALE.",
+          "w": 1080,
+          "h": 1350,
+          "bytes": 209957
+        },
+        {
+          "n": 2,
+          "file": "media/036-il-disco-d-oro-del-voyager-1/slide_2.jpg",
+          "url": "https://mds1089.github.io/breaking-past-auto/media/036-il-disco-d-oro-del-voyager-1/slide_2.jpg",
+          "alt_text": "Slide 2 di 8, l'edizione della sera: il Voyager 1 è partito alle 8:56 da Cape Canaveral, sedici giorni dopo la gemella; viaggia su una traiettoria più corta e più rapida e nei piani arriva per primo a Giove e a Saturno; a bordo un disco di rame dorato con i suoni della Terra. Avvertenza in giallo: il comunicato NASA e JPL del 1 agosto fissava questa partenza al 1 settembre, il lancio è avvenuto oggi 5 settembre e le fonti consultate non riportano il motivo dello spostamento.",
+          "w": 1080,
+          "h": 1350,
+          "bytes": 216325
+        },
+        {
+          "n": 3,
+          "file": "media/036-il-disco-d-oro-del-voyager-1/slide_3.jpg",
+          "url": "https://mds1089.github.io/breaking-past-auto/media/036-il-disco-d-oro-del-voyager-1/slide_3.jpg",
+          "alt_text": "Slide 3 di 8, cronologia del 5 settembre 1977: alle 8:56 il Titan IIIE-Centaur TC-6 si stacca dal Complesso 41 di Cape Canaveral, le 12:56:01 in tempo universale; in mattinata, finita la spinta, la sonda di 721,9 chilogrammi con undici strumenti prende la rotta verso Giove, alimentata da tre generatori termoelettrici a radioisotopi su un braccio da circa 158 watt ciascuno; in giornata si ricorda che il veicolo porta il numero 1 pur essendo il secondo a partire, perché la numerazione segue l'ordine di arrivo ai pianeti, mentre la gemella è decollata il 20 agosto alle 14:29:44 in tempo universale; a bordo il disco di rame in custodia d'alluminio del comitato guidato da Carl Sagan, con 115 immagini, saluti in 55 lingue, novanta minuti di musica e i messaggi di Carter e Waldheim.",
+          "w": 1080,
+          "h": 1350,
+          "bytes": 284415
+        },
+        {
+          "n": 4,
+          "file": "media/036-il-disco-d-oro-del-voyager-1/slide_4.jpg",
+          "url": "https://mds1089.github.io/breaking-past-auto/media/036-il-disco-d-oro-del-voyager-1/slide_4.jpg",
+          "alt_text": "Slide 4 di 8, cosa sappiamo finora. Confermato: decollo alle 8:56 EDT, 12:56:01 in tempo universale, dal Complesso 41 con un Titan IIIE-Centaur, sonda di 721,9 chilogrammi e undici strumenti; è la seconda a partire ma la prima nella numerazione, con traiettoria più corta e veloce verso Giove nel 1979 e Saturno nel 1980; il disco è di rame in custodia di alluminio con puntina e cartuccia, si suona a 16 giri e 2/3 seguendo istruzioni simboliche incise sulla copertina, e contiene 115 immagini, saluti in 55 lingue dall'accadico al wu, novanta minuti di musica fra Bach, Beethoven, Mozart, Stravinskij, gamelan giavanese, raga indiano, jazz e rock, suoni della natura e i messaggi di Carter e Waldheim. Non confermato: il comunicato JPL parla di circa 60 lingue, i materiali NASA di 55; le immagini sono 115 o 116 secondo la fonte. Da chiarire: nessun bilancio pubblico, entro stasera, sulle prestazioni del Titan e del Centaur.",
+          "w": 1080,
+          "h": 1350,
+          "bytes": 281283
+        },
+        {
+          "n": 5,
+          "file": "media/036-il-disco-d-oro-del-voyager-1/slide_5.jpg",
+          "url": "https://mds1089.github.io/breaking-past-auto/media/036-il-disco-d-oro-del-voyager-1/slide_5.jpg",
+          "alt_text": "Slide 5 di 8, le parole dei protagonisti. Kurt Waldheim, segretario generale delle Nazioni Unite, nel messaggio registrato per il disco a nome di 147 Stati membri: «Usciamo dal nostro sistema solare nell'universo, cercando soltanto pace e amicizia: per insegnare, se saremo chiamati a farlo, per imparare, se saremo fortunati. Sappiamo bene che il nostro pianeta e tutti i suoi abitanti sono soltanto una piccola parte dell'immenso universo che ci circonda, ed è con umiltà e speranza che compiamo questo passo». Carl Sagan, astronomo della Cornell University a capo del comitato che ha scelto i contenuti del disco, nel comunicato NASA e JPL del 1 agosto 1977: «Poiché lo spazio è molto vuoto, non c'è praticamente alcuna possibilità che il Voyager entri nel sistema planetario di un'altra stella. La sonda sarà incontrata e il disco ascoltato soltanto se nello spazio interstellare esistono civiltà avanzate capaci di viaggiare fra le stelle». Traduzioni dall'inglese.",
+          "w": 1080,
+          "h": 1350,
+          "bytes": 359937
+        },
+        {
+          "n": 6,
+          "file": "media/036-il-disco-d-oro-del-voyager-1/slide_6.jpg",
+          "url": "https://mds1089.github.io/breaking-past-auto/media/036-il-disco-d-oro-del-voyager-1/slide_6.jpg",
+          "alt_text": "Slide 6 di 8, ancora nessuna reazione ufficiale. La Casa Bianca non commenta il lancio: sul disco viaggia il testo diffuso da Carter il 29 luglio, «Lanciamo questo messaggio nel cosmo. È probabile che sopravviva un miliardo di anni nel nostro futuro, quando la nostra civiltà sarà profondamente cambiata e la superficie della Terra potrà essere assai diversa». NASA e Jet Propulsion Laboratory non aggiungono nulla al comunicato del 1 agosto: Giove nel 1979, Saturno nel 1980, possibile passaggio vicino a Urano nel 1986, orbita di Plutone verso il 1989. Nazioni Unite: nessuna presa di posizione, il messaggio del segretario generale era stato registrato prima della partenza. Nota: entro la sera del 5 settembre non risultano dichiarazioni ufficiali sul lancio; i tre punti riportano materiali diffusi prima.",
+          "w": 1080,
+          "h": 1350,
+          "bytes": 296480
+        },
+        {
+          "n": 7,
+          "file": "media/036-il-disco-d-oro-del-voyager-1/slide_7.jpg",
+          "url": "https://mds1089.github.io/breaking-past-auto/media/036-il-disco-d-oro-del-voyager-1/slide_7.jpg",
+          "alt_text": "Slide 7 di 8, che cosa può succedere adesso: quattro scenari con le conoscenze del 5 settembre 1977. La sonda partita oggi dovrebbe raggiungere e superare la gemella lungo la strada, perché la traiettoria è più corta e più veloce. Se il veicolo regge, il programma prevede Giove nel 1979 e Saturno nel 1980, con anelli e lune maggiori; le sonde sono costruite per durare cinque anni. Uno degli scenari discussi è un passaggio vicino a Urano nel 1986 e l'attraversamento dell'orbita di Plutone verso il 1989, ipotesi legate soprattutto alla gemella. Sul disco chi lo ha curato non promette nulla: la custodia di alluminio dovrebbe farlo durare più di un miliardo di anni, ma sarà ascoltato solo se esistono civiltà capaci di viaggiare fra le stelle.",
+          "w": 1080,
+          "h": 1350,
+          "bytes": 285709
+        },
+        {
+          "n": 8,
+          "file": "media/036-il-disco-d-oro-del-voyager-1/slide_8.jpg",
+          "url": "https://mds1089.github.io/breaking-past-auto/media/036-il-disco-d-oro-del-voyager-1/slide_8.jpg",
+          "alt_text": "Slide 8 di 8, come andò davvero: il Titan si spense in anticipo e il Centaur raggiunse la velocità di fuga con 3,4 secondi di propellente residuo; con quel razzo il Voyager 2 avrebbe perso Urano 1986 e Nettuno 1989. Il sorpasso della gemella il 15 dicembre 1977, Giove il 5 marzo 1979, Saturno il 12 novembre 1980, la foto di Terra e Luna insieme due settimane dopo il lancio, l'oggetto più lontano dal 17 febbraio 1998, lo spazio interstellare nell'agosto 2012, il rivelatore di raggi cosmici spento nel febbraio 2025 e il traguardo del giorno luce il 18 novembre 2026; il disco composto in meno di sei settimane dal comitato di Carl Sagan con Ann Druyan direttrice creativa.",
+          "w": 1080,
+          "h": 1350,
+          "bytes": 298970
         }
       ],
       "posted": false,
