@@ -1,6 +1,6 @@
 {
   "progetto": "BREAKING PAST",
-  "aggiornato": "2026-08-02T20:18:00+02:00",
+  "aggiornato": "2026-08-02T20:18:47+02:00",
   "episodi": [
     {
       "n": "000",
@@ -1719,6 +1719,94 @@
           "w": 1080,
           "h": 1350,
           "bytes": 308762
+        }
+      ],
+      "posted": false,
+      "posted_at": null,
+      "media_id": null,
+      "permalink": null
+    },
+    {
+      "n": "020",
+      "slug": "020-il-voyager-2-lascia-cape-canaveral",
+      "titolo": "Il Voyager 2 lascia Cape Canaveral",
+      "cartella": "Episodio_020_2026-08-20_Il_Voyager_2_lascia_Cape_Canaveral",
+      "data_pubblicazione": "2026-08-20",
+      "ora_pubblicazione": "20:30",
+      "timezone": "Europe/Rome",
+      "caption": "Il razzo fa il suo lavoro senza sbavature. La sonda, no. Alle 10:29 di stamattina un Titan IIIE-Centaur si stacca dal Complesso 41 di Cape Canaveral e porta via il Voyager 2, diretto verso Giove e Saturno. Durante l'ascesa il veicolo scambia i giroscopi; finita la spinta segnala un errore di orientamento ed entra nelle procedure automatiche di protezione; in giornata la telemetria non conferma che uno dei bracci si sia agganciato. Scorri le slide per la cronologia della giornata. Il veicolo è costruito per durare cinque anni: tanto serve per arrivare a Giove nel 1979 e a Saturno nel 1980. A bordo viaggia un disco di rame dorato con saluti in decine di lingue, novanta minuti di musica, i suoni della Terra e un messaggio del presidente Carter, curato da un comitato guidato da Carl Sagan. La sonda gemella è attesa alla rampa il 1 settembre. Breaking Past ricostruisce gli eventi utilizzando le informazioni disponibili all'epoca. Il contesto completo è nell'ultima slide. Un braccio che la telemetria non dà per agganciato: quanto pesa un dettaglio così su un viaggio costruito per durare cinque anni? Fonti: NASA, JPL, NASA History, The American Presidency Project, The Planetary Society, Nazioni Unite (registro F296–F315). Illustrazione originale Breaking Past. #BreakingPast #accaddeoggi #Voyager2 #GoldenRecord #CarlSagan #CapeCanaveral #storiadellospazio",
+      "slides": [
+        {
+          "n": 1,
+          "file": "media/020-il-voyager-2-lascia-cape-canaveral/slide_1.jpg",
+          "url": "https://mds1089.github.io/breaking-past-auto/media/020-il-voyager-2-lascia-cape-canaveral/slide_1.jpg",
+          "alt_text": "Slide 1 di 8, apertura. Illustrazione originale al tratto: la sagoma di un razzo che sale in verticale lasciando una scia rossa spezzata, in alto un disco dorato inciso a solchi concentrici fra poche stelle geometriche, in basso le linee della rampa e del traliccio. Barra superiore: Breaking Past, CAPE CANAVERAL, SABATO 20 AGOSTO 1977, ORE 20:30. Titolo: «Voyager 2 lascia Cape Canaveral: subito guai a bordo della sonda». Sottotitolo: decollo alle 10:29 dal Complesso 41 su Titan IIIE-Centaur verso Giove e Saturno; il razzo lavora bene, il veicolo no, con scambi di giroscopi durante l'ascesa e un braccio che la telemetria non dà per agganciato; a bordo un disco di rame dorato con i suoni della Terra. In basso la dicitura ILLUSTRAZIONE ORIGINALE.",
+          "w": 1080,
+          "h": 1350,
+          "bytes": 232780
+        },
+        {
+          "n": 2,
+          "file": "media/020-il-voyager-2-lascia-cape-canaveral/slide_2.jpg",
+          "url": "https://mds1089.github.io/breaking-past-auto/media/020-il-voyager-2-lascia-cape-canaveral/slide_2.jpg",
+          "alt_text": "Slide 2 di 8, l'edizione della sera: il Voyager 2 è partito alle 10:29 da Cape Canaveral verso Giove e Saturno, il lanciatore ha lavorato regolarmente, la sonda no; durante l'ascesa il controllo d'assetto è passato ai ricambi e la telemetria non conferma l'aggancio di un braccio. Avvertenza in giallo: dato provvisorio, l'indicazione sul braccio arriva dalla telemetria e stasera non risulta ancora verificata.",
+          "w": 1080,
+          "h": 1350,
+          "bytes": 214642
+        },
+        {
+          "n": 3,
+          "file": "media/020-il-voyager-2-lascia-cape-canaveral/slide_3.jpg",
+          "url": "https://mds1089.github.io/breaking-past-auto/media/020-il-voyager-2-lascia-cape-canaveral/slide_3.jpg",
+          "alt_text": "Slide 3 di 8, cronologia del 20 agosto 1977: alle 10:29 il Titan IIIE-Centaur si stacca dal Complesso 41, le 14:29:44 in tempo universale; alle 10:33 si spegne il primo stadio dopo l'accensione del corpo centrale a 112 secondi dal via e subentra il secondo per tre minuti e mezzo; in mattinata il Centaur accende due volte e il motore Star 37E della sonda brucia altri 45 secondi verso Giove; poco dopo il veicolo scambia i giroscopi, segnala un errore di orientamento e per circa un'ora e mezza fatica a stabilizzarsi; in giornata la telemetria non conferma l'aggancio completo del braccio degli strumenti.",
+          "w": 1080,
+          "h": 1350,
+          "bytes": 266510
+        },
+        {
+          "n": 4,
+          "file": "media/020-il-voyager-2-lascia-cape-canaveral/slide_4.jpg",
+          "url": "https://mds1089.github.io/breaking-past-auto/media/020-il-voyager-2-lascia-cape-canaveral/slide_4.jpg",
+          "alt_text": "Slide 4 di 8, cosa sappiamo finora. Confermato: decollo alle 10:29 EDT, 14:29:44 in tempo universale, dal Complesso 41 con un Titan IIIE-Centaur, lanciatore regolare; la sonda pesa circa 722 chilogrammi, ha tre generatori termoelettrici a radioisotopi su un braccio e punta a Giove nel 1979 e Saturno nel 1980; a bordo un disco di rame dorato da 12 pollici, «Sounds of Earth», con saluti in decine di lingue, circa novanta minuti di musica, suoni della natura, immagini codificate e un messaggio del presidente Carter, curato da un comitato guidato da Carl Sagan su incarico del direttore di progetto John Casani. Non confermato: l'aggancio completo di uno dei bracci, fra cedimento meccanico e sensore difettoso. Da chiarire: gli effetti degli scambi di giroscopi e se la sonda gemella, attesa il 1 settembre, vada modificata.",
+          "w": 1080,
+          "h": 1350,
+          "bytes": 300983
+        },
+        {
+          "n": 5,
+          "file": "media/020-il-voyager-2-lascia-cape-canaveral/slide_5.jpg",
+          "url": "https://mds1089.github.io/breaking-past-auto/media/020-il-voyager-2-lascia-cape-canaveral/slide_5.jpg",
+          "alt_text": "Slide 5 di 8, le parole dei protagonisti. Carl Sagan, astronomo della Cornell University a capo del comitato che ha scelto i contenuti del disco, nel comunicato NASA e JPL del 1 agosto 1977: «Poiché lo spazio è molto vuoto, non c'è praticamente alcuna possibilità che il Voyager entri nel sistema planetario di un'altra stella. […] Ma, come indicano i bellissimi messaggi del presidente Carter e del segretario generale Waldheim, il lancio di questa bottiglia nell'oceano cosmico dice qualcosa di molto fiducioso sulla vita su questo pianeta». Jimmy Carter, presidente degli Stati Uniti, 29 luglio 1977, testo inciso sul disco: «Questo è un dono di un piccolo mondo lontano, un segno dei nostri suoni, della nostra scienza, delle nostre immagini, della nostra musica, dei nostri pensieri e dei nostri sentimenti». Traduzioni dall'inglese.",
+          "w": 1080,
+          "h": 1350,
+          "bytes": 346536
+        },
+        {
+          "n": 6,
+          "file": "media/020-il-voyager-2-lascia-cape-canaveral/slide_6.jpg",
+          "url": "https://mds1089.github.io/breaking-past-auto/media/020-il-voyager-2-lascia-cape-canaveral/slide_6.jpg",
+          "alt_text": "Slide 6 di 8, ancora nessuna reazione ufficiale. La Casa Bianca non commenta il lancio: resta agli atti il messaggio di Carter per il disco, diffuso il 29 luglio, con «una comunità di 240 milioni di esseri umani» e stati che stanno diventando «una sola civiltà globale». NASA e Jet Propulsion Laboratory non aggiungono nulla al comunicato del 1 agosto: Giove nel 1979, Saturno nel 1980, possibile passaggio vicino a Urano nel 1986, lancio della gemella il 1 settembre. Nazioni Unite: nessuna presa di posizione, sul disco viaggia il messaggio del segretario generale Kurt Waldheim. Nota: entro la sera del 20 agosto non risultano dichiarazioni ufficiali; i tre punti sono materiali diffusi prima della partenza.",
+          "w": 1080,
+          "h": 1350,
+          "bytes": 307397
+        },
+        {
+          "n": 7,
+          "file": "media/020-il-voyager-2-lascia-cape-canaveral/slide_7.jpg",
+          "url": "https://mds1089.github.io/breaking-past-auto/media/020-il-voyager-2-lascia-cape-canaveral/slide_7.jpg",
+          "alt_text": "Slide 7 di 8, che cosa può succedere adesso: quattro scenari con le conoscenze del 20 agosto 1977. Resta da capire se il braccio sia agganciato o se l'indicazione dipenda da un sensore, e da questo dipende una parte del programma scientifico. I tecnici potrebbero intervenire sulla sonda gemella, attesa alla rampa il 1 settembre. Uno degli scenari discussi è che dopo Giove nel 1979 e Saturno nel 1980 una delle due sonde arrivi a Urano nel 1986: ipotesi, non programma approvato. Se il veicolo reggerà dovrebbe attraversare l'orbita di Plutone verso il 1989 e impiegare più di quarantamila anni per avvicinarsi a un'altra stella; il disco è fatto per durare oltre un miliardo di anni.",
+          "w": 1080,
+          "h": 1350,
+          "bytes": 275643
+        },
+        {
+          "n": 8,
+          "file": "media/020-il-voyager-2-lascia-cape-canaveral/slide_8.jpg",
+          "url": "https://mds1089.github.io/breaking-past-auto/media/020-il-voyager-2-lascia-cape-canaveral/slide_8.jpg",
+          "alt_text": "Slide 8 di 8, come andò davvero: il vettore difettoso toccò a Voyager 1, partita il 5 settembre; sul braccio le ricostruzioni divergono fra sensore difettoso e braccio fermatosi appena prima della posizione finale; il ricordo di Charley Kohlhase e le molle più forti montate sulla gemella; Giove 1979, Saturno 1981, Urano 1986 e Nettuno 1989; l'eliopausa nel 2018 e le due sonde ancora in comunicazione nel 2026.",
+          "w": 1080,
+          "h": 1350,
+          "bytes": 303371
         }
       ],
       "posted": false,
