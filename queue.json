@@ -1,6 +1,6 @@
 {
   "progetto": "BREAKING PAST",
-  "aggiornato": "2026-08-02T22:05:43+02:00",
+  "aggiornato": "2026-08-02T22:06:38+02:00",
   "episodi": [
     {
       "n": "000",
@@ -2687,6 +2687,94 @@
           "w": 1080,
           "h": 1350,
           "bytes": 296143
+        }
+      ],
+      "posted": false,
+      "posted_at": null,
+      "media_id": null,
+      "permalink": null
+    },
+    {
+      "n": "031",
+      "slug": "031-il-tunnel-dell-alma",
+      "titolo": "Il tunnel dell Alma",
+      "cartella": "Episodio_031_2026-08-31_Il_tunnel_dell_Alma",
+      "data_pubblicazione": "2026-08-31",
+      "ora_pubblicazione": "20:30",
+      "timezone": "Europe/Rome",
+      "caption": "Sono le 20:30 del 31 agosto 1997 e a Parigi la giornata più lunga non è finita. Nella notte una Mercedes ha urtato un pilastro nel tunnel del Pont de l'Alma. Sono morti Diana, principessa di Galles, 36 anni, Dodi Al-Fayed, 42 anni, e l'autista. L'unico sopravvissuto è la guardia del corpo Trevor Rees-Jones. Alle 4:00 la Pitié-Salpêtrière ha comunicato la morte della principessa; alle 20:00 l'aereo con la salma è atterrato in Inghilterra. Scorri le slide per vedere che cosa era accertato a quell'ora. Quella sera la morte era già nota. Non lo erano le cause: le versioni sull'orario dello schianto non coincidevano, le stime di velocità nemmeno, e sul numero dei fotografi fermati per accertamenti le cifre andavano da cinque a sette. L'inchiesta francese ci avrebbe messo due anni. Breaking Past ricostruisce gli eventi utilizzando le informazioni disponibili all'epoca. Il contesto completo è nell'ultima slide. Quali dettagli che oggi diamo per assodati su quella notte non erano ancora noti alle 20:30 di quel giorno? Fonti: Eliseo, Washington Post, Associated Press, CNN, TIME, BBC World Service, Reuters Archive, Clinton Presidential Archives, RAF Benevolent Fund (registro F516–F535). Illustrazione originale Breaking Past. #BreakingPast #accaddeoggi #dianaspencer #pontedelalma #parigi1997 #anninovanta #storiacontemporanea",
+      "slides": [
+        {
+          "n": 1,
+          "file": "media/031-il-tunnel-dell-alma/slide_1.jpg",
+          "url": "https://mds1089.github.io/breaking-past-auto/media/031-il-tunnel-dell-alma/slide_1.jpg",
+          "alt_text": "Slide 1 di 8. Copertina di Breaking Past, illustrazione originale al tratto: l'imboccatura di un tunnel stradale vista di fronte, ridotta a un arco scuro con la fila dei pilastri del separatore centrale; sopra, il profilo dei tetti di Parigi come una linea sottile; a bordo strada un piccolo mazzo di fiori posato a terra. Palette blu notte, nero, bianco e un accento ocra. In alto la testata Breaking Past, la data storica DOMENICA 31 AGOSTO 1997 e il luogo PARIGI. Titolo: «Diana muore a Parigi: sullo schianto nel tunnel dell'Alma indaga la procura». Sottotitolo: incidente poco dopo la mezzanotte, morti anche Dodi Al-Fayed e l'autista della Mercedes, unico sopravvissuto la guardia del corpo Trevor Rees-Jones, alcuni fotografi fermati per accertamenti. In basso l'ora dell'edizione, ORE 20:30, e la dicitura ILLUSTRAZIONE ORIGINALE.",
+          "w": 1080,
+          "h": 1350,
+          "bytes": 213818
+        },
+        {
+          "n": 2,
+          "file": "media/031-il-tunnel-dell-alma/slide_2.jpg",
+          "url": "https://mds1089.github.io/breaking-past-auto/media/031-il-tunnel-dell-alma/slide_2.jpg",
+          "alt_text": "Slide 2 di 8, aggiornamento delle 20:30. Diana, principessa di Galles, 36 anni, è morta alle 4:00 all'ospedale Pitié-Salpêtrière di Parigi. La Mercedes su cui viaggiava ha urtato un pilastro nel tunnel del Pont de l'Alma. In serata la salma è rientrata in Gran Bretagna. La procura di Parigi indaga. Avvertenza in giallo: le versioni della giornata non coincidono, l'orario dello schianto è indicato fra poco dopo la mezzanotte e poco prima dell'una, e il numero dei fotografi fermati varia da cinque a sette.",
+          "w": 1080,
+          "h": 1350,
+          "bytes": 224684
+        },
+        {
+          "n": 3,
+          "file": "media/031-il-tunnel-dell-alma/slide_3.jpg",
+          "url": "https://mds1089.github.io/breaking-past-auto/media/031-il-tunnel-dell-alma/slide_3.jpg",
+          "alt_text": "Slide 3 di 8, cronologia del 31 agosto 1997 in ora di Parigi. Poco dopo la mezzanotte: la Mercedes con Diana e Dodi Al-Fayed lascia l'uscita posteriore dell'hotel Ritz, alcuni fotografi la seguono in moto, nel tunnel del Pont de l'Alma l'auto urta un pilastro del separatore centrale. Nella notte: Dodi Al-Fayed e l'autista sono già morti sul posto, Diana e la guardia del corpo Trevor Rees-Jones vengono portati alla Pitié-Salpêtrière, la polizia ferma alcuni fotografi e la procura apre un'inchiesta. Ore 4:00: Diana muore in ospedale, lo riferisce il professor Bruno Riou; a Londra sono le 3:00 e alle 5:25 di Londra Buckingham Palace diffonde la prima dichiarazione. Ore 11:15 (10:15 a Londra): Tony Blair parla ai giornalisti nel collegio di Sedgefield; Chirac diffonde un messaggio; da Città del Capo interviene Charles Spencer. Ore 20:00 (19:00 a Londra): l'aereo con la salma atterra alla base RAF di Northolt.",
+          "w": 1080,
+          "h": 1350,
+          "bytes": 269466
+        },
+        {
+          "n": 4,
+          "file": "media/031-il-tunnel-dell-alma/slide_4.jpg",
+          "url": "https://mds1089.github.io/breaking-past-auto/media/031-il-tunnel-dell-alma/slide_4.jpg",
+          "alt_text": "Slide 4 di 8, cosa sappiamo finora. Confermato: Diana, 36 anni, è morta alle 4:00 alla Pitié-Salpêtrière; sono morti anche Dodi Al-Fayed, 42 anni, e l'autista della Mercedes, dipendente dell'hotel Ritz; l'unico sopravvissuto è la guardia del corpo Trevor Rees-Jones, ricoverato in condizioni gravi; la polizia ha fermato per accertamenti alcuni fotografi che seguivano l'auto e la procura di Parigi ha aperto un'inchiesta, senza provvedimenti formali a loro carico. Non confermato: quanti fotografi siano stati fermati, perché il ministro dell'Interno Chevènement parla di cinque arrestati e sette sentiti mentre altre ricostruzioni ne indicano sette. Da chiarire: l'ora esatta e la dinamica dello schianto, con stime di velocità che vanno da circa 100 a oltre 130 km/h in un tunnel dove il limite è 50, nessuna verificata.",
+          "w": 1080,
+          "h": 1350,
+          "bytes": 261888
+        },
+        {
+          "n": 5,
+          "file": "media/031-il-tunnel-dell-alma/slide_5.jpg",
+          "url": "https://mds1089.github.io/breaking-past-auto/media/031-il-tunnel-dell-alma/slide_5.jpg",
+          "alt_text": "Slide 5 di 8, le parole dei protagonisti. Jacques Chirac, presidente della Repubblica francese, in un messaggio diffuso a Parigi il 31 agosto: «Apprendo con viva emozione la scomparsa improvvisa di Lady Diana. Era una giovane donna del nostro tempo, calorosa, piena di vita e di generosità. La sua morte tragica sarà profondamente sentita, perché era una figura familiare a ciascuno. In queste ore terribili penso alla sua famiglia e soprattutto ai suoi figli». Tony Blair, primo ministro britannico, ai giornalisti nel collegio di Sedgefield in mattinata: «Era la principessa del popolo, ed è così che resterà nei nostri cuori e nella nostra memoria, per sempre». Entrambe le citazioni sono tradotte, la prima dal francese e la seconda dall'inglese.",
+          "w": 1080,
+          "h": 1350,
+          "bytes": 334087
+        },
+        {
+          "n": 6,
+          "file": "media/031-il-tunnel-dell-alma/slide_6.jpg",
+          "url": "https://mds1089.github.io/breaking-past-auto/media/031-il-tunnel-dell-alma/slide_6.jpg",
+          "alt_text": "Slide 6 di 8, le reazioni internazionali. Buckingham Palace: alle 5:25 di Londra la prima dichiarazione, la Regina e il Duca di Edimburgo sono profondamente scioccati e addolorati; la famiglia reale è a Balmoral e in mattinata partecipa al servizio nella chiesa di Crathie. Governo francese: il premier Lionel Jospin e il ministro dell'Interno Jean-Pierre Chevènement vanno alla Pitié-Salpêtrière; Chevènement riferisce che il conducente avrebbe perso il controllo e che l'auto ha urtato un pilastro ed è rimbalzata contro la parete destra. Bill Clinton parla alle 10:20 di Martha's Vineyard, le 16:20 a Parigi, e ricorda il lavoro di Diana per i bambini, per i malati di AIDS e contro le mine antiuomo. Charles Spencer, da Città del Capo: «Ho sempre creduto che alla fine la stampa l'avrebbe uccisa». A Londra fiori e biglietti davanti a Kensington Palace; la BBC sospende i programmi ordinari.",
+          "w": 1080,
+          "h": 1350,
+          "bytes": 306597
+        },
+        {
+          "n": 7,
+          "file": "media/031-il-tunnel-dell-alma/slide_7.jpg",
+          "url": "https://mds1089.github.io/breaking-past-auto/media/031-il-tunnel-dell-alma/slide_7.jpg",
+          "alt_text": "Slide 7 di 8, che cosa può succedere adesso, con le conoscenze del 31 agosto 1997. L'inchiesta della procura di Parigi dovrà stabilire velocità della Mercedes, condotta di chi guidava e comportamento dei veicoli che la seguivano, con possibili perizie tecniche sul relitto e sui rilievi del tunnel. La posizione dei fotografi fermati è aperta: gli inquirenti potrebbero contestare responsabilità oppure lasciar cadere ogni ipotesi, al momento non risultano accuse formali. Le condizioni di Trevor Rees-Jones restano gravi: è l'unica persona sopravvissuta e potrebbe essere sentita, ma non è chiaro se e quando sarà in grado di farlo. Nel Regno Unito si apre una discussione sui limiti al lavoro dei fotografi; non risultano indicazioni ufficiali sui funerali.",
+          "w": 1080,
+          "h": 1350,
+          "bytes": 283821
+        },
+        {
+          "n": 8,
+          "file": "media/031-il-tunnel-dell-alma/slide_8.jpg",
+          "url": "https://mds1089.github.io/breaking-past-auto/media/031-il-tunnel-dell-alma/slide_8.jpg",
+          "alt_text": "Slide 8 di 8, come andò davvero. Le indagini fissarono lo schianto alle 00:23. Il 3 settembre 1999 il giudice francese Hervé Stéphan chiuse l'inchiesta, durata due anni, e prosciolse nove fotografi e un motociclista dalle accuse di omicidio colposo e omissione di soccorso, attribuendo l'incidente allo stato dell'autista Henri Paul e alla velocità; la Corte di cassazione confermò nell'aprile 2002. I genitori di Paul contestarono le analisi del sangue e nel 2002 chiesero nuovi esami del DNA. Nacquero molte teorie del complotto: l'indagine britannica Operation Paget, pubblicata il 14 dicembre 2006, escluse complotto e insabbiamento. Il 7 aprile 2008 la giuria dell'inchiesta britannica presieduta dal coroner Scott Baker stabilì l'omicidio colposo per la velocità e la condotta di guida della Mercedes e dei veicoli inseguitori. Trevor Rees-Jones sopravvisse. Nel gennaio 1998 il codice deontologico della stampa britannica fu inasprito.",
+          "w": 1080,
+          "h": 1350,
+          "bytes": 319649
         }
       ],
       "posted": false,
