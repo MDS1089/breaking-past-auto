@@ -1,6 +1,6 @@
 {
   "progetto": "BREAKING PAST",
-  "aggiornato": "2026-08-02T22:14:37+02:00",
+  "aggiornato": "2026-08-02T22:15:35+02:00",
   "episodi": [
     {
       "n": "000",
@@ -3303,6 +3303,94 @@
           "w": 1080,
           "h": 1350,
           "bytes": 336732
+        }
+      ],
+      "posted": false,
+      "posted_at": null,
+      "media_id": null,
+      "permalink": null
+    },
+    {
+      "n": "038",
+      "slug": "038-l-ultimo-tilacino-di-hobart",
+      "titolo": "L ultimo tilacino di Hobart",
+      "cartella": "Episodio_038_2026-09-07_L_ultimo_tilacino_di_Hobart",
+      "data_pubblicazione": "2026-09-07",
+      "ora_pubblicazione": "20:30",
+      "timezone": "Europe/Rome",
+      "caption": "Un animale muore in un recinto dello zoo municipale di Hobart, la sera di lunedì 7 settembre 1936. È un tilacino, la tigre della Tasmania. L'ora non viene annotata, lo zoo non diffonde nulla, e nelle ricostruzioni disponibili non risulta alcuna cronaca di quella serata. La specie è interamente protetta dalla legge tasmaniana dal 10 luglio precedente: cinquantanove giorni. Scorri le slide per l'edizione delle 20:30. In natura l'ultimo abbattimento documentato risale al maggio 1930, a Mawbanna, nel nord-ovest dell'isola. Molto di ciò che si racconta su questo animale non regge alla verifica: sesso, provenienza e causa della morte sono tuttora discussi fra studiosi, e il nome che gli viene comunemente attribuito non è documentato. Breaking Past ricostruisce gli eventi utilizzando le informazioni disponibili all'epoca. Il contesto completo è nell'ultima slide. Che cosa serve, secondo voi, perché la scomparsa di una specie diventi una notizia il giorno stesso in cui accade? Fonti: Tasmanian Museum and Art Gallery, Australian Zoologist (Paddle & Medlock; Linnard & Sleightholme), National Museum of Australia, Companion to Tasmanian History (UTAS), Parks and Wildlife Service Tasmania, NRE Tasmania, Threatened Species Link (registro F656–F673). Illustrazione originale Breaking Past. #BreakingPast #accaddeoggi #tilacino #tasmania #estinzione #storiadellanatura #specieminacciate",
+      "slides": [
+        {
+          "n": 1,
+          "file": "media/038-l-ultimo-tilacino-di-hobart/slide_1.jpg",
+          "url": "https://mds1089.github.io/breaking-past-auto/media/038-l-ultimo-tilacino-di-hobart/slide_1.jpg",
+          "alt_text": "Slide 1 di 8. Illustrazione di copertina al tratto, vettoriale piatta: un recinto da zoo visto attraverso una rete metallica, vuoto, con un cartello di legno sul fondo e una sola striscia ocra in basso; palette nero, bianco osso e ocra. Testata Breaking Past, sezione SOCIETÀ, data storica LUNEDÌ 7 SETTEMBRE 1936, luogo HOBART, dicitura ORE 20:30. Titolo: «Muore allo zoo di Hobart il tilacino, protetto da 59 giorni». Sottotitolo: il Beaumaris Zoo, sul Queen's Domain, perde il suo tilacino; l'animale muore in serata e l'ora non risulta annotata; la Tasmania ha dichiarato la specie interamente protetta il 10 luglio. In basso l'etichetta ILLUSTRAZIONE ORIGINALE.",
+          "w": 1080,
+          "h": 1350,
+          "bytes": 222037
+        },
+        {
+          "n": 2,
+          "file": "media/038-l-ultimo-tilacino-di-hobart/slide_2.jpg",
+          "url": "https://mds1089.github.io/breaking-past-auto/media/038-l-ultimo-tilacino-di-hobart/slide_2.jpg",
+          "alt_text": "Slide 2 di 8, aggiornamento delle 20:30 da Hobart: il tilacino del Beaumaris Zoo, sul Queen's Domain, è morto. L'animale era esposto nel giardino zoologico del municipio di Hobart. Non risulta alcun annuncio. La specie è interamente protetta in Tasmania dal 10 luglio, cinquantanove giorni fa. Riquadro di avvertenza: l'ora della morte non risulta annotata, le ricostruzioni la collocano fra la sera e la notte del 7 settembre.",
+          "w": 1080,
+          "h": 1350,
+          "bytes": 208562
+        },
+        {
+          "n": 3,
+          "file": "media/038-l-ultimo-tilacino-di-hobart/slide_3.jpg",
+          "url": "https://mds1089.github.io/breaking-past-auto/media/038-l-ultimo-tilacino-di-hobart/slide_3.jpg",
+          "alt_text": "Slide 3 di 8, cronologia della giornata in tre passaggi, tutti con orario approssimato. In giornata: sul Queen's Domain, a Hobart, il Beaumaris Zoo del municipio ospita un tilacino nel proprio recinto. In serata: l'animale muore nel recinto e l'ora non risulta annotata. In serata: nessun annuncio dallo zoo; entro le 20:30 non risultano comunicazioni ufficiali né cronache sulla morte.",
+          "w": 1080,
+          "h": 1350,
+          "bytes": 200313
+        },
+        {
+          "n": 4,
+          "file": "media/038-l-ultimo-tilacino-di-hobart/slide_4.jpg",
+          "url": "https://mds1089.github.io/breaking-past-auto/media/038-l-ultimo-tilacino-di-hobart/slide_4.jpg",
+          "alt_text": "Slide 4 di 8, cosa sappiamo finora. Confermato: il tilacino esposto al Beaumaris Zoo, sul Queen's Domain di Hobart, è morto fra la sera e la notte del 7 settembre 1936; dal 10 luglio 1936 il tilacino è fra le specie interamente protette in Tasmania, provvedimento di 59 giorni fa; nel maggio 1930, a Mawbanna nel nord-ovest, Wilfred Batty uccise un tilacino e dopo quello non risultano altri abbattimenti documentati in natura. Non confermato: che esistano altri esemplari della specie in cattività altrove. Da chiarire: l'origine dell'animale morto stasera, perché sulla sua cattura circolano versioni diverse e la cessione allo zoo non risulta registrata.",
+          "w": 1080,
+          "h": 1350,
+          "bytes": 249365
+        },
+        {
+          "n": 5,
+          "file": "media/038-l-ultimo-tilacino-di-hobart/slide_5.jpg",
+          "url": "https://mds1089.github.io/breaking-past-auto/media/038-l-ultimo-tilacino-di-hobart/slide_5.jpg",
+          "alt_text": "Slide 5 di 8, le parole dei protagonisti: due sintesi indirette, nessun virgolettato. Prima: dal 10 luglio 1936 il tilacino risulta «interamente protetto» dalla legge tasmaniana, formula con cui la specie è stata inserita fra la fauna tutelata cinquantanove giorni fa; attribuita all'Animals and Birds Protection Board, provvedimento del 10 luglio 1936. Seconda: nessuna dichiarazione risulta riferibile a questa serata, né dai responsabili dello zoo, né dall'organismo che tutela la specie, né da naturalisti.",
+          "w": 1080,
+          "h": 1350,
+          "bytes": 293950
+        },
+        {
+          "n": 6,
+          "file": "media/038-l-ultimo-tilacino-di-hobart/slide_6.jpg",
+          "url": "https://mds1089.github.io/breaking-past-auto/media/038-l-ultimo-tilacino-di-hobart/slide_6.jpg",
+          "alt_text": "Slide 6 di 8, ancora nessuna reazione ufficiale. Beaumaris Zoo, municipio di Hobart: nessun comunicato, la cessione dell'animale allo zoo non era stata registrata né resa pubblica. Animals and Birds Protection Board: nessuna nota dall'organismo che dal 10 luglio inserisce il tilacino fra le specie interamente protette. Stampa: nessuna cronaca della morte risulta diffusa entro le 20:30. In chiusura: alle 20:30 non risulta alcuna reazione, nessun annuncio, nessuna dichiarazione ufficiale, nessuna notizia d'agenzia.",
+          "w": 1080,
+          "h": 1350,
+          "bytes": 262531
+        },
+        {
+          "n": 7,
+          "file": "media/038-l-ultimo-tilacino-di-hobart/slide_7.jpg",
+          "url": "https://mds1089.github.io/breaking-past-auto/media/038-l-ultimo-tilacino-di-hobart/slide_7.jpg",
+          "alt_text": "Slide 7 di 8, che cosa può succedere adesso: tre scenari con le conoscenze del 1936. Resta da capire che destinazione avrà il corpo: il Tasmanian Museum and Art Gallery, a Hobart, conserva già materiali della specie. Lo zoo potrebbe cercare un altro esemplare, ma dal 10 luglio la cattura del tilacino è vietata e in natura non risultano abbattimenti documentati dopo il 1930. Le autorità potrebbero disporre una ricognizione sulla consistenza della specie nelle aree boscose dell'ovest e del sud-ovest dell'isola.",
+          "w": 1080,
+          "h": 1350,
+          "bytes": 240011
+        },
+        {
+          "n": 8,
+          "file": "media/038-l-ultimo-tilacino-di-hobart/slide_8.jpg",
+          "url": "https://mds1089.github.io/breaking-past-auto/media/038-l-ultimo-tilacino-di-hobart/slide_8.jpg",
+          "alt_text": "Slide 8 di 8, come andò davvero: la morte non fece notizia. Il 10 febbraio 1937 l'Examiner di Launceston si chiedeva ancora «Has anybody seen a Tasmanian tiger lately?». Il Beaumaris Zoo chiuse nel 1937; il tilacino fu dichiarato estinto secondo gli standard internazionali nel 1986 e il 7 settembre è il Threatened Species Day australiano. Nel dicembre 2022 il Tasmanian Museum and Art Gallery annunciò che Robert Paddle e Kathryn Medlock avevano riconosciuto i resti dell'ultimo esemplare nelle proprie collezioni: pelle e scheletro smontato su cinque cartoni. Nel 2023 Linnard e Sleightholme hanno contestato la ricostruzione. Il nome «Benjamin» resta non documentato.",
+          "w": 1080,
+          "h": 1350,
+          "bytes": 332561
         }
       ],
       "posted": false,
