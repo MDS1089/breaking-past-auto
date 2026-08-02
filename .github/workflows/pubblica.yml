@@ -53,6 +53,9 @@ jobs:
     timeout-minutes: 300   # il job dorme fino alle 20:30: serve spazio
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
 
       - uses: actions/setup-python@v5
         with:
