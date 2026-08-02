@@ -1,6 +1,6 @@
 {
   "progetto": "BREAKING PAST",
-  "aggiornato": "2026-08-02T20:19:41+02:00",
+  "aggiornato": "2026-08-02T20:20:33+02:00",
   "episodi": [
     {
       "n": "000",
@@ -1895,6 +1895,94 @@
           "w": 1080,
           "h": 1350,
           "bytes": 335309
+        }
+      ],
+      "posted": false,
+      "posted_at": null,
+      "media_id": null,
+      "permalink": null
+    },
+    {
+      "n": "022",
+      "slug": "022-i-chiodi-del-salon-carre",
+      "titolo": "I chiodi del Salon Carre",
+      "cartella": "Episodio_022_2026-08-22_I_chiodi_del_Salon_Carre",
+      "data_pubblicazione": "2026-08-22",
+      "ora_pubblicazione": "20:30",
+      "timezone": "Europe/Rome",
+      "caption": "Nel Salon Carré del Louvre, martedì 22 agosto 1911, il posto d'onore è vuoto. Al muro restano i chiodi e il rettangolo più chiaro lasciato dalla cornice. Nessuno si allarma: i quadri vengono portati spesso nel laboratorio fotografico. Verso le undici i fotografi accreditati rispondono che non ce l'hanno; sulla scala di servizio saltano fuori cornice e vetro, intatti. A mezzogiorno l'assenza diventa ufficiale; nel pomeriggio la polizia sgombera le sale e agli increduli sulla porta gli agenti dicono che è scoppiata una conduttura d'acqua. Lépine, prefetto di polizia, e Hamard perquisiscono il museo fino a notte. Alle 20:30 non risultano né sospetti né piste. Scorri le slide per la cronologia della giornata. Il quadro è la Gioconda di Leonardo: negli ambienti artistici europei, scrivono i dispacci, è valutata seconda soltanto alla Madonna Sistina di Raffaello. Chi vi sembra più attendibile: i muratori che dicono di averla vista ieri alle 7:30, o il sorvegliante che un'ora dopo la dava per assente? Breaking Past ricostruisce gli eventi utilizzando le informazioni disponibili all'epoca. Il contesto completo è nell'ultima slide. Fonti: cinque quotidiani del 23 agosto 1911 in Chronicling America (Library of Congress); Smithsonian Magazine. Registro F336–F349. Illustrazione originale Breaking Past. #BreakingPast #accaddeoggi #Gioconda #Louvre #Parigi1911 #MonaLisa #storiadellarte",
+      "slides": [
+        {
+          "n": 1,
+          "file": "media/022-i-chiodi-del-salon-carre/slide_1.jpg",
+          "url": "https://mds1089.github.io/breaking-past-auto/media/022-i-chiodi-del-salon-carre/slide_1.jpg",
+          "alt_text": "Slide 1 di 8, apertura. Testata Breaking Past; barra superiore con MARTEDÌ 22 AGOSTO 1911, PARIGI e ORE 20:30. Illustrazione originale al tratto, piatta: una parete di museo vista di fronte, con il rettangolo più chiaro lasciato dal quadro appeso per anni e i chiodi rimasti nudi; in basso a destra, appoggiate a un gradino, la sagoma di una cornice dorata vuota e una lastra di vetro. Fondo avorio, parato bordeaux, oro spento, tratto nero. Titolo: «Sparita la Gioconda dal Louvre: al muro restano i chiodi». Sottotitolo: il ritratto di Leonardo non è al suo posto nel Salon Carré, cornice e teca di vetro ritrovate su una scala di servizio, museo chiuso, il prefetto Lépine e il capo della Sûreté al Louvre fino a notte, nessuna pista. In basso la dicitura ILLUSTRAZIONE ORIGINALE.",
+          "w": 1080,
+          "h": 1350,
+          "bytes": 214638
+        },
+        {
+          "n": 2,
+          "file": "media/022-i-chiodi-del-salon-carre/slide_2.jpg",
+          "url": "https://mds1089.github.io/breaking-past-auto/media/022-i-chiodi-del-salon-carre/slide_2.jpg",
+          "alt_text": "Slide 2 di 8, aggiornamento delle 20:30: la Gioconda non è al suo posto nel Salon Carré, l'assenza è notata verso mezzogiorno, al muro restano i chiodi, cornice e vetro ritrovati su una scala interna, museo chiuso e nessuna pista. In nota, l'avvertenza che i dispacci divergono sull'ora della chiusura, mezzogiorno o le 15.",
+          "w": 1080,
+          "h": 1350,
+          "bytes": 217447
+        },
+        {
+          "n": 3,
+          "file": "media/022-i-chiodi-del-salon-carre/slide_3.jpg",
+          "url": "https://mds1089.github.io/breaking-past-auto/media/022-i-chiodi-del-salon-carre/slide_3.jpg",
+          "alt_text": "Slide 3 di 8, cronologia del 22 agosto 1911: verso le 9:00 il pittore Louis Béroud trova il muro nudo e i chiodi; verso le 11:00 i fotografi negano di avere il quadro e sulla scala di servizio si trovano cornice e vetro intatti; verso mezzogiorno l'assenza diventa ufficiale e i dispacci scrivono che «in un attimo l'eccitazione è enorme»; nel pomeriggio la polizia sgombera il museo dicendo che è scoppiata una conduttura d'acqua e arrivano Lépine e Hamard con l'intero corpo degli ispettori; in serata il ministero delle Belle Arti fa sapere che l'unico elemento nuovo è la cornice gettata giù per una scaletta e non danneggiata.",
+          "w": 1080,
+          "h": 1350,
+          "bytes": 325700
+        },
+        {
+          "n": 4,
+          "file": "media/022-i-chiodi-del-salon-carre/slide_4.jpg",
+          "url": "https://mds1089.github.io/breaking-past-auto/media/022-i-chiodi-del-salon-carre/slide_4.jpg",
+          "alt_text": "Slide 4 di 8, cosa sappiamo finora. Confermato: la Gioconda non è al suo posto nel Salon Carré, cornice e vetro sono stati ritrovati intatti su una scala di servizio interna e la tela è stata sfilata senza tagli; il museo è stato sgomberato e resta chiuso, ai visitatori è stato detto che era scoppiata una conduttura d'acqua, l'inchiesta è affidata al prefetto Lépine e a Octave Hamard con denuncia contro ignoti e un giudice istruttore nominato; il quadro era al posto d'onore da cinque anni ed è valutato secondo soltanto alla Madonna Sistina di Raffaello. Non confermato: l'ora della chiusura, mezzogiorno per le agenzie e le 15 per Le Temps. Da chiarire: chi lo ha visto per ultimo, tra due muratori che dicono ieri alle 7:30, un sorvegliante che lo dà per assente un'ora dopo e un funzionario che crede di averlo visto alle 15.",
+          "w": 1080,
+          "h": 1350,
+          "bytes": 288186
+        },
+        {
+          "n": 5,
+          "file": "media/022-i-chiodi-del-salon-carre/slide_5.jpg",
+          "url": "https://mds1089.github.io/breaking-past-auto/media/022-i-chiodi-del-salon-carre/slide_5.jpg",
+          "alt_text": "Slide 5 di 8, le parole dei protagonisti: due sintesi indirette, senza virgolette. Un sorvegliante del Salon Carré racconta di essersi accorto già ieri mattina che il quadro non c'era e di non essersene preoccupato: pensava che l'avesse portato via uno dei fotografi autorizzati a lavorare nel museo, cosa che accade con regolarità; nessuno chiese nulla a nessuno fino a oggi. Il ministero delle Belle Arti fa sapere in serata che l'unico elemento nuovo è il ritrovamento della cornice, gettata giù per una piccola scala e non danneggiata: la tela è stata sfilata senza essere tagliata e, per portarla fuori intera, bisognerebbe piegarla o tagliarla.",
+          "w": 1080,
+          "h": 1350,
+          "bytes": 314379
+        },
+        {
+          "n": 6,
+          "file": "media/022-i-chiodi-del-salon-carre/slide_6.jpg",
+          "url": "https://mds1089.github.io/breaking-past-auto/media/022-i-chiodi-del-salon-carre/slide_6.jpg",
+          "alt_text": "Slide 6 di 8, come reagisce il paese: Le Temps dà per primo la notizia e da lì la riprendono i corrispondenti stranieri; il sottosegretario alle Belle Arti Dujardin-Beaumetz telegrafa alle autorità e convoca tutti i fotografi con permesso, che è personale e reca il ritratto del titolare, mentre la polizia interroga conservatori e assistenti; Théophile Homolle, direttore dei Musei nazionali, non è a Parigi e il museo è retto dai conservatori, tra cui Georges Bénédite; la città è in subbuglio e il museo resta chiuso. In nota: entro le 20:30 non risultano dichiarazioni del presidente del Consiglio né del ministro delle Belle Arti.",
+          "w": 1080,
+          "h": 1350,
+          "bytes": 272902
+        },
+        {
+          "n": 7,
+          "file": "media/022-i-chiodi-del-salon-carre/slide_7.jpg",
+          "url": "https://mds1089.github.io/breaking-past-auto/media/022-i-chiodi-del-salon-carre/slide_7.jpg",
+          "alt_text": "Slide 7 di 8, che cosa può succedere adesso: quattro scenari con le sole conoscenze di questa sera. Non è chiaro se sia un furto vero, a Parigi circola l'ipotesi di uno scherzo clamoroso contro la sorveglianza del Louvre e nel Salon Carré non è stato lasciato alcun indizio. Le autorità potrebbero stringere su chi aveva chiavi e permessi: fotografi accreditati, conservatori e assistenti, operai del cantiere dell'ascensore il cui ponteggio è addossato alla facciata. Il dipinto potrebbe essere ancora dentro il museo, perché è stato sfilato senza tagli e portarlo fuori intero non è semplice. La polizia cerca un uomo che i sorveglianti indicano come tedesco per la sua presenza continua nella sala: nessun nome, nessuna identificazione, solo una nazionalità attribuita da chi lo ha notato.",
+          "w": 1080,
+          "h": 1350,
+          "bytes": 300430
+        },
+        {
+          "n": 8,
+          "file": "media/022-i-chiodi-del-salon-carre/slide_8.jpg",
+          "url": "https://mds1089.github.io/breaking-past-auto/media/022-i-chiodi-del-salon-carre/slide_8.jpg",
+          "alt_text": "Slide 8 di 8, come andò davvero: la notizia raggiunge New York e Londra il 23 agosto, a settembre l'arresto per errore di Guillaume Apollinaire e l'interrogatorio di Picasso, l'uscita di scena del direttore Homolle, la riapertura del Louvre dopo una settimana davanti alla parete vuota con i quattro ganci di ferro, l'arresto di Vincenzo Peruggia a Firenze nel dicembre 1913, la condanna del giugno 1914, il ritorno del quadro a Parigi il 4 gennaio 1914 e il dibattito storico sulla fama della Gioconda prima del furto.",
+          "w": 1080,
+          "h": 1350,
+          "bytes": 324097
         }
       ],
       "posted": false,
