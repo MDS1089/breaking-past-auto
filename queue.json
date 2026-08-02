@@ -1,6 +1,6 @@
 {
   "progetto": "BREAKING PAST",
-  "aggiornato": "2026-08-02T22:02:39+02:00",
+  "aggiornato": "2026-08-02T22:04:04+02:00",
   "episodi": [
     {
       "n": "000",
@@ -2423,6 +2423,94 @@
           "w": 1080,
           "h": 1350,
           "bytes": 298826
+        }
+      ],
+      "posted": false,
+      "posted_at": null,
+      "media_id": null,
+      "permalink": null
+    },
+    {
+      "n": "028",
+      "slug": "028-la-marcia-su-washington",
+      "titolo": "La marcia su Washington",
+      "cartella": "Episodio_028_2026-08-28_La_marcia_su_Washington",
+      "data_pubblicazione": "2026-08-28",
+      "ora_pubblicazione": "20:30",
+      "timezone": "Europe/Rome",
+      "caption": "Alle 11:15 il corteo parte da solo: un gruppo con tamburi e trombe si stacca dal Washington Monument e la folla lo segue, in anticipo su tutto. I promotori sono ancora al Campidoglio a parlare con Mansfield e Dirksen. La capitale si è preparata al peggio — vendita di alcolici sospesa, sale operatorie liberate, migliaia di soldati di riserva — e non succede nulla: tre arresti, nessuno fra i manifestanti. Scorrete le slide per la cronologia della giornata, ora per ora. Il programma al Lincoln Memorial va avanti fino alle 16:25; alle 17:00 dieci organizzatori sono alla Casa Bianca con Kennedy e Johnson, alle 18:15 esce la dichiarazione del presidente. Sulle presenze i numeri non tornano: nel pomeriggio la radio parla di 175.000-200.000, in serata la polizia dice «oltre 200.000». Breaking Past ricostruisce gli eventi utilizzando le informazioni disponibili all'epoca. Il contesto completo è nell'ultima slide. Se aveste dovuto titolare quella sera, quale cifra avreste messo in prima pagina? Fonti: National Archives, UPI, American Presidency Project, JFK Library, American Archive of Public Broadcasting, U.S. Senate, National Park Service, TIME, King Institute (registro F456-F475). Illustrazione originale Breaking Past. #BreakingPast #accaddeoggi #dirittecivili #marciasuwashington #storiaamericana #annisessanta #storiadelnovecento",
+      "slides": [
+        {
+          "n": 1,
+          "file": "media/028-la-marcia-su-washington/slide_1.jpg",
+          "url": "https://mds1089.github.io/breaking-past-auto/media/028-la-marcia-su-washington/slide_1.jpg",
+          "alt_text": "Slide 1 di 8. Testata Breaking Past, barra superiore con MERCOLEDÌ 28 AGOSTO 1963, WASHINGTON, ORE 20:30 e la dicitura ILLUSTRAZIONE ORIGINALE. Illustrazione di copertina al tratto, stile piatto: vista dall'alto della lunga vasca d'acqua fra il Lincoln Memorial e il Washington Monument, con le due rive nere di folla, sui gradini un microfono su asta e alcuni cartelli senza volti; palette bianco, nero e rosso. Titolo: «Washington, la marcia finisce senza incidenti: Kennedy riceve i leader». Sottotitolo: duecentomila e più al Lincoln Memorial per il lavoro e i diritti civili, tre arresti e nessuno fra i manifestanti; alle 17:00 dieci organizzatori alla Casa Bianca, alle 18:15 la dichiarazione del presidente.",
+          "w": 1080,
+          "h": 1350,
+          "bytes": 253526
+        },
+        {
+          "n": 2,
+          "file": "media/028-la-marcia-su-washington/slide_2.jpg",
+          "url": "https://mds1089.github.io/breaking-past-auto/media/028-la-marcia-su-washington/slide_2.jpg",
+          "alt_text": "Slide 2 di 8, L'EDIZIONE DELLA SERA, kicker LA GIORNATA. Testo: la marcia per il lavoro e la libertà si è svolta senza disordini; la polizia del distretto parla di oltre 200.000 partecipanti, arrivati con più di 1.500 autobus, treni e nove aerei charter; programma completo al Lincoln Memorial con King ultimo oratore; poi la Casa Bianca. Riquadro giallo di avvertenza: le cifre divergono, nel pomeriggio la radio riferiva stime di polizia fra 175.000 e 200.000, in serata il capo della polizia Robert V. Murray indica oltre 200.000; non esiste un conteggio ufficiale.",
+          "w": 1080,
+          "h": 1350,
+          "bytes": 240696
+        },
+        {
+          "n": 3,
+          "file": "media/028-la-marcia-su-washington/slide_3.jpg",
+          "url": "https://mds1089.github.io/breaking-past-auto/media/028-la-marcia-su-washington/slide_3.jpg",
+          "alt_text": "Slide 3 di 8, COSA È SUCCESSO OGGI, cronologia del 28 agosto 1963. Nella notte: sospesa la vendita di alcolici per la giornata, annullati gli interventi chirurgici non urgenti, scorte di plasma negli ospedali, annunciati circa 5.600 agenti e 4.000 soldati di riserva, rinviate le partite dei Washington Senators. In mattinata: i promotori al Campidoglio da Mike Mansfield ed Everett Dirksen, con il disegno di legge sui diritti civili fermo in commissione. Ore 11:15: dal Washington Monument un gruppo con tamburi e trombe parte verso il Lincoln Memorial e la folla lo segue, in anticipo sull'orario. Verso le 16:00: Randolph presenta l'ultimo oratore, King parla e ripete «I have a dream»; poi Rustin legge le dieci richieste, Randolph l'impegno collettivo, Mays la benedizione; alle 16:25 è finita. Ore 17:00: Kennedy e Johnson ricevono dieci organizzatori per 74 minuti; alle 18:15 esce la dichiarazione presidenziale.",
+          "w": 1080,
+          "h": 1350,
+          "bytes": 336153
+        },
+        {
+          "n": 4,
+          "file": "media/028-la-marcia-su-washington/slide_4.jpg",
+          "url": "https://mds1089.github.io/breaking-past-auto/media/028-la-marcia-su-washington/slide_4.jpg",
+          "alt_text": "Slide 4 di 8, COSA SAPPIAMO FINORA. Confermato: tre arresti, nessuno fra i manifestanti, 1.355 persone assistite ai posti di primo soccorso e nessun ferito grave, con il capo della polizia Murray che definisce la folla «molto ordinata»; il programma stampato elencava diciotto voci, dall'invocazione dell'arcivescovo Patrick O'Boyle al tributo alle donne del movimento (Rosa Parks, Daisy Bates, Diane Nash, Gloria Richardson) fino all'intervento finale di King, e il messaggio di James Farmer, detenuto in Louisiana, è stato letto da Floyd McKissick; alle 17:00 la Casa Bianca, alle 18:15 la dichiarazione. Non confermato: quante persone ci fossero, fra le stime di polizia di 175.000-200.000 del pomeriggio e gli oltre 200.000 della sera, senza conteggio ufficiale. Da chiarire: la parte finale pronunciata da King non corrisponde al dattiloscritto distribuito ai giornalisti in mattinata.",
+          "w": 1080,
+          "h": 1350,
+          "bytes": 275291
+        },
+        {
+          "n": 5,
+          "file": "media/028-la-marcia-su-washington/slide_5.jpg",
+          "url": "https://mds1089.github.io/breaking-past-auto/media/028-la-marcia-su-washington/slide_5.jpg",
+          "alt_text": "Slide 5 di 8, LE PAROLE DEI PROTAGONISTI. Prima citazione: «Non vogliamo la nostra libertà gradualmente: vogliamo essere liberi adesso», John Lewis, presidente nazionale dello SNCC, dal palco del Lincoln Memorial; nota: traduzione dall'inglese «We do not want our freedom gradually, but we want to be free now!», e il testo era stato rivisto poche ore prima dopo la minaccia di ritiro dell'arcivescovo Patrick O'Boyle. Seconda citazione: «Siamo l'avanguardia di una massiccia rivoluzione morale per il lavoro e la libertà», A. Philip Randolph, direttore della marcia, discorso di apertura; nota: traduzione dall'inglese «We are the advanced guard of a massive, moral revolution for jobs and freedom», da trascrizione della registrazione audio.",
+          "w": 1080,
+          "h": 1350,
+          "bytes": 282004
+        },
+        {
+          "n": 6,
+          "file": "media/028-la-marcia-su-washington/slide_6.jpg",
+          "url": "https://mds1089.github.io/breaking-past-auto/media/028-la-marcia-su-washington/slide_6.jpg",
+          "alt_text": "Slide 6 di 8, LE REAZIONI POLITICHE. Casa Bianca: alle 17:00 Kennedy e Johnson ricevono i dieci organizzatori, colloquio di 74 minuti registrato dal sistema presidenziale, dedicato alla conta dei voti in Congresso, al coinvolgimento del mondo degli affari e all'ipotesi di rivolgersi a Eisenhower. John F. Kennedy: nella dichiarazione delle 18:15 scrive di avere visto «tens of thousands of Americans — both Negro and white» esercitare il diritto di riunirsi pacificamente e afferma che la giornata ha fatto avanzare «the cause of 20 million Negroes», formula in uso nei documenti ufficiali del 1963. Senato: aula sospesa alle 13:14, interventi di Humphrey, Morse, Douglas e Javits. In fondo: non risultano dichiarazioni degli oppositori in Congresso né dei governatori del Sud.",
+          "w": 1080,
+          "h": 1350,
+          "bytes": 299751
+        },
+        {
+          "n": 7,
+          "file": "media/028-la-marcia-su-washington/slide_7.jpg",
+          "url": "https://mds1089.github.io/breaking-past-auto/media/028-la-marcia-su-washington/slide_7.jpg",
+          "alt_text": "Slide 7 di 8, CHE COSA PUÒ SUCCEDERE ADESSO. Quattro scenari: le dieci richieste consegnate oggi vanno oltre il disegno di legge dell'amministrazione, fermo in commissione, e nessuno sa dire se la giornata sposterà voti; l'unità della coalizione è stata messa alla prova dalla riscrittura in extremis del discorso di Lewis; Randolph ha letto in chiusura un impegno a proseguire la mobilitazione, e altre manifestazioni nella capitale sono possibili; il dispositivo di ordine pubblico non è stato usato e le restrizioni di oggi, dagli alcolici alle partite rinviate, potrebbero cadere già domani.",
+          "w": 1080,
+          "h": 1350,
+          "bytes": 303701
+        },
+        {
+          "n": 8,
+          "file": "media/028-la-marcia-su-washington/slide_8.jpg",
+          "url": "https://mds1089.github.io/breaking-past-auto/media/028-la-marcia-su-washington/slide_8.jpg",
+          "alt_text": "Slide 8 di 8, COME ANDÒ DAVVERO. I resoconti successivi fissarono la partecipazione intorno a 250.000 persone; quella sera non esisteva un conteggio ufficiale. Il discorso di King divenne uno dei testi più citati del Novecento e la sua parte finale non era nel dattiloscritto consegnato alla stampa. Secondo testimonianze raccolte negli anni successivi Mahalia Jackson lo incitò a parlare del sogno, ma King non confermò mai di averla sentita. Nel 1999 la Corte d'appello federale dell'undicesimo circuito stabilì che il discorso resta coperto dal diritto d'autore, amministrato dagli eredi. Il Civil Rights Act arrivò nel 1964, il Voting Rights Act nel 1965. John Lewis entrò alla Camera nel 1987 e vi restò fino alla morte, il 17 luglio 2020.",
+          "w": 1080,
+          "h": 1350,
+          "bytes": 312972
         }
       ],
       "posted": false,
