@@ -1,6 +1,6 @@
 {
   "progetto": "BREAKING PAST",
-  "aggiornato": "2026-08-02T20:23:00+02:00",
+  "aggiornato": "2026-08-02T20:23:51+02:00",
   "episodi": [
     {
       "n": "000",
@@ -2247,6 +2247,94 @@
           "w": 1080,
           "h": 1350,
           "bytes": 333767
+        }
+      ],
+      "posted": false,
+      "posted_at": null,
+      "media_id": null,
+      "permalink": null
+    },
+    {
+      "n": "026",
+      "slug": "026-il-conclave-lampo-di-albino-luciani",
+      "titolo": "Il conclave lampo di Albino Luciani",
+      "cartella": "Episodio_026_2026-08-26_Il_conclave_lampo_di_Albino_Luciani",
+      "data_pubblicazione": "2026-08-26",
+      "ora_pubblicazione": "20:30",
+      "timezone": "Europe/Rome",
+      "caption": "Ventisei ore, quattro scrutini, e dal comignolo della Sistina esce un fumo che nessuno riesce a leggere. Il primo conclave dopo la morte di Paolo VI si chiude in poco più di un giorno: 111 cardinali entrano nella Cappella Sistina il 25 agosto 1978 e il giorno dopo, al quarto scrutinio, eleggono Albino Luciani, patriarca di Venezia, 65 anni. In piazza San Pietro, per quasi un'ora, nessuno sa se un papa ci sia o no. Scorri il carosello per l'edizione della sera. Poco dopo le 19:15 si aprono le vetrate della loggia e il cardinale protodiacono Pericle Felici pronuncia l'Habemus Papam: il nuovo papa ha scelto un nome doppio, Giovanni Paolo, mai usato prima nella storia della Chiesa. Si affaccia, benedice e non dice una parola. È anche il primo conclave con le regole fissate da Paolo VI nel 1975, che escludono dal voto i cardinali oltre gli 80 anni. Che cosa capireste, quella sera, da un nome che nessun papa aveva mai portato? Breaking Past ricostruisce gli eventi utilizzando le informazioni disponibili all'epoca. Il contesto completo è nell'ultima slide. Fonti: Vatican.va, Fondazione Vaticana Giovanni Paolo I, The American Presidency Project, ACI Stampa, Vatican News, America Magazine, Il Post (registro F416–F435). Illustrazione originale Breaking Past. #BreakingPast #accaddeoggi #Conclave1978 #GiovanniPaoloI #AlbinoLuciani #Vaticano #storiadellachiesa",
+      "slides": [
+        {
+          "n": 1,
+          "file": "media/026-il-conclave-lampo-di-albino-luciani/slide_1.jpg",
+          "url": "https://mds1089.github.io/breaking-past-auto/media/026-il-conclave-lampo-di-albino-luciani/slide_1.jpg",
+          "alt_text": "Slide 1 di 8, apertura. Illustrazione al tratto, vettoriale e piatta: il comignolo della Cappella Sistina visto dal basso, con un filo di fumo che a metà cambia da chiaro a scuro e si piega come un punto interrogativo appena accennato; sullo sfondo, in silhouette, il colonnato e la loggia centrale di San Pietro con le vetrate ancora chiuse. Palette bianco sporco, nero, grigio fumo e un rosso di accento. In alto la testata Breaking Past, la data SABATO 26 AGOSTO 1978, il luogo CITTÀ DEL VATICANO e l'ora ORE 20:30; in basso la dicitura ILLUSTRAZIONE ORIGINALE. Titolo: «Conclave lampo: è papa Albino Luciani, patriarca di Venezia». Sottotitolo: eletto al quarto scrutinio in poco più di un giorno, annuncio dalla loggia poco dopo le 19:15, nome doppio Giovanni Paolo mai usato prima da un papa.",
+          "w": 1080,
+          "h": 1350,
+          "bytes": 198574
+        },
+        {
+          "n": 2,
+          "file": "media/026-il-conclave-lampo-di-albino-luciani/slide_2.jpg",
+          "url": "https://mds1089.github.io/breaking-past-auto/media/026-il-conclave-lampo-di-albino-luciani/slide_2.jpg",
+          "alt_text": "Slide 2 di 8, l'edizione della sera. Il primo conclave dopo la morte di Paolo VI si chiude in circa ventisei ore; al quarto scrutinio i cardinali eleggono Albino Luciani, 65 anni, patriarca di Venezia, che si affaccia sulla loggia in serata e benedice senza pronunciare una parola. In nota, l'avvertenza che il conclave è coperto da segreto giurato e che sui voti non viene diffuso alcun dato ufficiale.",
+          "w": 1080,
+          "h": 1350,
+          "bytes": 196129
+        },
+        {
+          "n": 3,
+          "file": "media/026-il-conclave-lampo-di-albino-luciani/slide_3.jpg",
+          "url": "https://mds1089.github.io/breaking-past-auto/media/026-il-conclave-lampo-di-albino-luciani/slide_3.jpg",
+          "alt_text": "Slide 3 di 8, cronologia del 26 agosto 1978, con cinque passaggi a orario approssimato. Mattina: i 111 cardinali elettori votano due volte, nessuna elezione, fumata nera. Pomeriggio: terza e quarta votazione, due scrutini per sessione. Prima serata: esce il primo fumo del pomeriggio, di colore incerto, chiaro poi scuro, e per quasi un'ora la piazza non capisce se il papa ci sia; sull'ora esatta i resoconti divergono. Poco dopo le 19:15: si aprono le vetrate della loggia centrale e il cardinale protodiacono Pericle Felici annuncia l'elezione di Albino Luciani con il nome di Giovanni Paolo Primo. Poco dopo: il nuovo papa compare sulla loggia, benedice Urbi et Orbi e non pronuncia alcun discorso.",
+          "w": 1080,
+          "h": 1350,
+          "bytes": 264129
+        },
+        {
+          "n": 4,
+          "file": "media/026-il-conclave-lampo-di-albino-luciani/slide_4.jpg",
+          "url": "https://mds1089.github.io/breaking-past-auto/media/026-il-conclave-lampo-di-albino-luciani/slide_4.jpg",
+          "alt_text": "Slide 4 di 8, cosa sappiamo finora. Confermato: è stato eletto Albino Luciani, 65 anni, vescovo di Vittorio Veneto dal 1958, patriarca di Venezia dal 1970, cardinale dal 5 marzo 1973; ha scelto il nome doppio Giovanni Paolo, primo caso nella storia della Chiesa, annunciato già con l'ordinale, «qui sibi nomen imposuit Ioannis Pauli Primi»; è il primo conclave con le norme della costituzione Romano Pontifici eligendo del 1° ottobre 1975, che escludono dal voto i cardinali che hanno compiuto 80 anni e fissano a 120 il tetto degli elettori. Non confermato: quanti voti abbia raccolto Luciani, coperti dal segreto giurato, e quanti cardinali siano esclusi per età, fra quindici e sedici. Da chiarire: che cosa abbia reso illeggibile la fumata e per quanto sia rimasta ambigua.",
+          "w": 1080,
+          "h": 1350,
+          "bytes": 277794
+        },
+        {
+          "n": 5,
+          "file": "media/026-il-conclave-lampo-di-albino-luciani/slide_5.jpg",
+          "url": "https://mds1089.github.io/breaking-past-auto/media/026-il-conclave-lampo-di-albino-luciani/slide_5.jpg",
+          "alt_text": "Slide 5 di 8, le parole dei protagonisti. Un'unica citazione, del cardinale protodiacono Pericle Felici dalla loggia centrale di San Pietro: «Eminentissimum ac Reverendissimum Dominum, Dominum Albinum Sanctae Romanae Ecclesiae Cardinalem Luciani, qui sibi nomen imposuit Ioannis Pauli Primi». La frase latina dice: l'eminentissimo e reverendissimo signore, il signor Albino, cardinale di Santa Romana Chiesa, Luciani, che si è imposto il nome di Giovanni Paolo Primo. In nota, la traduzione è redazionale e viene segnalato che l'aggiunta dell'ordinale «Primo» già nell'annuncio è una novità.",
+          "w": 1080,
+          "h": 1350,
+          "bytes": 277362
+        },
+        {
+          "n": 6,
+          "file": "media/026-il-conclave-lampo-di-albino-luciani/slide_6.jpg",
+          "url": "https://mds1089.github.io/breaking-past-auto/media/026-il-conclave-lampo-di-albino-luciani/slide_6.jpg",
+          "alt_text": "Slide 6 di 8, le reazioni internazionali. Il presidente degli Stati Uniti Jimmy Carter, in un messaggio datato 26 agosto, saluta l'elezione «a nome del popolo americano» e indica in pace, giustizia, equità e possibilità di una vita dignitosa le «sfide supreme»; il testo è tradotto dall'inglese e il documento non riporta l'ora di diffusione. In piazza San Pietro la folla resta sotto il comignolo per quasi un'ora senza sapere se ci sia un papa. In nota, l'assenza di reazioni ufficiali italiane documentate entro la sera.",
+          "w": 1080,
+          "h": 1350,
+          "bytes": 316605
+        },
+        {
+          "n": 7,
+          "file": "media/026-il-conclave-lampo-di-albino-luciani/slide_7.jpg",
+          "url": "https://mds1089.github.io/breaking-past-auto/media/026-il-conclave-lampo-di-albino-luciani/slide_7.jpg",
+          "alt_text": "Slide 7 di 8, che cosa può succedere adesso: quattro scenari aperti. Perché sia stato scelto un nome doppio, mai usato prima, non è ancora chiaro e dalla loggia non è arrivata alcuna spiegazione. Vanno ancora fissate data e forma della cerimonia di inizio del pontificato. Si discute della continuità con la linea di Paolo VI e dell'applicazione del Concilio: Luciani non era tra i favoriti della vigilia, quando i pronostici indicavano il cardinale Giuseppe Siri. Le autorità vaticane potrebbero rivedere il sistema delle fumate, con additivi chimici che hanno prodotto un fumo grigio.",
+          "w": 1080,
+          "h": 1350,
+          "bytes": 287783
+        },
+        {
+          "n": 8,
+          "file": "media/026-il-conclave-lampo-di-albino-luciani/slide_8.jpg",
+          "url": "https://mds1089.github.io/breaking-past-auto/media/026-il-conclave-lampo-di-albino-luciani/slide_8.jpg",
+          "alt_text": "Slide 8 di 8, come andò davvero: la spiegazione del nome all'Angelus del 27 agosto, le cifre non ufficiali sui voti emerse molto dopo (tra 99 e 101 su 111), la rinuncia all'incoronazione il 3 settembre, la morte la sera del 28 settembre 1978 dopo trentatré giorni, l'assenza di autopsia, la rettifica della versione ufficiale sul ritrovamento del corpo, la causa indicata ma non accertata da esame necroscopico, il dibattito sulle tesi complottiste e la beatificazione del 4 settembre 2022.",
+          "w": 1080,
+          "h": 1350,
+          "bytes": 309462
         }
       ],
       "posted": false,
