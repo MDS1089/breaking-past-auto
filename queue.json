@@ -1,6 +1,6 @@
 {
   "progetto": "BREAKING PAST",
-  "aggiornato": "2026-08-02T20:23:51+02:00",
+  "aggiornato": "2026-08-02T20:44:06+02:00",
   "episodi": [
     {
       "n": "000",
@@ -225,10 +225,10 @@
           "bytes": 303978
         }
       ],
-      "posted": false,
-      "posted_at": null,
-      "media_id": null,
-      "permalink": null
+      "posted": true,
+      "posted_at": "2026-08-02T20:44:06+02:00",
+      "media_id": "17990335142833604",
+      "permalink": "https://www.instagram.com/p/DbjFgmkGl3U/"
     },
     {
       "n": "003",
