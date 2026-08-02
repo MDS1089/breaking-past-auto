@@ -1,6 +1,6 @@
 {
   "progetto": "BREAKING PAST",
-  "aggiornato": "2026-08-02T22:15:35+02:00",
+  "aggiornato": "2026-08-02T22:17:39+02:00",
   "episodi": [
     {
       "n": "000",
@@ -3391,6 +3391,94 @@
           "w": 1080,
           "h": 1350,
           "bytes": 332561
+        }
+      ],
+      "posted": false,
+      "posted_at": null,
+      "media_id": null,
+      "permalink": null
+    },
+    {
+      "n": "039",
+      "slug": "039-l-annuncio-dell-armistizio",
+      "titolo": "L annuncio dell armistizio",
+      "cartella": "Episodio_039_2026-09-08_L_annuncio_dell_armistizio",
+      "data_pubblicazione": "2026-09-08",
+      "ora_pubblicazione": "20:30",
+      "timezone": "Europe/Rome",
+      "caption": "Alle 19:42 la radio interrompe i programmi. Parla il maresciallo Badoglio: il Regno d'Italia ha chiesto e ottenuto l'armistizio agli angloamericani. Un'ora prima, da Radio Algeri, Eisenhower ha annunciato la resa senza condizioni delle forze armate italiane. Il proclama è breve. Ordina di cessare le ostilità contro gli angloamericani e aggiunge una sola frase sul resto: le forze italiane «reagiranno ad eventuali attacchi da qualsiasi altra provenienza». I tedeschi non vengono nominati. Alle 20:30 ai reparti non risultano arrivate istruzioni oltre il testo letto alla radio. Scorri le slide per la cronologia della giornata, le parole esatte dei due annunci e le domande rimaste aperte. Delle clausole non si sa nulla: né l'annuncio di Algeri né il proclama dicono che cosa comporti l'armistizio. Breaking Past ricostruisce gli eventi utilizzando le informazioni disponibili all'epoca. Il contesto completo è nell'ultima slide. Se aveste ascoltato quel proclama in caserma, che cosa avreste capito della frase sugli attacchi «da qualsiasi altra provenienza»? Fonti: FRUS 1943, Avalon Project, Senate Document 93, Treccani, Istituto Nazionale Ferruccio Parri, Novecento.org (registro F676–F695). Illustrazione originale Breaking Past. #BreakingPast #accaddeoggi #8settembre1943 #armistizio #secondaguerramondiale #storiaitaliana #regnoditalia",
+      "slides": [
+        {
+          "n": 1,
+          "file": "media/039-l-annuncio-dell-armistizio/slide_1.jpg",
+          "url": "https://mds1089.github.io/breaking-past-auto/media/039-l-annuncio-dell-armistizio/slide_1.jpg",
+          "alt_text": "Slide 1 di 8, copertina. Illustrazione al tratto: un apparecchio radio a valvole del 1943 su un tavolo, manopola della sintonia accesa, onde sonore dall'altoparlante, una sedia vuota accanto e un foglio bianco appeso alla parete; palette nero, avorio, ocra, un accento rosso. Testata Breaking Past, sezione POLITICA, data storica MERCOLEDÌ 8 SETTEMBRE 1943, luogo ROMA, ORE 20:30. Titolo: «Badoglio annuncia l'armistizio: alle forze armate nessuna istruzione oltre il proclama». Sottotitolo: alle 18:30 Radio Algeri, Eisenhower comunica la resa senza condizioni delle forze armate italiane; alle 19:42, dall'EIAR, il capo del governo ordina di cessare le ostilità contro gli angloamericani e di reagire «ad eventuali attacchi da qualsiasi altra provenienza»; i tedeschi non sono nominati. In basso la dicitura ILLUSTRAZIONE ORIGINALE.",
+          "w": 1080,
+          "h": 1350,
+          "bytes": 246448
+        },
+        {
+          "n": 2,
+          "file": "media/039-l-annuncio-dell-armistizio/slide_2.jpg",
+          "url": "https://mds1089.github.io/breaking-past-auto/media/039-l-annuncio-dell-armistizio/slide_2.jpg",
+          "alt_text": "Slide 2 di 8, «LA NOTIZIA ARRIVA», kicker ORE 19:42. Il Regno d'Italia ha chiesto e ottenuto l'armistizio. L'annuncio arriva prima da Radio Algeri, poi dall'EIAR con la voce del maresciallo Badoglio. Il proclama ordina di cessare le ostilità contro gli angloamericani. Sui tedeschi dice che si reagirà «ad eventuali attacchi da qualsiasi altra provenienza». Riquadro di avvertenza: le clausole dell'armistizio non sono state rese note; Eisenhower parla di «armistizio militare» e non risultano comunicati, italiani o alleati, sul contenuto.",
+          "w": 1080,
+          "h": 1350,
+          "bytes": 237679
+        },
+        {
+          "n": 3,
+          "file": "media/039-l-annuncio-dell-armistizio/slide_3.jpg",
+          "url": "https://mds1089.github.io/breaking-past-auto/media/039-l-annuncio-dell-armistizio/slide_3.jpg",
+          "alt_text": "Slide 3 di 8, cronologia dell'8 settembre 1943 in cinque passaggi. Verso mezzogiorno, orario approssimato: bombardieri alleati colpiscono Frascati, a sud-est di Roma, dove hanno sede comandi germanici; il bilancio delle vittime civili non è accertato. Ore 18:30: Radio Algeri trasmette l'annuncio di Eisenhower, il governo italiano ha arreso senza condizioni le forze armate e l'armistizio diventa effettivo in questo istante. Tardo pomeriggio, orario approssimato: al Quirinale il Re riunisce il capo del governo, i ministri militari e i capi di stato maggiore; della riunione non è dato conto pubblico. Ore 19:42: dagli studi dell'EIAR di via Asiago, presentato dall'annunciatore Titta Arista, Badoglio legge il proclama. In serata: il testo circola per radio e passaparola; ai reparti non risultano arrivate istruzioni.",
+          "w": 1080,
+          "h": 1350,
+          "bytes": 269720
+        },
+        {
+          "n": 4,
+          "file": "media/039-l-annuncio-dell-armistizio/slide_4.jpg",
+          "url": "https://mds1089.github.io/breaking-past-auto/media/039-l-annuncio-dell-armistizio/slide_4.jpg",
+          "alt_text": "Slide 4 di 8, cosa sappiamo finora. Confermato: alle 18:30 Eisenhower annuncia da Radio Algeri di aver concesso un armistizio militare, con termini approvati dai governi di Regno Unito, Stati Uniti e Unione Sovietica, effettivo «in questo istante»; alle 19:42 Badoglio legge all'EIAR il proclama, ogni atto di ostilità contro le forze anglo-americane deve cessare «in ogni luogo». Non confermato: il contenuto delle clausole, la data e il luogo della firma, che né l'annuncio di Algeri né il proclama rendono noti; che cosa sia stato deciso nella riunione del tardo pomeriggio al Quirinale, su cui non risulta alcun comunicato. Da chiarire: che cosa debbano fare i reparti, perché oltre al proclama non risultano istruzioni e la formula «da qualsiasi altra provenienza» non nomina nessuno.",
+          "w": 1080,
+          "h": 1350,
+          "bytes": 255396
+        },
+        {
+          "n": 5,
+          "file": "media/039-l-annuncio-dell-armistizio/slide_5.jpg",
+          "url": "https://mds1089.github.io/breaking-past-auto/media/039-l-annuncio-dell-armistizio/slide_5.jpg",
+          "alt_text": "Slide 5 di 8, le parole dei protagonisti. Prima citazione, Pietro Badoglio, maresciallo d'Italia e capo del governo, proclama letto all'EIAR alle 19:42: il Governo italiano, riconosciuta la impossibilità di continuare la impari lotta contro la soverchiante potenza avversaria, nell'intento di risparmiare ulteriori e più gravi sciagure alla Nazione, ha chiesto un armistizio al generale Eisenhower; la richiesta è stata accolta; ogni atto di ostilità contro le forze anglo-americane deve cessare in ogni luogo; esse però reagiranno ad eventuali attacchi da qualsiasi altra provenienza. Seconda citazione, Dwight D. Eisenhower da Radio Algeri alle 18:30, in traduzione: il governo italiano ha arreso senza condizioni le sue forze armate, l'armistizio è stato firmato dal mio rappresentante e dal rappresentante del maresciallo Badoglio e diventa effettivo in questo istante; tutti gli italiani che agiranno per cacciare l'aggressore tedesco dal suolo italiano avranno l'appoggio delle Nazioni Unite.",
+          "w": 1080,
+          "h": 1350,
+          "bytes": 367631
+        },
+        {
+          "n": 6,
+          "file": "media/039-l-annuncio-dell-armistizio/slide_6.jpg",
+          "url": "https://mds1089.github.io/breaking-past-auto/media/039-l-annuncio-dell-armistizio/slide_6.jpg",
+          "alt_text": "Slide 6 di 8, «ANCORA NESSUNA REAZIONE UFFICIALE». Comando Supremo e ministeri militari: non risultano ordini operativi diramati ai reparti oltre il testo del proclama. Quirinale e governo: dopo la lettura delle 19:42 non risultano altri comunicati, né sulle clausole né sulla condotta da tenere. Comando germanico in Italia: non risultano dichiarazioni pubbliche nelle ore successive all'annuncio. Radio alleate: l'annuncio di Algeri viene ripreso e ripetuto e contiene l'unico appello rivolto agli italiani, quello a «cacciare l'aggressore tedesco dal suolo italiano». Nota: alle 20:30 le uniche parole ufficiali della giornata restano i due annunci radiofonici; nessun partito è legalmente attivo nel Regno d'Italia dal 1926 e non risultano prese di posizione pubbliche.",
+          "w": 1080,
+          "h": 1350,
+          "bytes": 265265
+        },
+        {
+          "n": 7,
+          "file": "media/039-l-annuncio-dell-armistizio/slide_7.jpg",
+          "url": "https://mds1089.github.io/breaking-past-auto/media/039-l-annuncio-dell-armistizio/slide_7.jpg",
+          "alt_text": "Slide 7 di 8, che cosa può succedere adesso, quattro scenari con le conoscenze di questa sera. Primo: il proclama ordina di cessare le ostilità contro gli angloamericani e di reagire «ad eventuali attacchi da qualsiasi altra provenienza», ma non nomina i tedeschi né dice chi decida sul posto; si attendono istruzioni del Comando Supremo. Secondo: le divisioni germaniche nella penisola possono considerare decaduta l'alleanza; si discute sia di un loro ripiegamento verso nord sia di un intervento contro i presidi italiani. Terzo: delle clausole non si sa nulla, non è noto se comportino la consegna della flotta, l'ingresso di forze alleate o condizioni politiche. Quarto: per i militari italiani in Balcani, Egeo e Francia meridionale la situazione è più incerta, sono a contatto con reparti germanici e il proclama non prevede nulla per loro.",
+          "w": 1080,
+          "h": 1350,
+          "bytes": 284842
+        },
+        {
+          "n": 8,
+          "file": "media/039-l-annuncio-dell-armistizio/slide_8.jpg",
+          "url": "https://mds1089.github.io/breaking-past-auto/media/039-l-annuncio-dell-armistizio/slide_8.jpg",
+          "alt_text": "Slide 8 di 8, come andò davvero. Nella notte i tedeschi attuarono il piano «Achse» e occuparono gran parte del Paese. All'alba del 9 settembre Re, Regina, principe Umberto e Badoglio lasciarono Roma per Pescara e poi Brindisi, sede del governo. Il primo ordine operativo di Roatta partì alle 00:50. La direttiva riservata «Memoria OP 44» era stata consegnata a mano ad alcuni comandi nei giorni precedenti, ma non ne fu ordinata l'esecuzione. L'esercito si disgregò: fra settembre e novembre i tedeschi arrestarono circa 600.000 militari italiani, deportati nel Reich come internati. Roma cadde il 10 settembre. Il 9 nacque il Comitato di Liberazione Nazionale. Il giudizio sull'operato del Re e di Badoglio resta discusso.",
+          "w": 1080,
+          "h": 1350,
+          "bytes": 330968
         }
       ],
       "posted": false,
