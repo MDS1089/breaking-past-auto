@@ -1,6 +1,6 @@
 {
   "progetto": "BREAKING PAST",
-  "aggiornato": "2026-08-02T22:06:38+02:00",
+  "aggiornato": "2026-08-02T22:07:29+02:00",
   "episodi": [
     {
       "n": "000",
@@ -2775,6 +2775,94 @@
           "w": 1080,
           "h": 1350,
           "bytes": 319649
+        }
+      ],
+      "posted": false,
+      "posted_at": null,
+      "media_id": null,
+      "permalink": null
+    },
+    {
+      "n": "032",
+      "slug": "032-il-titanic-ritrovato",
+      "titolo": "Il Titanic ritrovato",
+      "cartella": "Episodio_032_2026-09-01_Il_Titanic_ritrovato",
+      "data_pubblicazione": "2026-09-01",
+      "ora_pubblicazione": "20:30",
+      "timezone": "Europe/Rome",
+      "caption": "Una grande forma circolare attraversa lo schermo in bianco e nero, e in sala controllo nessuno ha più dubbi su quale nave sia. Poco dopo l'una del 1° settembre 1985, ora di bordo, la telecamera dell'Argo trainata dalla Knorr inquadra una caldaia del Titanic a circa 3.800 metri di profondità, nell'Atlantico settentrionale: 73 anni dopo il naufragio il relitto è localizzato. Scorri il carosello per la cronaca della notte. La spedizione è congiunta e la parte francese pesa quanto quella americana: l'Ifremer di Jean-Louis Michel ha rastrellato l'area con il sonar SAR a bordo del Suroît fra luglio e agosto, il Woods Hole di Robert Ballard ha proseguito con l'Argo cercando non lo scafo ma la scia di detriti. Alla campagna restano pochi giorni. A bordo l'esultanza dura poco: su quel fondo morirono oltre 1.500 persone, e parte dell'equipaggio si raccoglie a poppa. Breaking Past ricostruisce gli eventi utilizzando le informazioni disponibili all'epoca. Il contesto completo è nell'ultima slide. Che cosa cambia, per un relitto, il giorno in cui smette di essere introvabile? Fonti: Woods Hole Oceanographic Institution, Ifremer (Archimer), NOAA, Titanic Belfast, Encyclopaedia Britannica (registro F536–F554). Illustrazione originale Breaking Past. #BreakingPast #accaddeoggi #titanic #ifremer #woodshole #storiadellascienza #esplorazioneoceanica",
+      "slides": [
+        {
+          "n": 1,
+          "file": "media/032-il-titanic-ritrovato/slide_1.jpg",
+          "url": "https://mds1089.github.io/breaking-past-auto/media/032-il-titanic-ritrovato/slide_1.jpg",
+          "alt_text": "Slide 1 di 8. Illustrazione di copertina al tratto: su campo nero l'alone circolare di una caldaia illuminata dal fascio obliquo di una slitta filoguidata, il cui cavo sale verso la piccola sagoma di una nave in superficie. Testata Breaking Past, data storica DOMENICA 1 SETTEMBRE 1985, luogo NORD ATLANTICO, indicazione ORE 20:30, dicitura ILLUSTRAZIONE ORIGINALE. Titolo: «Il Titanic ritrovato nella notte: una caldaia sui monitor della Knorr». Sottotitolo: poco dopo l'una, ora di bordo, la telecamera dell'Argo inquadra una caldaia sul fondo dell'Atlantico; la spedizione congiunta Ifremer–Woods Hole ha localizzato il relitto a circa 3.800 metri, 73 anni dopo il naufragio; sul posto morirono oltre 1.500 persone.",
+          "w": 1080,
+          "h": 1350,
+          "bytes": 218209
+        },
+        {
+          "n": 2,
+          "file": "media/032-il-titanic-ritrovato/slide_2.jpg",
+          "url": "https://mds1089.github.io/breaking-past-auto/media/032-il-titanic-ritrovato/slide_2.jpg",
+          "alt_text": "Slide 2 di 8, aggiornamento delle 20:30 dal Nord Atlantico. Testo: poco dopo l'una, ora di bordo, la telecamera dell'Argo inquadra una caldaia sul fondo dell'Atlantico; la spedizione franco-americana Ifremer–Woods Hole ha localizzato il relitto del Titanic a oltre 12.400 piedi, circa 3.800 metri; sul posto morirono più di 1.500 persone. Avvertenza in giallo: gli orari sono quelli di bordo della Knorr e il fuso tenuto dalla nave non risulta documentato; le fonti collocano i primi detriti alle 00:48 e la caldaia poco dopo l'una, mentre l'ora dell'1:05, spesso citata, non trova riscontro puntuale.",
+          "w": 1080,
+          "h": 1350,
+          "bytes": 249895
+        },
+        {
+          "n": 3,
+          "file": "media/032-il-titanic-ritrovato/slide_3.jpg",
+          "url": "https://mds1089.github.io/breaking-past-auto/media/032-il-titanic-ritrovato/slide_3.jpg",
+          "alt_text": "Slide 3 di 8, cronologia della notte. Nella notte: l'Argo viene trainata a poca distanza dal fondo, oltre 3.800 metri sotto la Knorr, e il turno di guardia in sala controllo è diretto da Jean-Louis Michel dell'Ifremer, con il tecnico Stu Harris. Alle 00:48 circa: sul fondo fino a quel momento piatto e vuoto compaiono i primi detriti e il resto della squadra viene svegliato. Poco dopo l'una: passa una grande forma circolare, una caldaia confrontabile con quelle fotografate sulla nave nel 1911; Ballard, avvisato dal cuoco di bordo, raggiunge la sala controllo. Verso le 02:20: qualcuno fa notare che è quasi l'ora in cui il Titanic affondò nel 1912 e parte dell'equipaggio si raccoglie a poppa. In giornata: l'Argo continua a riprendere il campo di detriti, a circa 350 miglia nautiche a sud-est di Terranova.",
+          "w": 1080,
+          "h": 1350,
+          "bytes": 268002
+        },
+        {
+          "n": 4,
+          "file": "media/032-il-titanic-ritrovato/slide_4.jpg",
+          "url": "https://mds1089.github.io/breaking-past-auto/media/032-il-titanic-ritrovato/slide_4.jpg",
+          "alt_text": "Slide 4 di 8, cosa sappiamo finora. Confermato: il relitto del Titanic è localizzato a più di 12.400 piedi, circa 3.800 metri, in acque internazionali a circa 350 miglia nautiche a sud-est di Terranova; l'identificazione è avvenuta su una caldaia ripresa dall'Argo e confrontata con le immagini della nave del 1911; la spedizione è congiunta, con il sonar SAR dell'Ifremer sul Suroît fra luglio e agosto e Argo e ANGUS del Woods Hole dalla Knorr, sotto Jean-Louis Michel e Robert Ballard. Non confermato: l'ora esatta della prima immagine, fra le 00:48 dei detriti e la caldaia poco dopo l'una, con il fuso di bordo non documentato. Da chiarire: lo stato dello scafo, l'estensione del campo di detriti e il fatto che il punto non coincida con le coordinate trasmesse nel 1912.",
+          "w": 1080,
+          "h": 1350,
+          "bytes": 275966
+        },
+        {
+          "n": 5,
+          "file": "media/032-il-titanic-ritrovato/slide_5.jpg",
+          "url": "https://mds1089.github.io/breaking-past-auto/media/032-il-titanic-ritrovato/slide_5.jpg",
+          "alt_text": "Slide 5 di 8, le parole dei protagonisti. Prima citazione, Robert Ballard, geologo del Woods Hole e responsabile della spedizione, in un messaggio radio da bordo ai colleghi dell'istituto: «Siamo ovviamente molto contenti ed emozionati di aver trovato il Titanic. Ma siamo anche molto consapevoli del significato del Titanic come disastro marittimo»; traduzione dall'inglese, giorno esatto del messaggio non documentato. Seconda voce, in forma indiretta: di Jean-Louis Michel, ingegnere dell'Ifremer e coresponsabile della spedizione, non risultano dichiarazioni; è lui ad aver progettato il sonar SAR usato dal Suroît ed è lui a dirigere la sala controllo della Knorr quando la caldaia compare sui monitor.",
+          "w": 1080,
+          "h": 1350,
+          "bytes": 338077
+        },
+        {
+          "n": 6,
+          "file": "media/032-il-titanic-ritrovato/slide_6.jpg",
+          "url": "https://mds1089.github.io/breaking-past-auto/media/032-il-titanic-ritrovato/slide_6.jpg",
+          "alt_text": "Slide 6 di 8, ancora nessuna reazione ufficiale. Entro le 20:30 di bordo non risultano dichiarazioni ufficiali dell'Ifremer, del Woods Hole, della Marina statunitense o di governi. La Knorr è in mare aperto, a centinaia di miglia dalla costa, e comunica via radio ad alta frequenza: a sapere del ritrovamento sono le persone a bordo e i colleghi raggiunti dal messaggio.",
+          "w": 1080,
+          "h": 1350,
+          "bytes": 165353
+        },
+        {
+          "n": 7,
+          "file": "media/032-il-titanic-ritrovato/slide_7.jpg",
+          "url": "https://mds1089.github.io/breaking-past-auto/media/032-il-titanic-ritrovato/slide_7.jpg",
+          "alt_text": "Slide 7 di 8, che cosa può succedere adesso, quattro scenari. Primo: alla campagna restano pochi giorni, la Knorr ha raggiunto il punto in cui i francesi si erano fermati il 22 agosto con circa dodici giorni di autonomia. Secondo: l'Argo restituisce video in bianco e nero a bassa definizione e a bordo c'è anche l'ANGUS, slitta fotografica che potrebbe servire per fotografie del fondo. Terzo: il punto in cui giace il relitto non coincide con le coordinate che il Titanic trasmise via radio nel 1912. Quarto: il sito è in acque internazionali e nessuna norma ne regola l'accesso, per cui si apre la questione di chi potrà avvicinarsi al relitto e a quali condizioni.",
+          "w": 1080,
+          "h": 1350,
+          "bytes": 271946
+        },
+        {
+          "n": 8,
+          "file": "media/032-il-titanic-ritrovato/slide_8.jpg",
+          "url": "https://mds1089.github.io/breaking-past-auto/media/032-il-titanic-ritrovato/slide_8.jpg",
+          "alt_text": "Slide 8 di 8, come andò davvero. La Knorr rientrò a Woods Hole il 9 settembre 1985, la notizia era esplosa pochi giorni dopo la scoperta e seguirono conferenze stampa a Washington e Parigi. Ballard testimoniò davanti al Congresso per il riconoscimento del relitto come memoriale marittimo; il R.M.S. Titanic Maritime Memorial Act fu firmato da Reagan il 21 ottobre 1986 ma apriva anche a recuperi ragionevoli, e dal 1987 la RMS Titanic Inc. riportò in superficie migliaia di oggetti, ottenendo nel 1994 diritti esclusivi di salvataggio. Solo nel 2018, con una mostra del National Geographic, divenne pubblico che la campagna del 1985 era stata resa possibile da una missione riservata della Marina sui sottomarini Thresher e Scorpion.",
+          "w": 1080,
+          "h": 1350,
+          "bytes": 309195
         }
       ],
       "posted": false,
