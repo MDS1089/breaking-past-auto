@@ -8,6 +8,8 @@ Comandi:
     status         stato della coda (cosa e' pronto, cosa e' gia' uscito, cosa manca)
     preflight      controlli pre-volo: token, permessi, URL pubblici, quota, prossima edizione
     publish        pubblica l'edizione del giorno alle 20:30:00 Europe/Rome (idempotente)
+    registra       riapplica la marcatura su un queue.json ripreso da origin
+    sblocca        toglie la rivendicazione di un giorno rimasta appesa
     refresh-token  rinnova il long-lived token e lo riscrive nel secret del repo
     quota          quota di pubblicazione residua nelle 24 ore
 
@@ -47,6 +49,7 @@ SOURCE_DIR = ROOT / "episodi"          # cartelle Episodio_NNN_... come in 07_Ou
 DOCS_DIR = ROOT / "docs"               # radice di GitHub Pages
 MEDIA_DIR = DOCS_DIR / "media"         # JPEG serviti pubblicamente
 QUEUE_PATH = ROOT / "queue.json"
+ESITO_PATH = ROOT / ".ultima_pubblicazione.json"   # scontrino per il comando registra
 
 TZ = ZoneInfo("Europe/Rome")
 PUBLISH_HOUR = int(os.environ.get("PUBLISH_HOUR", "20"))
@@ -135,6 +138,141 @@ def save_queue(q: dict) -> None:
         json.dump(q, f, ensure_ascii=False, indent=2)
         f.write("\n")
     tmp.replace(QUEUE_PATH)
+
+
+# --------------------------------------------------------------------------
+# Mutua esclusione fra job concorrenti
+#
+# Il 1 agosto 2026 sono usciti due post identici. Causa: actions/checkout
+# aggancia il commit che ha INNESCATO il workflow, non la punta del ramo. Due
+# job schedulati nello stesso giorno partono quindi dallo stesso commit e
+# leggono lo stesso queue.json: quando il primo pubblica e committa la
+# marcatura, il secondo ha ancora in mano la copia vecchia, vede posted=false
+# e pubblica di nuovo. Il ricontrollo "dopo l'attesa" non serviva a nulla,
+# perche' rileggeva lo stesso file locale.
+#
+# Rimedio a due livelli:
+#   1. si legge lo stato dal RAMO REMOTO, non dalla copia di lavoro;
+#   2. si rivendica il giorno creando un tag su origin. La creazione di un
+#      ref e' atomica lato server: se il tag esiste gia', il push fallisce e
+#      quel job sa di aver perso la corsa. Vale anche fra job partiti nello
+#      stesso secondo, che il punto 1 da solo non coprirebbe.
+# --------------------------------------------------------------------------
+
+TAG_PUBBLICAZIONE = "pubblicato"
+
+
+def _git(*args: str, check: bool = False) -> subprocess.CompletedProcess:
+    return subprocess.run(["git", *args], cwd=ROOT, check=check,
+                          capture_output=True, text=True, timeout=120)
+
+
+def in_un_repo_git() -> bool:
+    return _git("rev-parse", "--git-dir").returncode == 0
+
+
+def queue_dal_remoto(branch: str = "main") -> dict | None:
+    """queue.json come sta adesso su origin, non come sta nel checkout."""
+    if not in_un_repo_git():
+        return None
+    f = _git("fetch", "--quiet", "origin", branch)
+    if f.returncode != 0:
+        log(f"AVVISO: fetch di origin/{branch} non riuscito ({f.stderr.strip()}). "
+            f"Uso la copia locale di queue.json.")
+        return None
+    s = _git("show", f"origin/{branch}:queue.json")
+    if s.returncode != 0:
+        return None
+    try:
+        return json.loads(s.stdout)
+    except json.JSONDecodeError:
+        return None
+
+
+def gia_pubblicata_sul_remoto(giorno: date) -> dict | None:
+    """L'edizione del giorno risulta gia' pubblicata sul ramo remoto?"""
+    q = queue_dal_remoto()
+    if not q:
+        return None
+    ep = find_episode(q, giorno)
+    return ep if ep and ep.get("posted") else None
+
+
+def rivendica_giorno(giorno: date) -> bool:
+    """Rivendica il diritto a pubblicare oggi creando un tag su origin.
+
+    True = la corsa l'abbiamo vinta noi. False = ha gia' rivendicato un altro
+    job, quindi si esce senza pubblicare. Fuori da un repo git (uso locale)
+    la rivendicazione non si applica e si restituisce True.
+    """
+    if not in_un_repo_git():
+        return True
+    tag = f"{TAG_PUBBLICAZIONE}/{giorno.isoformat()}"
+
+    # Il tag dev'essere ANNOTATO e con un messaggio diverso per ogni job.
+    # Un tag leggero punterebbe al commit, che per due job schedulati lo
+    # stesso giorno e' lo stesso: git considererebbe il secondo push un
+    # "everything up-to-date" e restituirebbe 0, cioe' entrambi si
+    # crederebbero vincitori. Con un oggetto tag diverso, il secondo push
+    # tenta di sovrascrivere un ref esistente e viene respinto dal server.
+    firma = (f"rivendicato da {os.environ.get('GITHUB_RUN_ID', 'locale')}"
+             f"/{os.environ.get('GITHUB_RUN_ATTEMPT', '0')} "
+             f"il {datetime.now(TZ).isoformat(timespec='seconds')}")
+    _git("tag", "-d", tag)          # eventuale residuo locale
+    t = _git("-c", "user.name=breaking-past-bot",
+             "-c", "user.email=bot@users.noreply.github.com",
+             "tag", "-a", tag, "-m", firma)
+    if t.returncode != 0:
+        # Creare un tag e' un'operazione locale: se fallisce, il repo ha un
+        # problema che non riguarda la corsa fra job. Il controllo sul ramo
+        # remoto ha gia' detto che nessuno ha pubblicato, quindi si procede.
+        log(f"AVVISO: non riesco a creare il tag di rivendicazione "
+            f"({t.stderr.strip()}). Procedo affidandomi alla lettura dello "
+            f"stato dal ramo remoto.")
+        return True
+
+    r = _git("push", "origin", f"refs/tags/{tag}")
+    if r.returncode == 0:
+        log(f"giorno rivendicato ({tag} — {firma})")
+        return True
+
+    _git("tag", "-d", tag)
+    msg = (r.stderr + r.stdout).strip().replace("\n", " ")
+    breve = msg[:200]
+
+    # Distinguere "ha gia' rivendicato un altro" da "la rete ha singhiozzato"
+    # e' la differenza fra saltare un doppione e saltare un'edizione.
+    #
+    # Se il ref esiste gia', il server lo dice: quello e' un no definitivo e
+    # si esce. Se invece il push non e' arrivato a destinazione (DNS, 5xx,
+    # timeout, credenziali), il controllo sul ramo remoto fatto un attimo fa
+    # aveva gia' detto che nessuno ha pubblicato: si va avanti. Meglio il
+    # rischio remoto di un doppione che la certezza di una sera vuota, e
+    # soprattutto meglio di venti sere vuote se il guasto e' sistematico.
+    gia_preso = any(s in msg.lower() for s in (
+        "already exists", "cannot lock ref", "non-fast-forward",
+        "fetch first", "stale info", "rejected"))
+    if gia_preso:
+        log(f"il giorno {giorno} e' gia' rivendicato da un altro job: {breve}")
+        return False
+
+    log(f"AVVISO: la rivendicazione del giorno non e' arrivata a destinazione "
+        f"({breve}). Non risulta un altro job che abbia rivendicato: procedo "
+        f"comunque, perche' una sera senza edizione e' un danno peggiore.")
+    return True
+
+
+def rilascia_giorno(giorno: date) -> None:
+    """Toglie la rivendicazione. Si chiama SOLO se non si e' pubblicato nulla:
+    altrimenti il giorno resterebbe aperto e un altro job pubblicherebbe un
+    doppione."""
+    if not in_un_repo_git():
+        return
+    tag = f"{TAG_PUBBLICAZIONE}/{giorno.isoformat()}"
+    r = _git("push", "origin", f":refs/tags/{tag}")
+    log(f"rivendicazione rilasciata (tag {tag})" if r.returncode == 0
+        else f"AVVISO: non sono riuscito a rilasciare il tag {tag}. "
+             f"Per ripubblicare a mano: git push origin :refs/tags/{tag}")
 
 
 def api_get(path: str, params: dict) -> dict:
@@ -661,13 +799,21 @@ def cmd_publish(args) -> int:
         # rossi segnalano solo i problemi veri.
         return 0
 
-    # Ricontrollo l'idempotenza DOPO l'attesa: nel frattempo un altro job
-    # potrebbe aver pubblicato.
-    q = load_queue()
-    ep = find_episode(q, giorno)
-    if ep.get("posted"):
-        log("pubblicata da un altro job durante l'attesa. Esco.")
-        return 0
+    # Ricontrollo l'idempotenza DOPO l'attesa, sul RAMO REMOTO: la copia di
+    # lavoro e' ferma al commit che ha innescato il workflow e non vede la
+    # marcatura scritta nel frattempo da un altro job.
+    if not dry:
+        altrui = gia_pubblicata_sul_remoto(giorno)
+        if altrui:
+            log(f"pubblicata da un altro job durante l'attesa alle {altrui.get('posted_at')} "
+                f"({altrui.get('permalink') or 'permalink non disponibile'}). Esco.")
+            return 0
+    else:
+        q = load_queue()
+        ep = find_episode(q, giorno)
+        if ep.get("posted"):
+            log("pubblicata da un altro job durante l'attesa. Esco.")
+            return 0
 
     caption = ep["caption"]
     primo_commento = ""
@@ -684,6 +830,30 @@ def cmd_publish(args) -> int:
         log(f"  caption: {len(caption)} caratteri")
         return 0
 
+    # Rivendicazione atomica: da qui in avanti il giorno e' nostro. Se un
+    # altro job ha gia' rivendicato, usciamo puliti senza toccare l'API.
+    if not rivendica_giorno(giorno):
+        return 0
+
+    try:
+        return _pubblica(ep, q, giorno, caption, primo_commento, base_url,
+                         user_id, token)
+    except Exception:
+        # Se non abbiamo ancora pubblicato, restituiamo il giorno: cosi' un
+        # tentativo successivo puo' riprovare. Se invece il post e' gia'
+        # online, il tag resta ed e' proprio quello che impedisce il doppione.
+        if not _PUBBLICATO.get(giorno.isoformat()):
+            rilascia_giorno(giorno)
+        raise
+
+
+# Traccia, per giorno, se media_publish e' andata a buon fine. Decide se in
+# caso di errore la rivendicazione va restituita o tenuta.
+_PUBBLICATO: dict[str, bool] = {}
+
+
+def _pubblica(ep, q, giorno, caption, primo_commento, base_url,
+              user_id, token) -> int:
     # 1) un container figlio per slide, con il proprio alt_text
     figli: list[str] = []
     for s in ep["slides"]:
@@ -719,6 +889,7 @@ def cmd_publish(args) -> int:
     media_id = r.get("id")
     if not media_id:
         raise RuntimeError(f"pubblicazione non riuscita ({r})")
+    _PUBBLICATO[giorno.isoformat()] = True
 
     permalink = None
     try:
@@ -733,6 +904,16 @@ def cmd_publish(args) -> int:
     ep["permalink"] = permalink
     save_queue(q)
     write_index_html(q, base_url)
+    # Scontrino della pubblicazione: serve a 'registra' per riapplicare la
+    # marcatura su un queue.json ripreso da origin/main, senza conflitti.
+    with ESITO_PATH.open("w", encoding="utf-8") as f:
+        json.dump({
+            "n": ep["n"],
+            "data_pubblicazione": ep["data_pubblicazione"],
+            "posted_at": ep["posted_at"],
+            "media_id": media_id,
+            "permalink": permalink,
+        }, f, ensure_ascii=False, indent=2)
     log(f"PUBBLICATA edizione {ep['n']} — media {media_id} — {permalink or 'permalink non disponibile'}")
 
     # 5) eventuale primo commento con gli hashtag
@@ -747,8 +928,68 @@ def cmd_publish(args) -> int:
 
 
 # --------------------------------------------------------------------------
+# registra
+# --------------------------------------------------------------------------
+
+def cmd_registra(args) -> int:
+    """Riapplica la marcatura dell'ultima pubblicazione su un queue.json fresco.
+
+    Il passo di registrazione del workflow riprende queue.json da origin/main
+    (perche' il checkout e' fermo al commit che ha innescato il job) e poi
+    chiama questo comando. Cosi' la marcatura si innesta sullo stato corrente
+    invece di produrre il conflitto di rebase visto il 1 agosto 2026.
+    """
+    if not ESITO_PATH.exists():
+        log("nessuna pubblicazione da registrare in questo job.")
+        return 0
+    with ESITO_PATH.open(encoding="utf-8") as f:
+        esito = json.load(f)
+
+    q = load_queue()
+    ep = next((e for e in q.get("episodi", []) if e["n"] == esito["n"]), None)
+    if ep is None:
+        die(f"edizione {esito['n']} non trovata in queue.json: registrazione impossibile")
+        return 1
+
+    if ep.get("posted") and ep.get("media_id") not in (None, esito["media_id"]):
+        log(f"AVVISO: l'edizione {ep['n']} risulta gia' pubblicata con un media diverso "
+            f"({ep.get('media_id')} contro {esito['media_id']}). Segno il doppione nelle note.")
+        ep.setdefault("doppioni", []).append(esito)
+        save_queue(q)
+        return 0
+
+    ep["posted"] = True
+    ep["posted_at"] = esito["posted_at"]
+    ep["media_id"] = esito["media_id"]
+    ep["permalink"] = esito["permalink"]
+    save_queue(q)
+    base_url = env("PAGES_BASE_URL", required=False, default="") or ""
+    if base_url:
+        write_index_html(q, base_url.rstrip("/"))
+    log(f"registrata edizione {ep['n']}: {esito['permalink'] or esito['media_id']}")
+    return 0
+
+
+# --------------------------------------------------------------------------
 # refresh-token
 # --------------------------------------------------------------------------
+
+def cmd_sblocca(args) -> int:
+    """Toglie il tag di rivendicazione di un giorno.
+
+    Serve se un job rivendica il giorno e poi muore prima di pubblicare (per
+    esempio se il runner viene ucciso): senza questo, quel giorno resterebbe
+    bloccato e l'edizione non uscirebbe piu'.
+    """
+    giorno = date.fromisoformat(args.date)
+    altrui = gia_pubblicata_sul_remoto(giorno)
+    if altrui:
+        die(f"l'edizione del {giorno} risulta gia' pubblicata alle {altrui.get('posted_at')} "
+            f"({altrui.get('permalink')}). Sbloccare adesso significherebbe pubblicare un doppione.")
+        return 1
+    rilascia_giorno(giorno)
+    return 0
+
 
 def cmd_refresh_token(args) -> int:
     token = env("IG_ACCESS_TOKEN")
@@ -822,6 +1063,13 @@ def main() -> int:
     sp.add_argument("--date", help="forza una data ISO (YYYY-MM-DD)")
     sp.add_argument("--dry-run", action="store_true", help="nessuna chiamata di pubblicazione")
     sp.set_defaults(func=cmd_publish)
+
+    sp = sub.add_parser("registra", help="riapplica la marcatura su un queue.json ripreso da origin")
+    sp.set_defaults(func=cmd_registra)
+
+    sp = sub.add_parser("sblocca", help="toglie la rivendicazione di un giorno (tag pubblicato/DATA)")
+    sp.add_argument("--date", required=True, help="data ISO da sbloccare")
+    sp.set_defaults(func=cmd_sblocca)
 
     sp = sub.add_parser("refresh-token", help="rinnova il long-lived token e riscrive il secret")
     sp.add_argument("--print-token", action="store_true", help="stampa il token invece di salvarlo")
