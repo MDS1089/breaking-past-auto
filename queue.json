@@ -1,6 +1,6 @@
 {
   "progetto": "BREAKING PAST",
-  "aggiornato": "2026-08-02T20:21:23+02:00",
+  "aggiornato": "2026-08-02T20:22:11+02:00",
   "episodi": [
     {
       "n": "000",
@@ -2071,6 +2071,94 @@
           "w": 1080,
           "h": 1350,
           "bytes": 326098
+        }
+      ],
+      "posted": false,
+      "posted_at": null,
+      "media_id": null,
+      "permalink": null
+    },
+    {
+      "n": "024",
+      "slug": "024-la-nube-sul-golfo",
+      "titolo": "La nube sul golfo",
+      "cartella": "Episodio_024_2026-08-24_La_nube_sul_golfo",
+      "data_pubblicazione": "2026-08-24",
+      "ora_pubblicazione": "20:30",
+      "timezone": "Europe/Rome",
+      "caption": "Una nube di dimensioni e forma mai viste sale sopra il golfo da poco dopo mezzogiorno. Da Miseno, dall'altra parte del golfo, non si distingue da quale monte esca: un ragazzo di diciassette anni la guarda e non trova altro paragone che un albero, un pino. Il vento la piega verso sud-est, lontano dalla città. Che cosa stia accadendo sotto, da qui nessuno può dirlo: dai centri della riva non arriva alcuna notizia. Il comandante della flotta è uscito in mare con le quadriremi dopo la richiesta di soccorso di una donna che abita sotto il monte. Scorri le slide per la cronologia della giornata, ora per ora. Breaking Past ricostruisce gli eventi utilizzando le informazioni disponibili all'epoca. Il contesto completo è nell'ultima slide. Una precisazione: la data del 24 agosto viene dai manoscritti di Plinio il Giovane ed è discussa, perché parte delle evidenze archeologiche indica l'autunno. Lo stato del dibattito è nell'ultima slide. Quanto si può ricostruire di una giornata così da una sola lettera, scritta oltre vent'anni dopo da chi allora aveva diciassette anni? Fonti: Plinio il Giovane (Epistulae VI, 16 e VI, 20), Parco Archeologico di Pompei, INGV-Osservatorio Vesuviano, P. W. Foss (2022), Sigurdsson et al. (1985) — registro F376-F394. Illustrazione originale Breaking Past. #BreakingPast #accaddeoggi #Pompei #Ercolano #Vesuvio #PlinioIlGiovane #storiaromana #archeologia",
+      "slides": [
+        {
+          "n": 1,
+          "file": "media/024-la-nube-sul-golfo/slide_1.jpg",
+          "url": "https://mds1089.github.io/breaking-past-auto/media/024-la-nube-sul-golfo/slide_1.jpg",
+          "alt_text": "Slide 1 di 8, apertura. Illustrazione originale al tratto: una nube in silhouette sale da un monte basso e in alto si apre in rami larghi, come la chioma di un pino; sulla linea del mare tre piccole navi a remi dirette verso il monte e una fascia di puntini obliqui per la cenere che scende; bianco sporco, nero, grigio cenere, un accento rosso ruggine sull'orizzonte. Titolo: una nube enorme sul golfo, le quadriremi escono da Miseno. Sottotitolo: da un monte dell'entroterra, che da lontano non si distingue quale sia, si alza una nube di dimensioni e forma mai viste che in alto si apre in rami; il vento la piega verso sud-est; la flotta è uscita in mare dopo una richiesta di soccorso dalla riva. In alto la barra con MISENO e MARTEDÌ 24 AGOSTO 79 D.C., in basso ORE 20:30 e la dicitura ILLUSTRAZIONE ORIGINALE.",
+          "w": 1080,
+          "h": 1350,
+          "bytes": 227101
+        },
+        {
+          "n": 2,
+          "file": "media/024-la-nube-sul-golfo/slide_2.jpg",
+          "url": "https://mds1089.github.io/breaking-past-auto/media/024-la-nube-sul-golfo/slide_2.jpg",
+          "alt_text": "Slide 2 di 8, aggiornamento delle 20:30, kicker LA NUBE: poco dopo mezzogiorno una nube di dimensioni e forma mai viste si è alzata da un monte dell'entroterra; il vento la piega verso sud-est; che cosa accada sotto non si sa; il prefetto della flotta è uscito da Miseno con le quadriremi. In basso, nota su fondo giallo: gli orari sono ricostruiti a partire da un'unica testimonianza scritta, messa per iscritto oltre vent'anni dopo da chi quel giorno aveva diciassette anni.",
+          "w": 1080,
+          "h": 1350,
+          "bytes": 219216
+        },
+        {
+          "n": 3,
+          "file": "media/024-la-nube-sul-golfo/slide_3.jpg",
+          "url": "https://mds1089.github.io/breaking-past-auto/media/024-la-nube-sul-golfo/slide_3.jpg",
+          "alt_text": "Slide 3 di 8, cronologia della giornata in cinque passaggi, tutti con orario approssimato. Nei giorni scorsi: la terra trema lungo la costa, e le scosse non allarmano perché in Campania sono consuete. Verso le 13:00: da Miseno si segnala la nube e a quella distanza non si riesce a stabilire da quale monte si alzi. Dal primo pomeriggio: la nube sale e in alto si allarga, il vento la piega verso sud-est, lontano da Miseno, e che cosa accada sotto non si vede. Verso le 15:00: il comandante della flotta lascia Miseno con le quadriremi dopo il biglietto di una donna che chiede soccorso dalla riva; avvicinandosi cade cenere sempre più calda e fitta, poi pomici e pietre nere spaccate dal fuoco, il fondale si alza e le spiagge sono ostruite. Dopo il tramonto, alle 18:52 circa: rotta su Stabia, e dal monte si vedono larghe fiamme in più punti.",
+          "w": 1080,
+          "h": 1350,
+          "bytes": 270185
+        },
+        {
+          "n": 4,
+          "file": "media/024-la-nube-sul-golfo/slide_4.jpg",
+          "url": "https://mds1089.github.io/breaking-past-auto/media/024-la-nube-sul-golfo/slide_4.jpg",
+          "alt_text": "Slide 4 di 8, cosa sappiamo finora, cinque punti. Confermato: la terra trema da molti giorni, fenomeno abituale in Campania e finora non ritenuto allarmante, e dal primo pomeriggio una nube altissima si alza da un monte dell'entroterra e in alto si allarga, piegata dal vento verso sud-est. Confermato: sulle navi che si avvicinano alla riva sotto il monte cade cenere via via più calda e fitta, poi pomici e pietre nere spaccate dal fuoco. Confermato: davanti a quella costa il fondale si è alzato all'improvviso e le spiagge sono ostruite da materiale franato dal monte. Non confermato: da quale monte esca la nube, perché chi guarda da lontano non riesce a stabilirlo. Da chiarire: che cosa stia accadendo sotto la nube, dato che non arrivano notizie né dai centri della riva, Ercolano, Oplonti, Pompei e Stabia, né dalle navi uscite nel pomeriggio.",
+          "w": 1080,
+          "h": 1350,
+          "bytes": 265715
+        },
+        {
+          "n": 5,
+          "file": "media/024-la-nube-sul-golfo/slide_5.jpg",
+          "url": "https://mds1089.github.io/breaking-past-auto/media/024-la-nube-sul-golfo/slide_5.jpg",
+          "alt_text": "Slide 5 di 8, le parole dei protagonisti, due voci. Plinio il Giovane, testimone a Miseno, dal resoconto scritto a Tacito: «Si levava una nube: nessun albero più del pino ne renderebbe la somiglianza e la forma». La nota avverte che è una traduzione redazionale dal latino e che la frase appartiene a una lettera scritta almeno vent'anni dopo i fatti, quando l'autore aveva diciassette anni. Seconda voce, sintesi indiretta senza virgolette su Plinio il Vecchio, comandante della flotta: il fenomeno gli pare abbastanza importante da osservarlo più da vicino e fa preparare una nave leggera; poi riceve il biglietto di una donna che abita sotto il monte e chiede di essere tratta in salvo, non avendo altra via di fuga che il mare; cambia proposito, fa uscire le quadriremi e va a portare aiuto non a lei soltanto ma ai molti che abitano quel tratto di riva.",
+          "w": 1080,
+          "h": 1350,
+          "bytes": 345202
+        },
+        {
+          "n": 6,
+          "file": "media/024-la-nube-sul-golfo/slide_6.jpg",
+          "url": "https://mds1089.github.io/breaking-past-auto/media/024-la-nube-sul-golfo/slide_6.jpg",
+          "alt_text": "Slide 6 di 8, ancora nessuna reazione ufficiale, tre punti. Miseno, comando della flotta: l'unica risposta organizzata di cui si abbia notizia è l'uscita in mare delle quadriremi, decisa dopo la richiesta di soccorso arrivata dalla riva sotto il monte. Stabia: un possidente ha già fatto caricare i bagagli sulle navi ed è pronto a partire, ma il vento contrario lo tiene fermo in porto. Roma: non risulta alcun provvedimento imperiale entro la sera. In chiusura la nota di silenzio: nessuna reazione ufficiale risulta espressa entro la sera del 24 agosto e dai centri della riva sotto il monte non arriva alcuna notizia.",
+          "w": 1080,
+          "h": 1350,
+          "bytes": 261782
+        },
+        {
+          "n": 7,
+          "file": "media/024-la-nube-sul-golfo/slide_7.jpg",
+          "url": "https://mds1089.github.io/breaking-past-auto/media/024-la-nube-sul-golfo/slide_7.jpg",
+          "alt_text": "Slide 7 di 8, che cosa può succedere adesso, quattro scenari formulati con le conoscenze di allora. Quanto durerà non si sa: se la nube continua ad alimentarsi per tutta la notte, chi abita sotto il monte dovrà decidere se restare al coperto o mettersi in mare. Le navi uscite da Miseno potrebbero non riuscire ad accostare, perché il fondale si è alzato e le spiagge sono ostruite, mentre a Stabia le imbarcazioni già cariche restano ferme per il vento contrario. Le scosse continuano e non è ancora chiaro se abbiano a che fare con la nube o siano il tremore consueto della Campania. Fin dove arrivi il materiale che la nube porta con sé nessuno può dirlo, né si sa se il vento cambierà: finora la piega verso sud-est, lontano da Miseno.",
+          "w": 1080,
+          "h": 1350,
+          "bytes": 272012
+        },
+        {
+          "n": 8,
+          "file": "media/024-la-nube-sul-golfo/slide_8.jpg",
+          "url": "https://mds1089.github.io/breaking-past-auto/media/024-la-nube-sul-golfo/slide_8.jpg",
+          "alt_text": "Slide 8 di 8, come andò davvero: era un vulcano, il Vesuvio. Colonna eruttiva di venticinque-trenta chilometri, correnti piroclastiche su Ercolano, Pompei e Stabia, la morte del comandante della flotta il giorno seguente, oltre mille vittime rinvenute a Pompei e circa trecento a Ercolano con totale sconosciuto, l'origine del termine eruzione pliniana e lo stato del dibattito sulla data fra 24 agosto e autunno. In coda fonti, crediti e nota sull'AI.",
+          "w": 1080,
+          "h": 1350,
+          "bytes": 327850
         }
       ],
       "posted": false,
