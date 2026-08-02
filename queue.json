@@ -1,6 +1,6 @@
 {
   "progetto": "BREAKING PAST",
-  "aggiornato": "2026-08-02T22:09:14+02:00",
+  "aggiornato": "2026-08-02T22:11:53+02:00",
   "episodi": [
     {
       "n": "000",
@@ -3039,6 +3039,94 @@
           "w": 1080,
           "h": 1350,
           "bytes": 324062
+        }
+      ],
+      "posted": false,
+      "posted_at": null,
+      "media_id": null,
+      "permalink": null
+    },
+    {
+      "n": "035",
+      "slug": "035-pearl-street-si-accende",
+      "titolo": "Pearl Street si accende",
+      "cartella": "Episodio_035_2026-09-04_Pearl_Street_si_accende",
+      "data_pubblicazione": "2026-09-04",
+      "ora_pubblicazione": "20:30",
+      "timezone": "Europe/Rome",
+      "caption": "Alle 15:00 di lunedì 4 settembre 1882 si ammette vapore alla macchina di una dinamo «Jumbo»: la stazione Edison di 255-257 Pearl Street entra in servizio e la corrente corre nei conduttori interrati del Primo Distretto di New York. Si accendono circa quattrocento lampade a incandescenza in un'area di un sesto di miglio quadrato, fra Wall, Spruce, Ferry, Nassau Street e l'East River. Fra i primi edifici serviti ci sono la banca Drexel, Morgan & Company e le redazioni dei giornali. Scorri le slide per la cronologia della giornata e per tutto quello che, stasera, ancora non si sa. Il numero dei clienti collegati non è verificabile: i conteggi disponibili divergono e la società non ne diffonde uno. Nel distretto restano accesi migliaia di becchi a gas: che cosa dovrebbe fare questa luce, stasera, per convincere un negoziante a cambiare? Breaking Past ricostruisce gli eventi utilizzando le informazioni disponibili all'epoca. Il contesto completo è nell'ultima slide. Fonti: Dyer e Martin «Edison: His Life and Inventions» (1910), T. C. Martin «Forty Years of Edison Service» (1922), Scientific American (16 settembre 1882), IEEE ETHW, Smithsonian NMAH (registro F596-F615). Illustrazione originale Breaking Past. #BreakingPast #accaddeoggi #storiadellatecnologia #edison #newyork #elettricita #economia",
+      "slides": [
+        {
+          "n": 1,
+          "file": "media/035-pearl-street-si-accende/slide_1.jpg",
+          "url": "https://mds1089.github.io/breaking-past-auto/media/035-pearl-street-si-accende/slide_1.jpg",
+          "alt_text": "Slide 1 di 8, copertina. Illustrazione al tratto in stile piatto: una grande leva di interruttore a coltello chiusa al centro, un filo che sale verso una lampadina con filamento a ferro di cavallo sotto un paralume di porcellana, sullo sfondo le sagome squadrate degli isolati e, sotto la linea della strada, i tubi dei conduttori interrati; palette nero, crema e ambra. Testata Breaking Past, sezione ECONOMIA, data storica LUNEDÌ 4 SETTEMBRE 1882, luogo NEW YORK, ORE 20:30. Titolo: «Edison accende Pearl Street: corrente elettrica in poche strade di New York». Sottotitolo: alle 15:00 vapore alla dinamo «Jumbo» di 255-257 Pearl Street, circa quattrocento lampade accese nel Primo Distretto, fra i primi serviti la banca Drexel, Morgan & Company e le redazioni dei giornali. Dicitura ILLUSTRAZIONE ORIGINALE.",
+          "w": 1080,
+          "h": 1350,
+          "bytes": 233027
+        },
+        {
+          "n": 2,
+          "file": "media/035-pearl-street-si-accende/slide_2.jpg",
+          "url": "https://mds1089.github.io/breaking-past-auto/media/035-pearl-street-si-accende/slide_2.jpg",
+          "alt_text": "Slide 2 di 8, L'EDIZIONE DELLA SERA, kicker LA GIORNATA. Testo: alle 15:00 la stazione Edison di 255-257 Pearl Street entra in servizio; vapore a una delle dinamo «Jumbo», corrente nei conduttori interrati, lampade accese nel Primo Distretto, un'area di circa un sesto di miglio quadrato fra Wall, Spruce, Ferry, Nassau Street e l'East River. Riquadro di avvertenza giallo: quanti clienti siano collegati stasera non è verificabile, i conteggi disponibili divergono e la società non ne diffonde uno.",
+          "w": 1080,
+          "h": 1350,
+          "bytes": 220085
+        },
+        {
+          "n": 3,
+          "file": "media/035-pearl-street-si-accende/slide_3.jpg",
+          "url": "https://mds1089.github.io/breaking-past-auto/media/035-pearl-street-si-accende/slide_3.jpg",
+          "alt_text": "Slide 3 di 8, cronologia del 4 settembre 1882 in cinque passaggi. Nel pomeriggio: a Pearl Street, lotto di 50 per 100 piedi ai numeri 255 e 257, si raduna una trentina di persone, fra cui Edison, Kruesi, Insull, Johnson, Upton, Lieb, Bergmann e J. P. Morgan. Alle 15:00: si ammette vapore alla macchina di una dinamo «Jumbo», la corrente entra nella rete interrata e alimenta le lampade installate. Nel pomeriggio: fra i primi edifici serviti la banca Drexel, Morgan & Company all'angolo fra Broad e Wall. In serata: al buio le lampade restano accese in uffici e redazioni. Fine giornata: la stazione alimenta circa quattrocento lampade per un numero ancora ridotto di clienti.",
+          "w": 1080,
+          "h": 1350,
+          "bytes": 266128
+        },
+        {
+          "n": 4,
+          "file": "media/035-pearl-street-si-accende/slide_4.jpg",
+          "url": "https://mds1089.github.io/breaking-past-auto/media/035-pearl-street-si-accende/slide_4.jpg",
+          "alt_text": "Slide 4 di 8, COSA SAPPIAMO FINORA. Confermato: alle 15:00 la stazione di 255-257 Pearl Street è entrata in servizio, con vapore a una dinamo «Jumbo» e corrente nei conduttori interrati; l'area servita, il Primo Distretto, misura circa un sesto di miglio quadrato fra Wall, Spruce, Ferry, Nassau Street e l'East River; fra i primi edifici alimentati la banca Drexel, Morgan & Company all'angolo fra Broad e Wall e redazioni di giornali. Non confermato: quante lampade e quanti clienti siano davvero in servizio stasera, con cifre che divergono attorno alle quattrocento lampade e stime di clienti che oscillano di decine. Da chiarire: come sarà misurato e pagato il consumo, visto che il contatore è stato messo a punto questa primavera e nessuna fattura risulta emessa.",
+          "w": 1080,
+          "h": 1350,
+          "bytes": 252006
+        },
+        {
+          "n": 5,
+          "file": "media/035-pearl-street-si-accende/slide_5.jpg",
+          "url": "https://mds1089.github.io/breaking-past-auto/media/035-pearl-street-si-accende/slide_5.jpg",
+          "alt_text": "Slide 5 di 8, LE PAROLE DEI PROTAGONISTI. Prima citazione, virgolettata: «Ho realizzato tutto quello che avevo promesso», attribuita a Thomas A. Edison, a un cronista del New York Sun in occasione dell'avvio di Pearl Street; in nota, traduzione dell'inglese «I have accomplished all I promised» e avvertenza che la fonte data la frase al 1882 senza precisare giorno e ora. Seconda voce, senza virgolette: non risultano altre dichiarazioni di Edison verificabili nella giornata; i cronisti presenti ne descrivono l'aspetto, e secondo il New York Sun indossa un cappello a bombetta bianco dalla coppa alta e una camicia senza colletto.",
+          "w": 1080,
+          "h": 1350,
+          "bytes": 284421
+        },
+        {
+          "n": 6,
+          "file": "media/035-pearl-street-si-accende/slide_6.jpg",
+          "url": "https://mds1089.github.io/breaking-past-auto/media/035-pearl-street-si-accende/slide_6.jpg",
+          "alt_text": "Slide 6 di 8, ANCORA NESSUNA REAZIONE UFFICIALE. Tre punti. I presenti a Pearl Street: una trentina fra tecnici, dirigenti e finanziatori, fra cui Kruesi, Insull, Johnson, Upton, Lieb, Bergmann, Clarke e J. P. Morgan. Board of Fire Underwriters: W. A. Anderson segue l'avvio per gli assicuratori antincendio, che il 12 gennaio hanno adottato le prime regole sugli impianti elettrici. Le redazioni: Times, Herald, Sun e Tribune hanno cronisti sul posto; l'Herald scrive che la luce sta «soppiantando il fioco tremolio del gas» e che «ieri sera è stato dimostrato in misura sufficiente che la luce Edison ha avuto un discreto successo». Nota: nessuna dichiarazione ufficiale del Comune, delle compagnie del gas o della società entro la giornata; i resoconti escono il mattino del 5 settembre.",
+          "w": 1080,
+          "h": 1350,
+          "bytes": 284974
+        },
+        {
+          "n": 7,
+          "file": "media/035-pearl-street-si-accende/slide_7.jpg",
+          "url": "https://mds1089.github.io/breaking-past-auto/media/035-pearl-street-si-accende/slide_7.jpg",
+          "alt_text": "Slide 7 di 8, CHE COSA PUÒ SUCCEDERE ADESSO, quattro scenari. Primo: il servizio copre un sesto di miglio quadrato e per andare oltre servirebbero altre stazioni, perché la corrente continua a bassa tensione non arriva lontano dai generatori. Secondo: il confronto è con il gas e la società dovrà vendere luce a un prezzo sostenibile, con i contatori pronti dalla primavera e la prima fatturazione ancora da fare. Terzo: molto dipenderà dagli assicuratori antincendio e dalle regole approvate a gennaio. Quarto: resta da capire se le sei dinamo «Jumbo» reggeranno il funzionamento continuo, finora provato per tratti e non giorno dopo giorno su una rete cittadina.",
+          "w": 1080,
+          "h": 1350,
+          "bytes": 279370
+        },
+        {
+          "n": 8,
+          "file": "media/035-pearl-street-si-accende/slide_8.jpg",
+          "url": "https://mds1089.github.io/breaking-past-auto/media/035-pearl-street-si-accende/slide_8.jpg",
+          "alt_text": "Slide 8 di 8, COME ANDÒ DAVVERO. I clienti passarono da 59 al 1º ottobre 1882 a 203 al 1º dicembre con 5.228 lampade installate, fino a 455 clienti e 11.192 lampade dopo un anno. La prima fattura, 50,44 dollari, andò il 18 gennaio 1883 alla Ansonia Brass and Copper. La stazione costò circa 300.000 dollari e andò in utile nel 1884. La corrente continua non arrivava lontano: la partita si chiuse a favore dell'alternata con l'impianto Adams di Niagara Falls, in servizio dal 26 agosto 1895. Un incendio distrusse quasi tutte le dinamo il 2 gennaio 1890; la superstite è al Henry Ford Museum, landmark ASME dal 1980. Pearl Street fu dismessa nel 1895; la società è oggi Consolidated Edison.",
+          "w": 1080,
+          "h": 1350,
+          "bytes": 312970
         }
       ],
       "posted": false,
